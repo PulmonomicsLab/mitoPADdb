@@ -8,32 +8,34 @@ primary key (UniProtAccession)
 );
 
 create table disease(
-MADID varchar(10),
+MADID varchar(20),
 DiseaseName varchar(500),
-DiseaseGroup varchar(100),
+DiseaseCategory varchar(100),
+ExternalDiseaseIDs varchar(1000),
+MeSHTreeNumber varchar(500),
 primary key (MADID)
 );
 
 create table protein_disease_association(
 ProteinDiseaseAssociationID varchar(20),
 UniProtAccession varchar(20),
-MADID varchar(10),
+MADID varchar(20),
 primary key (ProteinDiseaseAssociationID),
 constraint fk_disease_association foreign key (MADID) references disease(MADID),
 constraint fk_uniprot_association foreign key (UniProtAccession) references protein(UniProtAccession)
 );
 
-create table snp(
-MPSNPID varchar(20),
-AminoAcidChange varchar(50),
-SNP varchar(50),
-UniProtAccession varchar(10),
-MADID varchar(10),
-Remarks varchar(3000),
-PMID varchar(20),
-primary key (MPSNPID),
-constraint fk_disease_snp foreign key (MADID) references disease(MADID),
-constraint fk_uniprot_snp foreign key (UniProtAccession) references protein(UniProtAccession)
+create table nucleotide_variation(
+MPMutationID varchar(20),
+dbSNPID varchar(20),
+AminoAcidChange varchar(300),
+NucleotideVariation varchar(300),
+UniProtAccession varchar(20),
+MADID varchar(20),
+SourceID varchar(1000),
+primary key (MPMutationID),
+constraint fk_disease_nv foreign key (MADID) references disease(MADID),
+constraint fk_uniprot_nv foreign key (UniProtAccession) references protein(UniProtAccession)
 );
 
 create table expression(
@@ -44,12 +46,23 @@ CellLine varchar(50),
 Sample varchar(100),
 Method varchar(200),
 UniProtAccession varchar(20),
-MADID varchar(10),
-Remarks varchar(3000),
-PMID varchar(20),
+MADID varchar(20),
+Remarks varchar(500),
+PMID varchar(40),
 primary key (DiseaseProteinExpressionID),
 constraint fk_disease_exp foreign key (MADID) references disease(MADID),
 constraint fk_uniprot_exp foreign key (UniProtAccession) references protein(UniProtAccession)
+);
+
+create table study_metadata(
+StudyID varchar(30),
+DiseaseCategory varchar(100),
+DiseaseName varchar(500),
+Sample varchar(200),
+FoldChangeSubjects varchar(200),
+ConditionStateRatio varchar(500),
+GEOAccession varchar(20),
+primary key (StudyID)
 );
 
 
@@ -67,5 +80,6 @@ use mpld;
 load data local infile '/home/sudipto/data/projects/mpld/input/protein.csv' into table protein ignore 1 lines;
 load data local infile '/home/sudipto/data/projects/mpld/input/disease.csv' into table disease ignore 1 lines;
 load data local infile '/home/sudipto/data/projects/mpld/input/protein_disease_association.csv' into table protein_disease_association ignore 1 lines;
-load data local infile '/home/sudipto/data/projects/mpld/input/snp.csv' into table snp ignore 1 lines;
+load data local infile '/home/sudipto/data/projects/mpld/input/snp.csv' into table nucleotide_variation ignore 1 lines;
 load data local infile '/home/sudipto/data/projects/mpld/input/expression.csv' into table expression ignore 1 lines;
+load data local infile '/home/sudipto/data/projects/mpld/input/study_metadata.csv' into table study_metadata ignore 1 lines;

@@ -76,6 +76,9 @@ a.active {
 /*     border-color : #808080; */
 /*     border-width : 0px 6px 0px 6px; */
 }
+.link{
+    color: #0f2dbf;
+}
 table.form{
     border-collapse : collapse;
     border-width : 0px;

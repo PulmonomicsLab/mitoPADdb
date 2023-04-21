@@ -1,5 +1,31 @@
 <?php
     include('db.php');
+
+    function get_PubMed_links($text){
+        $img_tag = "<img src=\"resource/redirect-icon.png\" height=\"12px\" width=\"auto\" />";
+        $ids = explode("|", explode(":", $text)[1]);
+        $links = array();
+        foreach($ids as $id)
+            array_push($links, "<a class=\"link\" target=\"_blank\" href=\"https://pubmed.ncbi.nlm.nih.gov/".$id."\">".$id."</a>");
+
+        return implode("; ", $links)." ".$img_tag;
+    }
+
+    function get_SourceID_links($text){
+        $img_tag = "<img src=\"resource/redirect-icon.png\" height=\"12px\" width=\"auto\" />";
+        list($source, $id_text) = explode(":", $text);
+        $ids = explode("|", $id_text);
+        $links = array();
+        foreach($ids as $id){
+            if ($source === "PubMed")
+                array_push($links, "<a class=\"link\" target=\"_blank\" href=\"https://pubmed.ncbi.nlm.nih.gov/".$id."\">".$id."</a>");
+            elseif ($source === "ClinVar")
+                array_push($links, "<a class=\"link\" target=\"_blank\" href=\"https://www.ncbi.nlm.nih.gov/clinvar/".$id."\">".$id."</a>");
+            else
+                array_push($links, $id);
+        }
+        return $source.": ".implode("; ", $links)." ".$img_tag;
+    }
     
     $keytype = $_GET["keytype"];
     $key = $_GET["key"];
@@ -41,10 +67,10 @@
         $diseaseAttributes = array(
             "MADID"=>"Disease ID",
             "DiseaseName"=>"Disease name",
-//             "DiseaseGroup"=>"Disease group",
+            "DiseaseCategory"=>"Disease category",
             "ProteinDiseaseAssociationID"=>"Association ID"
         );
-        $diseaseQuery = "select disease.MADID,DiseaseName,DiseaseGroup,ProteinDiseaseAssociationID from disease inner join protein_disease_association on disease.MADID=protein_disease_association.MADID where UniProtAccession=?;";
+        $diseaseQuery = "select disease.MADID,DiseaseName,DiseaseCategory,ProteinDiseaseAssociationID from disease inner join protein_disease_association on disease.MADID=protein_disease_association.MADID where UniProtAccession=?;";
 //         echo $diseaseQuery."<br/>";
         $diseaseStmt = $conn->prepare($diseaseQuery);
         $diseaseStmt->bind_param("s", $uniprot);
@@ -58,15 +84,17 @@
 //         }
         
         $snpAttributes = array(
-            "MPSNPID"=>"SNP ID",
-            "SNP"=>"Single Nucleotide Polymorphism (SNP)",
+            "MPMutationID"=>"Mutation ID",
+            "dbSNPID"=>"dbSNP ID",
+            "NucleotideVariation"=>"Nucleotide mutation",
             "AminoAcidChange"=>"Amino acid change",
             "UniProtAccession"=>"UniProt accession ID",
-            "length(MPSNPID)"=>"Gene Name",
+            "length(MPMutationID)"=>"Gene Name",
             "MADID"=>"Disease ID",
-            "PMID"=>"PMID",
+            "SourceID"=>"Source ID",
+//             "PMID"=>"PMID",
         );
-        $snpQuery = "select ".implode(",", array_keys($snpAttributes))." from snp where UniProtAccession=?;";
+        $snpQuery = "select ".implode(",", array_keys($snpAttributes))." from nucleotide_variation where UniProtAccession=?;";
     //     echo $snpQuery."<br/>";
         $snpStmt = $conn->prepare($snpQuery);
         $snpStmt->bind_param("s", $uniprot);
@@ -89,7 +117,8 @@
             "UniProtAccession"=>"UniProt accession ID",
             "length(DiseaseProteinExpressionID)"=>"Gene Name",
             "MADID"=>"Disease ID",
-            "PMID"=>"PMID",
+            "Remarks"=>"Remarks",
+            "PMID"=>"PubMed ID",
         );
         $expQuery = "select ".implode(",", array_keys($expAttributes))." from expression where UniProtAccession=?;";
 //         echo $expQuery."<br/>";
@@ -114,20 +143,20 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>dbMPLD - A database of Mitochondrial Proteins Linked with Diseases</title>
+        <title>mitoPADdb - Mitochondrial Proteins Associated with Diseases database</title>
         <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
 <!--         <script type = "text/javascript" src = "js/advance_search_input.js"></script> -->
     </head>
     <body>
         <div class = "section_header">
-            <center><p class="title"><i>db</i>MPLD - A database of Mitochondrial Proteins Linked with Diseases</p></center>
+            <center><p class="title">mitoPADdb - Mitochondrial Proteins Associated with Diseases database</p></center>
         </div>
 
         <div class = "section_menu">
             <center>
             <table cellpadding="3px">
                 <tr class="nav">
-                    <td class="nav"><a href="index.html" class="active">Home</a></td>
+                    <td class="nav"><a href="index.html" class="side_nav">Home</a></td>
                     <td class="nav"><a href="browse.html" class="side_nav">Browse</a></td>
                     <td class="nav"><a href="team.html" class="side_nav">Team</a></td>
                 </tr>
@@ -147,8 +176,8 @@
                 } else {
                     echo "<center><h2>UniProt accession ID: ".$uniprot." <a target=\"_blank\" href=\"https://www.uniprot.org/uniprotkb/".$uniprot."\"><img src=\"resource/redirect-icon.png\" height=\"18px\" width=\"auto\" /></a></h2></center>";
                     echo "<table class=\"details\" border=\"1\">";
+
 //                     echo "<tr><th>Attribute</th><th>Value</th></tr>";
-                    
 //                     foreach ($proteinAttributes as $name=>$fname) {
 //                         if ($name !== "UniProtAccession") {
 //                             echo "<tr>";
@@ -157,19 +186,20 @@
 //                             echo "</tr>";
 //                         }
 //                     }
+
                     echo "<tr><td style=\"width:25%\"><b>Gene name</b></td><td style=\"width:75%\">".$proteinRows[0]["GeneName"]."</td>";
                     
                     echo "<tr><td style=\"width:25%\"><b>Disease associations</b></td><td style=\"width:75%\">";
                     $diseases = array();
                     foreach($diseaseRows as $row)
-                        array_push($diseases, "<a href=\"#".$row["MADID"]."\">".$row["DiseaseName"]."</a>");
+                        array_push($diseases, "<a class=\"link\" href=\"#".$row["MADID"]."\">".$row["DiseaseName"]."</a>");
                     echo implode("; ", $diseases);
                     echo "</td></tr>";
                     
-                    echo "<tr><td style=\"width:25%\"><b>Single Nucleotide Polymorphism</b></td><td style=\"width:75%\">";
+                    echo "<tr><td style=\"width:25%\"><b>Nucleotide mutations</b></td><td style=\"width:75%\">";
                     $snps = array();
                     foreach($snpRows as $row)
-                        array_push($snps, "<a href=\"#".$row["MPSNPID"]."\">".$row["MPSNPID"]."</a>");
+                        array_push($snps, "<a class=\"link\" href=\"#".$row["MPMutationID"]."\">".$row["MPMutationID"]."</a>");
                     echo implode("; ", $snps);
                     echo "</td></tr>";
                     
@@ -177,9 +207,9 @@
                     $expressions = array();
                     foreach($expRows as $row) {
                         if($row["ExpressionVariation"] === "Down regulation")
-                            array_push($expressions, "<a href=\"#".$row["DiseaseProteinExpressionID"]."\">".$row["DiseaseProteinExpressionID"]."</a><font color=\"red\" title=\"Down regulation\">&darr;</font>");
+                            array_push($expressions, "<a class=\"link\" href=\"#".$row["DiseaseProteinExpressionID"]."\">".$row["DiseaseProteinExpressionID"]."</a><font color=\"red\" title=\"Down regulation\">&darr;</font>");
                         else
-                            array_push($expressions, "<a href=\"#".$row["DiseaseProteinExpressionID"]."\">".$row["DiseaseProteinExpressionID"]."</a><font color=\"green\" title=\"Up regulation\">&uarr;</font>");
+                            array_push($expressions, "<a class=\"link\" href=\"#".$row["DiseaseProteinExpressionID"]."\">".$row["DiseaseProteinExpressionID"]."</a><font color=\"green\" title=\"Up regulation\">&uarr;</font>");
                     }
                     echo implode("; ", $expressions);
                     echo "</td></tr>";
@@ -209,7 +239,7 @@
                                             echo "<tr>";
                                             foreach(array_keys($diseaseAttributes) as $attr) {
                                                 if ($attr === "MADID")
-                                                    echo "<td id=\"".$row[$attr]."\"><a href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                    echo "<td id=\"".$row[$attr]."\"><a class=\"link\" href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
                                                 else
                                                     echo "<td>".$row[$attr]."</td>";
                                             }
@@ -223,13 +253,13 @@
             ?>
                     
                     <br/>
-                    <center><h3>Disease associated SNPs</h3></center>
+                    <center><h3>Disease associated nucleotide mutations</h3></center>
             <?php
                         if(count($snpRows) < 1) {
                             if ($keytype === "ID")
-                                echo "<center><p>No SNPs found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
+                                echo "<center><p>No nucleotide mutations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
                             else
-                                echo "<center><p>No SNPs found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
+                                echo "<center><p>No nucleotide mutations found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
                         } else {
             ?>
                                 <div style="overflow:auto;">
@@ -241,16 +271,16 @@
                                                 foreach(array_keys($snpAttributes) as $attr) {
         //                                             if ($attr === "dbSNP")
         //                                                 echo "<td><b><a target=\"_blank\" href=\"https://www.ncbi.nlm.nih.gov/snp/".$row[$attr]."\">".$row[$attr]." <img src=\"resource/redirect-icon.png\" height=\"12px\" width=\"auto\" /></a></b></td>";
-                                                    if ($attr === "MPSNPID")
+                                                    if ($attr === "MPMutationID")
                                                         echo "<td id=\"$row[$attr]\">".$row[$attr]."</td>";
                                                     elseif ($attr === "MADID")
-                                                        echo "<td><a href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                        echo "<td><a class=\"link\" href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
                                                     elseif ($attr === "UniProtAccession")
-                                                        echo "<td id=\"$row[$attr]\"><a href=\"protein.php?keytype=ID&key=".$row[$attr]."\">".$row[$attr]."</a></td>";
-                                                    elseif ($attr === "length(MPSNPID)")
+                                                        echo "<td id=\"$row[$attr]\"><a class=\"link\" href=\"protein.php?keytype=ID&key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                    elseif ($attr === "length(MPMutationID)")
                                                         echo "<td>".$proteinRows[0]["GeneName"]."</td>";
-                                                    elseif ($attr === "PMID")
-                                                        echo "<td><a target=\"_blank\" href=\"https://pubmed.ncbi.nlm.nih.gov/".$row[$attr]."\">".$row[$attr]." <img src=\"resource/redirect-icon.png\" height=\"12px\" width=\"auto\" /></a></td>";
+                                                    elseif($attr === "SourceID")
+                                                        echo "<td>".get_SourceID_links($row[$attr])."</td>";
                                                     else
                                                         echo "<td>".$row[$attr]."</td>";
                                                 }
@@ -281,15 +311,15 @@
                                                 echo "<tr>";
                                                 foreach(array_keys($expAttributes) as $attr) {
                                                     if ($attr === "MADID")
-                                                        echo "<td><a href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                        echo "<td><a class=\"link\" href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
                                                     elseif ($attr === "DiseaseProteinExpressionID")
                                                         echo "<td id=\"$row[$attr]\">".$row[$attr]."</td>";
                                                     elseif ($attr === "UniProtAccession")
-                                                        echo "<td id=\"$row[$attr]\"><a href=\"protein.php?keytype=ID&key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                        echo "<td id=\"$row[$attr]\"><a class=\"link\" href=\"protein.php?keytype=ID&key=".$row[$attr]."\">".$row[$attr]."</a></td>";
                                                     elseif ($attr === "length(DiseaseProteinExpressionID)")
                                                         echo "<td>".$proteinRows[0]["GeneName"]."</td>";
                                                     elseif ($attr === "PMID")
-                                                        echo "<td><a target=\"_blank\" href=\"https://pubmed.ncbi.nlm.nih.gov/".$row[$attr]."\">".$row[$attr]." <img src=\"resource/redirect-icon.png\" height=\"12px\" width=\"auto\" /></a></td>";
+                                                        echo "<td>".get_PubMed_links($row[$attr])."</td>";
                                                     else
                                                         echo "<td>".$row[$attr]."</td>";
                                                 }
