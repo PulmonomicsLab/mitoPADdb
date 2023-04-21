@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>mitoPADdb - Mitochondrial Proteins Associated with Diseases database</title>
+        <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
+        <link rel = "stylesheet" type = "text/css" href = "css/browse.css" />
+        <script type = "text/javascript" src = "js/browse.js"></script>
+    </head>
+    <body>
+        <div class = "section_header">
+            <center><p class="title">mitoPADdb - Mitochondrial Proteins Associated with Diseases database</p></center>
+        </div>
+
+        <div class = "section_menu">
+            <center>
+            <table cellpadding="3px">
+                <tr class="nav">
+                    <td class="nav"><a href="index.html" class="side_nav">Home</a></td>
+                    <td class="nav"><a href="#" class="active">Browse</a></td>
+                    <td class="nav"><a href="team.html" class="side_nav">Team</a></td>
+                </tr>
+            </table>
+            </center>
+        </div>
+
+        <!--<div class = "section_left"></div>-->
+        
+        <div class = "section_middle">
+            <div class="browse-heading" id="sec-1">1. Browse diseases</div>
+            <div class="disease_button" onclick="getDiseases('Cardiovascular Diseases', 'results1')">Cardiovascular Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Congenital, Hereditary, and Neonatal Diseases and Abnormalities', 'results1')">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</div>
+            <div class="disease_button" onclick="getDiseases('Digestive System Diseases', 'results1')">Digestive System Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Eye Diseases', 'results1')">Eye Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Hemic and Lymphatic Diseases', 'results1')">Hemic and Lymphatic Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Mental Disorders', 'results1')">Mental Disorders</div>
+            <div class="disease_button" onclick="getDiseases('Musculoskeletal Diseases', 'results1')">Musculoskeletal Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Neoplasms', 'results1')">Neoplasms</div>
+            <div class="disease_button" onclick="getDiseases('Nervous System Diseases', 'results1')">Nervous System Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Nutritional and Metabolic Diseases', 'results1')">Nutritional and Metabolic Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Otorhinolaryngologic Diseases', 'results1')">Otorhinolaryngologic Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Pathological Conditions, Signs and Symptoms', 'results1')">Pathological Conditions, Signs and Symptoms</div>
+            <div class="disease_button" onclick="getDiseases('Respiratory Tract Diseases', 'results1')">Respiratory Tract Diseases</div>
+            <div class="disease_button" onclick="getDiseases('Urogenital Diseases', 'results1')">Urogenital Diseases</div>
+            <div style="clear:both;"></div>
+            <div class="browse-result" id="results1"></div>
+
+            <br/>
+            <div class="browse-heading" id="sec-1">2. Browse disease-wise expression</div>
+            <div class="disease_button" onclick="getStudies('Cardiovascular Diseases', '', 'results2')">Cardiovascular Diseases</div>
+            <div class="disease_button" onclick="getStudies('Congenital, Hereditary, and Neonatal Diseases and Abnormalities', 'CHNDA', 'results2')">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</div>
+            <div class="disease_button" onclick="getStudies('Digestive System Diseases', '', 'results2')">Digestive System Diseases</div>
+            <div class="disease_button" onclick="getStudies('Eye Diseases', '', 'results2')">Eye Diseases</div>
+            <div class="disease_button" onclick="getStudies('Hemic and Lymphatic Diseases', 'HLD', 'results2')">Hemic and Lymphatic Diseases</div>
+            <div class="disease_button" onclick="getStudies('Mental Disorders', '', 'results2')">Mental Disorders</div>
+            <div class="disease_button" onclick="getStudies('Musculoskeletal Diseases', '', 'results2')">Musculoskeletal Diseases</div>
+            <div class="disease_button" onclick="getStudies('Neoplasms', '', 'results2')">Neoplasms</div>
+            <div class="disease_button" onclick="getStudies('Nervous System Diseases', '', 'results2')">Nervous System Diseases</div>
+            <div class="disease_button" onclick="getStudies('Nutritional and Metabolic Diseases', '', 'results2')">Nutritional and Metabolic Diseases</div>
+            <div class="disease_button" onclick="getStudies('Otorhinolaryngologic Diseases', '', 'results2')">Otorhinolaryngologic Diseases</div>
+            <div class="disease_button" onclick="getStudies('Pathological Conditions, Signs and Symptoms', '', 'results2')">Pathological Conditions, Signs and Symptoms</div>
+            <div class="disease_button" onclick="getStudies('Respiratory Tract Diseases', '', 'results2')">Respiratory Tract Diseases</div>
+            <div class="disease_button" onclick="getStudies('Urogenital Diseases', '', 'results2')">Urogenital Diseases</div>
+            <div style="clear:both;"></div>
+            <div class="browse-result" id="results2"></div>
+
+            <br/>
+            <div class="browse-heading" id="sec-1">3. Browse disease-category pairwise expression</div>
+            <form method="get" action="expression_heatmap_pair.php" onsubmit="return check_disease_pair('dg1', 'dg2')">
+                <table border="0" class="browse-input">
+                    <tr>
+                        <th class="even" style="border:2px solid #264d73;">Disease 1</th>
+                        <td class="odd">
+                            <center><select name="dg1" id="dg1">
+                                <option value="CD">Cardiovascular Diseases</option>
+                                <option value="CHNDA">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</option>
+                                <option value="DSD">Digestive System Diseases</option>
+                                <option value="ED">Eye Diseases</option>
+                                <option value="HLD">Hemic and Lymphatic Diseases</option>
+                                <option value="MD">Mental Disorders</option>
+                                <option value="MSD">Musculoskeletal Diseases</option>
+                                <option value="NEO">Neoplasms</option>
+                                <option value="NSD">Nervous System Diseases</option>
+                                <option value="NMD">Nutritional and Metabolic Diseases</option>
+                                <option value="OD">Otorhinolaryngologic Diseases</option>
+                                <option value="PCSS">Pathological Conditions, Signs and Symptoms</option>
+                                <option value="RTD">Respiratory Tract Diseases</option>
+                                <option value="UD">Urogenital Diseases</option>
+                            </select></center>
+                        </td>
+                        <th class="even" style="border:2px solid #264d73;">Disease 2</th>
+                        <td class="odd">
+                            <center><select name="dg2" id="dg2">
+                                <option value="CD">Cardiovascular Diseases</option>
+                                <option value="CHNDA">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</option>
+                                <option value="DSD">Digestive System Diseases</option>
+                                <option value="ED">Eye Diseases</option>
+                                <option value="HLD">Hemic and Lymphatic Diseases</option>
+                                <option value="MD">Mental Disorders</option>
+                                <option value="MSD">Musculoskeletal Diseases</option>
+                                <option value="NEO">Neoplasms</option>
+                                <option value="NSD">Nervous System Diseases</option>
+                                <option value="NMD">Nutritional and Metabolic Diseases</option>
+                                <option value="OD">Otorhinolaryngologic Diseases</option>
+                                <option value="PCSS">Pathological Conditions, Signs and Symptoms</option>
+                                <option value="RTD">Respiratory Tract Diseases</option>
+                                <option value="UD">Urogenital Diseases</option>
+                            </select></center>
+                        </td>
+                        <td class="even">
+                            <center><input type="submit" value="Get heatmap" /></center>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <br/>
+            <!--<div class="browse-heading" id="sec-1">4. Browse mitochondrial protein expression</div>
+            <div class="alphabet" onclick="getProteins('A', 'results4')">A</div>
+            <div class="alphabet" onclick="getProteins('B', 'results4')">B</div>
+            <div class="alphabet" onclick="getProteins('C', 'results4')">C</div>
+            <div class="alphabet" onclick="getProteins('D', 'results4')">D</div>
+            <div class="alphabet" onclick="getProteins('E', 'results4')">E</div>
+            <div class="alphabet" onclick="getProteins('F', 'results4')">F</div>
+            <div class="alphabet" onclick="getProteins('G', 'results4')">G</div>
+            <div class="alphabet" onclick="getProteins('H', 'results4')">H</div>
+            <div class="alphabet" onclick="getProteins('I', 'results4')">I</div>
+            <div class="alphabet" onclick="getProteins('J', 'results4')">J</div>
+            <div class="alphabet" onclick="getProteins('K', 'results4')">K</div>
+            <div class="alphabet" onclick="getProteins('L', 'results4')">L</div>
+            <div class="alphabet" onclick="getProteins('M', 'results4')">M</div>
+            <div class="alphabet" onclick="getProteins('N', 'results4')">N</div>
+            <div class="alphabet" onclick="getProteins('O', 'results4')">O</div>
+            <div class="alphabet" onclick="getProteins('P', 'results4')">P</div>
+            <div class="alphabet" onclick="getProteins('Q', 'results4')">Q</div>
+            <div class="alphabet" onclick="getProteins('R', 'results4')">R</div>
+            <div class="alphabet" onclick="getProteins('S', 'results4')">S</div>
+            <div class="alphabet" onclick="getProteins('T', 'results4')">T</div>
+            <div class="alphabet" onclick="getProteins('U', 'results4')">U</div>
+            <div class="alphabet" onclick="getProteins('V', 'results4')">V</div>
+            <div class="alphabet" onclick="getProteins('W', 'results4')">W</div>
+            <div class="alphabet" onclick="getProteins('X', 'results4')">X</div>
+            <div class="alphabet" onclick="getProteins('Y', 'results4')">Y</div>
+            <div class="alphabet" onclick="getProteins('Z', 'results4')">Z</div>
+            <div style="clear:both;"></div>
+            <div class="browse-result" id="results4"></div>
+            <br/>-->
+        </div>
+    </body>
+</html>

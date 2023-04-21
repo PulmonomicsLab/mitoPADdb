@@ -6,7 +6,19 @@
 }
 .alphabet{
     width:30px;
-    margin:2px;
+    margin:5px;
+    padding:5px;
+    border:2px black solid;
+    background-color:skyblue;
+    text-align:center;
+    float:left;
+    cursor: pointer;
+    border-radius:5px;
+}
+.disease_button{
+/*     width:30px; */
+    margin:5px 10px 5px 10px;
+    padding:5px;
     border:2px black solid;
     background-color:skyblue;
     text-align:center;
@@ -43,4 +55,24 @@ table.browse-result-summary td{
     text-align : center;
     padding: 2px 0 2px 0;
     border : 2px white solid; /*#392d37*/
+}
+
+table.browse-input{
+    width : 100%;
+    border-collapse : collapse;
+    border : 2px #264d73 solid; /*#392d37*/
+}
+
+td.odd{
+    text-align : center;
+    padding: 10px 0 10px 0;
+    border : 2px #264d73 solid; /*#392d37*/
+    background-color : #cce6ff;
+}
+
+td.even{
+    text-align : center;
+    padding: 10px 0 10px 0;
+    border : 2px #264d73 solid; /*#392d37*/
+    background-color : #99ceff;
 }
