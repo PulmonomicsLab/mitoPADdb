@@ -69,7 +69,7 @@
     $snpAttributes = array(
         "MPMutationID"=>"Mutation ID",
         "dbSNPID"=>"dbSNP ID",
-        "NucleotideVariation"=>"Nucleotide mutation",
+        "NucleotideVariation"=>"Nucleotide change",
         "AminoAcidChange"=>"Amino acid change",
         "nucleotide_variation.UniProtAccession"=>"UniProt accession ID",
         "GeneName"=>"Gene name",
@@ -171,7 +171,7 @@
                     echo implode("; ", $proteins);
                     echo "</td></tr>";
                     
-                    echo "<tr><td style=\"width:25%\"><b>Nucleotide mutations</b></td><td style=\"width:75%\">";
+                    echo "<tr><td style=\"width:25%\"><b>Mutations</b></td><td style=\"width:75%\">";
                     $snps = array();
                     foreach($snpRows as $row)
                         array_push($snps, "<a class=\"link\" href=\"#".$row["MPMutationID"]."\">".$row["MPMutationID"]."</a>");
@@ -222,7 +222,7 @@
             ?>
             
             <br/>
-            <center><h3>Disease associated nucleotide mutations</h3></center>
+            <center><h3>Disease associated mutations</h3></center>
             <?php
                 if(count($snpRows) < 1)
                     echo "<center><p>No nucleotide mutations found in the database for Disease ID: ".$key." !!</p></center>";
