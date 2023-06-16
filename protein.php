@@ -86,7 +86,7 @@
         $snpAttributes = array(
             "MPMutationID"=>"Mutation ID",
             "dbSNPID"=>"dbSNP ID",
-            "NucleotideVariation"=>"Nucleotide mutation",
+            "NucleotideVariation"=>"Nucleotide change",
             "AminoAcidChange"=>"Amino acid change",
             "UniProtAccession"=>"UniProt accession ID",
             "length(MPMutationID)"=>"Gene Name",
@@ -196,7 +196,7 @@
                     echo implode("; ", $diseases);
                     echo "</td></tr>";
                     
-                    echo "<tr><td style=\"width:25%\"><b>Nucleotide mutations</b></td><td style=\"width:75%\">";
+                    echo "<tr><td style=\"width:25%\"><b>Mutations</b></td><td style=\"width:75%\">";
                     $snps = array();
                     foreach($snpRows as $row)
                         array_push($snps, "<a class=\"link\" href=\"#".$row["MPMutationID"]."\">".$row["MPMutationID"]."</a>");
@@ -253,13 +253,13 @@
             ?>
                     
                     <br/>
-                    <center><h3>Disease associated nucleotide mutations</h3></center>
+                    <center><h3>Disease associated mutations</h3></center>
             <?php
                         if(count($snpRows) < 1) {
                             if ($keytype === "ID")
-                                echo "<center><p>No nucleotide mutations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
+                                echo "<center><p>No mutations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
                             else
-                                echo "<center><p>No nucleotide mutations found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
+                                echo "<center><p>No mutations found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
                         } else {
             ?>
                                 <div style="overflow:auto;">
