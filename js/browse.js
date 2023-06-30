@@ -46,7 +46,9 @@ function getStudies(diseaseGroup, key, div_id) {
             }
             s += '</table>';
 
-            resultElement.innerHTML = hideButton + s + heatmapButton;
+            var studyCountMessage = '<center><p>The number studies found in the database for "' + diseaseGroup + '" = ' + rows.length + '</p></center>';
+
+            resultElement.innerHTML = hideButton + studyCountMessage + s + heatmapButton;
             resultElement.style.display = 'block';
         }
     };
@@ -74,7 +76,9 @@ function getDiseases(diseaseGroup, div_id) {
             }
             s += '</table>';
 
-            resultElement.innerHTML = hideButton + s;
+            var diseaseCountMessage = '<center><p>The number diseases found in the database for "' + diseaseGroup + '" category = ' + rows.length + '</p></center>';
+
+            resultElement.innerHTML = hideButton + diseaseCountMessage + s;
             resultElement.style.display = 'block';
         }
     };
