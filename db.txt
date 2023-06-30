@@ -60,9 +60,9 @@ DiseaseCategory varchar(100),
 DiseaseName varchar(500),
 Sample varchar(200),
 FoldChangeSubjects varchar(200),
-ConditionStateRatio varchar(500),
+ConditionState varchar(500),
 GEOAccession varchar(20),
-primary key (StudyID)
+primary key (StudyID, DiseaseCategory)
 );
 
 

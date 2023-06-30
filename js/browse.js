@@ -40,7 +40,7 @@ function getStudies(diseaseGroup, key, div_id) {
                 s += '<td>' + rows[i].DiseaseName + '</td>';
                 s += '<td>' + rows[i].Sample + '</td>';
                 s += '<td>' + rows[i].FoldChangeSubjects + '</td>';
-                s += '<td>' + rows[i].ConditionStateRatio + '</td>';
+                s += '<td>' + rows[i].ConditionState + '</td>';
                 s += '<td>' + rows[i].GEOAccession + '</td>';
                 s += '</tr>';
             }

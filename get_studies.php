@@ -12,7 +12,7 @@
         "DiseaseName"=>"Disease name",
         "Sample"=>"Sample",
         "FoldChangeSubjects"=>"Log<sub>2</sub> Fold Change Subjects",
-        "ConditionStateRatio"=>"Condition/State",
+        "ConditionState"=>"Condition/State",
         "GEOAccession"=>"GEO Accession",
     );
 
