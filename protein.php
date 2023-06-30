@@ -214,9 +214,9 @@
                     echo implode("; ", $expressions);
                     echo "</td></tr>";
                     
-                    echo "<tr><td style=\"width:25%\"><b>GO CC</b></td><td style=\"width:75%\">".$proteinRows[0]["GOCC"]."</td>";
-                    echo "<tr><td style=\"width:25%\"><b>GO MF</b></td><td style=\"width:75%\">".$proteinRows[0]["GOMF"]."</td>";
-                    echo "<tr><td style=\"width:25%\"><b>GO BP</b></td><td style=\"width:75%\">".$proteinRows[0]["GOBP"]."</td>";
+                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Cellular Component</b></td><td style=\"width:75%\">".$proteinRows[0]["GOCC"]."</td>";
+                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Molecular Function</b></td><td style=\"width:75%\">".$proteinRows[0]["GOMF"]."</td>";
+                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Biological Process</b></td><td style=\"width:75%\">".$proteinRows[0]["GOBP"]."</td>";
                     
                     echo "</table>";
             ?>
