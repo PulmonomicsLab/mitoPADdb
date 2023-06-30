@@ -104,7 +104,7 @@
                     if(index > 2)
                         plotHeatmap(div_id, alphabet, data1, data2, dg1, dg2, '', '');
 
-                    var prefix = 'input/ExpressionHeatmap/';
+                    var prefix = 'input/PairwiseExpressionHeatmap/';
                     var file = prefix + dgs[index - 1] + '.csv';
                     xmlhttp.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
