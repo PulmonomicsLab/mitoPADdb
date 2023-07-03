@@ -44,6 +44,8 @@
                 <tr class="nav">
                     <td class="nav"><a href="index.html" class="side_nav">Home</a></td>
                     <td class="nav"><a href="browse.html" class="side_nav">Browse</a></td>
+                    <td class="nav"><a href="statistics.html" class="side_nav">Statistics</a></td>
+                    <td class="nav"><a href="help.html" class="side_nav">Help</a></td>
                     <td class="nav"><a href="team.html" class="side_nav">Team</a></td>
                 </tr>
             </table>
