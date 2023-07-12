@@ -90,11 +90,12 @@
             "AminoAcidChange"=>"Amino acid change",
             "UniProtAccession"=>"UniProt accession ID",
             "length(MPMutationID)"=>"Gene Name",
-            "MADID"=>"Disease ID",
+            "disease.MADID"=>"Disease ID",
+            "DiseaseName"=>"Disease name",
             "SourceID"=>"Source ID",
 //             "PMID"=>"PMID",
         );
-        $snpQuery = "select ".implode(",", array_keys($snpAttributes))." from nucleotide_variation where UniProtAccession=?;";
+        $snpQuery = "select ".implode(",", array_keys($snpAttributes))." from nucleotide_variation inner join disease on nucleotide_variation.MADID=disease.MADID where UniProtAccession=?;";
     //     echo $snpQuery."<br/>";
         $snpStmt = $conn->prepare($snpQuery);
         $snpStmt->bind_param("s", $uniprot);
@@ -116,11 +117,12 @@
             "Method"=>"Method",
             "UniProtAccession"=>"UniProt accession ID",
             "length(DiseaseProteinExpressionID)"=>"Gene Name",
-            "MADID"=>"Disease ID",
+            "disease.MADID"=>"Disease ID",
+            "DiseaseName"=>"Disease name",
             "Remarks"=>"Remarks",
             "PMID"=>"PubMed ID",
         );
-        $expQuery = "select ".implode(",", array_keys($expAttributes))." from expression where UniProtAccession=?;";
+        $expQuery = "select ".implode(",", array_keys($expAttributes))." from expression inner join disease on expression.MADID=disease.MADID where UniProtAccession=?;";
 //         echo $expQuery."<br/>";
         $expStmt = $conn->prepare($expQuery);
         $expStmt->bind_param("s", $uniprot);
@@ -275,8 +277,8 @@
         //                                                 echo "<td><b><a target=\"_blank\" href=\"https://www.ncbi.nlm.nih.gov/snp/".$row[$attr]."\">".$row[$attr]." <img src=\"resource/redirect-icon.png\" height=\"12px\" width=\"auto\" /></a></b></td>";
                                                     if ($attr === "MPMutationID")
                                                         echo "<td id=\"$row[$attr]\">".$row[$attr]."</td>";
-                                                    elseif ($attr === "MADID")
-                                                        echo "<td><a class=\"link\" href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                    elseif ($attr === "disease.MADID")
+                                                        echo "<td><a class=\"link\" href=\"disease.php?key=".$row["MADID"]."\">".$row["MADID"]."</a></td>";
                                                     elseif ($attr === "UniProtAccession")
                                                         echo "<td id=\"$row[$attr]\"><a class=\"link\" href=\"protein.php?keytype=ID&key=".$row[$attr]."\">".$row[$attr]."</a></td>";
                                                     elseif ($attr === "length(MPMutationID)")
@@ -312,8 +314,8 @@
                                             foreach($expRows as $row) {
                                                 echo "<tr>";
                                                 foreach(array_keys($expAttributes) as $attr) {
-                                                    if ($attr === "MADID")
-                                                        echo "<td><a class=\"link\" href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                    if ($attr === "disease.MADID")
+                                                        echo "<td><a class=\"link\" href=\"disease.php?key=".$row["MADID"]."\">".$row["MADID"]."</a></td>";
                                                     elseif ($attr === "DiseaseProteinExpressionID")
                                                         echo "<td id=\"$row[$attr]\">".$row[$attr]."</td>";
                                                     elseif ($attr === "UniProtAccession")
