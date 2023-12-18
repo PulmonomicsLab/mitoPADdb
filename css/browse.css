@@ -27,10 +27,10 @@
     border-radius:5px;
 }
 .browse-result{
-    width: 100%;
-    margin: 10px 0 0 0;
+    width: 80%;
+    margin: 10px 10% 0 10%;
     padding: 10px 0 10px 0;
-/*     border: 3px dashed black; */
+    border: 2px dashed darkgreen;
     display: none;
     background-color: #e6ffe6;/*#ecf8ec;*/
     overflow: auto;
@@ -38,8 +38,8 @@
 table.browse-result-summary{
     border-collapse : collapse;
     border : 2px white solid; /*#392d37*/
-    width : 70%;
-    margin: 0 15% 0 15%;
+    width : 90%;
+    margin: 0 5% 0 5%;
 }
 table.browse-result-summary tr:nth-child(odd){
 /*     background-color: #d2ccc6;  */
@@ -54,7 +54,7 @@ table.browse-result-summary tr:nth-child(even){
 table.browse-result-summary td{
     text-align : center;
     padding: 2px 0 2px 0;
-    border : 2px white solid; /*#392d37*/
+    border : 2px black solid; /*#392d37*/
 }
 
 table.browse-input{
