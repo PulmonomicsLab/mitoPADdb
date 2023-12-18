@@ -12,7 +12,7 @@
         "DiseaseCategory"=>"Disease category",
     );
 
-    $diseaseQuery = "select ".implode(",", array_keys($diseaseAttributes))." from disease where DiseaseCategory=?;";
+    $diseaseQuery = "select ".implode(",", array_keys($diseaseAttributes))." from disease where DiseaseCategory=? order by DiseaseName;";
 //     echo $diseaseQuery."<br/>";
     $diseaseStmt = $conn->prepare($diseaseQuery);
     $diseaseStmt->bind_param("s", $key);
