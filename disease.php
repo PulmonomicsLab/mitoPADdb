@@ -94,7 +94,6 @@
         "DiseaseProteinExpressionID"=>"Expression ID",
         "ExpressionVariation"=>"Expression variation",
         "ExpressionMolecule"=>"Expression molecule",
-        "CellLine"=>"Cell line",
         "Sample"=>"Sample",
         "Method"=>"Method",
         "expression.UniProtAccession"=>"UniProt accession ID",

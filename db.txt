@@ -42,7 +42,6 @@ create table expression(
 DiseaseProteinExpressionID varchar(20),
 ExpressionVariation varchar(50),
 ExpressionMolecule varchar(50),
-CellLine varchar(50),
 Sample varchar(100),
 Method varchar(200),
 UniProtAccession varchar(20),
