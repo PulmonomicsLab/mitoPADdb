@@ -18,7 +18,7 @@ function check_disease_pair(id1, id2) {
 function getStudies(diseaseGroup, key, div_id) {
     var query = 'get_studies.php?key=' + encodeURIComponent(diseaseGroup);
     var hideButton = '<center><button type="button" class="round" onclick="hideDiv(\'' + div_id + '\')">&#10005;</button></center>';
-    var heatmapButton = '<center><a href="expression_heatmap.php?dg=' + key + '"><button type="button" class="round">Get expression heatmap</button></a></center>';
+    var heatmapButton = '<center><div style="margin-top:10px;"><a href="expression_heatmap.php?dg=' + key + '"><button type="button" class="round">Get expression heatmap</button></a></div></center>';
     var resultElement = document.getElementById(div_id);
 
     var xmlhttp = new XMLHttpRequest();
@@ -46,7 +46,7 @@ function getStudies(diseaseGroup, key, div_id) {
             }
             s += '</table>';
 
-            var studyCountMessage = '<center><p>The number studies found in the database for "' + diseaseGroup + '" = ' + rows.length + '</p></center>';
+            var studyCountMessage = '<center><p>The number studies found in the database for "<i>' + diseaseGroup + '</i>" = <b>' + rows.length + '</b></p></center>';
 
             resultElement.innerHTML = hideButton + studyCountMessage + s + heatmapButton;
             resultElement.style.display = 'block';
@@ -76,7 +76,7 @@ function getDiseases(diseaseGroup, div_id) {
             }
             s += '</table>';
 
-            var diseaseCountMessage = '<center><p>The number diseases found in the database for "' + diseaseGroup + '" category = ' + rows.length + '</p></center>';
+            var diseaseCountMessage = '<center><p>The number diseases found in the database for "<i>' + diseaseGroup + '</i>" category = <b>' + rows.length + '</b></p></center>';
 
             resultElement.innerHTML = hideButton + diseaseCountMessage + s;
             resultElement.style.display = 'block';
