@@ -22,7 +22,7 @@ function extractDataFromCSV(csv) {
 function makePlot(div_id, heatmapData, height) {
     var graphDiv = document.getElementById(div_id);
     var minHeight = 400;
-    var computedHeight = (20*heatmapData[1].length + 100);
+    var computedHeight = (20*heatmapData[1].length + 160);
     var displayHeight = (height === null) ? ((computedHeight < minHeight) ? minHeight : computedHeight) : 600;
 
     var data = [{
@@ -51,7 +51,7 @@ function makePlot(div_id, heatmapData, height) {
         height: displayHeight,
         bargap: 10,
         margin: {
-            t: 80,
+            t: 160,
             l: 100,
             b: 20
         },
@@ -66,6 +66,7 @@ function makePlot(div_id, heatmapData, height) {
             ticks: 'outside',
             ticklen: 10,
             tickwidth: 2,
+            tickangle: -45,
             tickfont: {size: 14},
             side: 'top',
             title : {
