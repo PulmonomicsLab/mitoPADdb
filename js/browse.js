@@ -17,8 +17,13 @@ function check_disease_pair(id1, id2) {
 
 function getStudies(diseaseGroup, key, div_id) {
     var query = 'get_studies.php?key=' + encodeURIComponent(diseaseGroup);
-    var hideButton = '<center><button type="button" class="round" onclick="hideDiv(\'' + div_id + '\')">&#10005;</button></center>';
-    var heatmapButton = '<center><div style="margin-top:10px;"><a href="expression_heatmap.php?dg=' + key + '"><button type="button" class="round">Get expression heatmap</button></a></div></center>';
+    var hideButton = '<button type="button" class="round" style="margin-right:10px;" onclick="hideDiv(\'' + div_id + '\')">&#10005;</button>';
+    var heatmapButton = '<a href="expression_heatmap.php?dg=' + key + '"><button type="button" class="round">Get expression heatmap</button></a>';
+    var menublock = '<center>' +
+                        '<div style="margin-top:10px;">' +
+                            hideButton + heatmapButton +
+                        '</div>' +
+                    '</center>';
     var resultElement = document.getElementById(div_id);
 
     var xmlhttp = new XMLHttpRequest();
@@ -48,7 +53,7 @@ function getStudies(diseaseGroup, key, div_id) {
 
             var studyCountMessage = '<center><p>The number studies found in the database for "<i>' + diseaseGroup + '</i>" = <b>' + rows.length + '</b></p></center>';
 
-            resultElement.innerHTML = hideButton + studyCountMessage + s + heatmapButton;
+            resultElement.innerHTML = menublock + studyCountMessage + s + menublock;
             resultElement.style.display = 'block';
         }
     };
@@ -59,7 +64,7 @@ function getStudies(diseaseGroup, key, div_id) {
 
 function getDiseases(diseaseGroup, div_id) {
     var query = 'get_diseases.php?key=' + encodeURIComponent(diseaseGroup);
-    var hideButton = '<center><button type="button" class="round" onclick="hideDiv(\'' + div_id + '\')">&#10005;</button></center>';
+    var hideButton = '<center><button type="button" class="round" style="margin-top:10px;" onclick="hideDiv(\'' + div_id + '\')">&#10005;</button></center>';
     var resultElement = document.getElementById(div_id);
 
     var xmlhttp = new XMLHttpRequest();
@@ -78,7 +83,7 @@ function getDiseases(diseaseGroup, div_id) {
 
             var diseaseCountMessage = '<center><p>The number diseases found in the database for "<i>' + diseaseGroup + '</i>" category = <b>' + rows.length + '</b></p></center>';
 
-            resultElement.innerHTML = hideButton + diseaseCountMessage + s;
+            resultElement.innerHTML = hideButton + diseaseCountMessage + s + hideButton;
             resultElement.style.display = 'block';
         }
     };
