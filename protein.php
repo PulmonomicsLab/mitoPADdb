@@ -82,6 +82,27 @@
 //             echo implode(",", array_keys($row))."<br/>";
 //             echo implode(",", $row)."<br/>";
 //         }
+
+
+        $pathwayAttributes = array(
+            "PathwayProteinInteractionID" => "Pathway Protein Interaction ID",
+            "UniProtAccession"=>"UniProt accession ID",
+            "Pathway" => "Pathway",
+            "PathwayID" => "Pathway ID",
+            "AdjustedPvalue" => "Adjusted p-value",
+        );
+        $pathwayQuery = "select ".implode(",", array_keys($pathwayAttributes))." from kegg_pathway where UniProtAccession=?;";
+    //     echo $pathwayQuery."<br/>";
+        $pathwayStmt = $conn->prepare($pathwayQuery);
+        $pathwayStmt->bind_param("s", $uniprot);
+        $pathwayStmt->execute();
+        $pathwayRows = execute_and_fetch_assoc($pathwayStmt);
+        $pathwayStmt->close();
+//         echo count($pathwayRows)."<br/>";
+//         foreach($pathwayRows as $row) {
+//             echo implode(",", array_keys($row))."<br/>";
+//             echo implode(",", $row)."<br/>";
+//         }
         
         $snpAttributes = array(
             "MPMutationID"=>"Mutation ID",
@@ -198,6 +219,13 @@
                         array_push($diseases, "<a class=\"link\" href=\"#".$row["MADID"]."\">".$row["DiseaseName"]."</a>");
                     echo implode("; ", $diseases);
                     echo "</td></tr>";
+
+                    echo "<tr><td style=\"width:25%\"><b>Pathways</b></td><td style=\"width:75%\">";
+                    $pathways = array();
+                    foreach($pathwayRows as $row)
+                        array_push($pathways, "<a class=\"link\" href=\"#".$row["PathwayProteinInteractionID"]."\">".$row["PathwayProteinInteractionID"]."</a>");
+                    echo implode("; ", $pathways);
+                    echo "</td></tr>";
                     
                     echo "<tr><td style=\"width:25%\"><b>Mutations</b></td><td style=\"width:75%\">";
                     $snps = array();
@@ -243,6 +271,39 @@
                                             foreach(array_keys($diseaseAttributes) as $attr) {
                                                 if ($attr === "MADID")
                                                     echo "<td id=\"".$row[$attr]."\"><a class=\"link\" href=\"disease.php?key=".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                                else
+                                                    echo "<td>".$row[$attr]."</td>";
+                                            }
+                                            echo "</tr>";
+                                        }
+            ?>
+                                </table>
+                            </div>
+            <?php
+                        }
+            ?>
+
+                    <br/>
+                    <center><h3>Protein-pathway associations</h3></center>
+            <?php
+                        if(count($pathwayRows) < 1) {
+                            if ($keytype === "ID")
+                                echo "<center><p>No pathway associations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
+                            else
+                                echo "<center><p>No pathway associations found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
+                        } else {
+            ?>
+                            <div style="overflow:auto;">
+                                <table class="summary">
+                                    <tr><?php foreach($pathwayAttributes as $attr) echo "<th>".$attr."</th>"; ?></tr>
+            <?php
+                                        foreach($pathwayRows as $row) {
+                                            echo "<tr>";
+                                            foreach(array_keys($pathwayAttributes) as $attr) {
+                                                if ($attr === "PathwayProteinInteractionID")
+                                                    echo "<td id=\"".$row[$attr]."\">".$row[$attr]."</td>";
+                                                elseif ($attr === "PathwayID")
+                                                    echo "<td><a class=\"link\" href=\"https://www.kegg.jp/entry/".$row[$attr]."\">".$row[$attr]."</a></td>";
                                                 else
                                                     echo "<td>".$row[$attr]."</td>";
                                             }
