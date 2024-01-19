@@ -71,12 +71,13 @@ function getDiseases(diseaseGroup, div_id) {
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var rows = JSON.parse(this.responseText);
-            var s = '<table class="browse-result-summary" border="1"><tr><th>Disease ID</th><th>Disease name</th><th>Disease category</th></tr>';
+            var s = '<table class="browse-result-summary" border="1"><tr><th>Disease ID</th><th>Disease name</th><th>Disease category</th><th>Protein Associations</th></tr>';
             for(var i=0; i<rows.length; ++i) {
                 s += '<tr>';
                 s += '<td><a class="link" href="disease.php?key=' + rows[i].MADID + '">' + rows[i].MADID + '</a></td>';
                 s += '<td>' + rows[i].DiseaseName + '</td>';
                 s += '<td>' + rows[i].DiseaseCategory + '</td>';
+                s += '<td>' + rows[i].ProteinAssociations + '</td>';
                 s += '</tr>';
             }
             s += '</table>';
@@ -92,44 +93,32 @@ function getDiseases(diseaseGroup, div_id) {
     xmlhttp.send();
 }
 
-// function getDiseasewiseResultHTML(divId) {
-//     ids = ['Q99798', 'O60488', 'Q53H12'];
-//     names = ['ACO2', 'ACSL4', 'AGK'];
-//     diseaseGroups = ['Neuronal disease', 'Common cancer', 'Heart disease', 'Kidney disease', 'Liver disease', 'Lung disease']
-//     var s = '<table class="browse-result-summary" border="1"><tr><th>UniProt Accession</th><th>Symbol</th></tr>';
-//     for(var i=0; i<rows.length; ++i) {
-//         s += '<tr>';
-//         s += '<td>' + ids[i] + '</td>';
-//         s += '<td>' + names[i] + '</td>';
-//         s += '</tr>';
-//     }
-//     s += '</table>';
-//
-//     var proteinDropDown = '<select class="full" name="UniProt">';
-//     for(var i=0; i<rows.length; ++i) {
-//         proteinDropDown += '<option value="' + ids[i] + '">' + ids[i] + '</option>';
-//     }
-//     proteinDropDown += '</select>';
-//     var diseaseDropDown = '<select class="full" name="DiseaseGroup">';
-//     for(var i=0; i<diseaseGroups.length; ++i) {
-//         diseaseDropDown += '<option value="' + diseaseGroups[i] + '">' + diseaseGroups[i] + '</option>';
-//     }
-//     diseaseDropDown += '</select>';
-//
-//     s += '<br/><center><p>Browse expression</p></center>'
-//     s += '<form method="post" action=""><table class="form"><tr><th>Protein</th><th>Disease group</th></tr><tr><td>' + proteinDropDown + '</td><td>' + diseaseDropDown + '</td></tr></table>';
-//     s += '<center><input type="submit" style="width:100px;margin:15px;//border-radius:10px;" name="Submit" value="Submit" /></center></form>';
-//
-//     return s;
-// }
+function getProteins(character, resultDivId){
+    var query = 'get_proteins.php?key=' + encodeURIComponent(character);
+    var hideButton = '<center><button type="button" class="round" style="margin-top:10px;" onclick="hideDiv(\'' + resultDivId + '\')">&#10005;</button></center>';
+    var resultElement = document.getElementById(resultDivId);
 
-// function getProteins(character, resultDivId){
-//     var hideButton = '<center><button type="button" class="round" onclick="hideDiv(\'' + resultDivId + '\')">&#10005;</button></center>';
-//     var resultCountString = '<p style="margin:2px;text-align:center;">Total number of proteins with names starting with "' + character + '" = 3</p>';
-//     var resultElement = document.getElementById(resultDivId);
-//     resultElement.style.display = 'block';
-//     if(rows.length <= 0)
-//         resultElement.innerHTML = hideButton + resultCountString;
-//     else
-//         resultElement.innerHTML = hideButton + resultCountString + getDiseasewiseResultHTML('result_display');
-// }
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var rows = JSON.parse(this.responseText);
+            var s = '<table class="browse-result-summary" border="1"><tr><th>UniProt accession ID</th><th>Gene name</th><th>Disease Associations</th></tr>';
+            for(var i=0; i<rows.length; ++i) {
+                s += '<tr>';
+                s += '<td><a class="link" href="protein.php?keytype=ID&key=' + rows[i].UniProtAccession + '">' + rows[i].UniProtAccession + '</a></td>';
+                s += '<td>' + rows[i].GeneName + '</td>';
+                s += '<td>' + rows[i].DiseaseAssociations + '</td>';
+                s += '</tr>';
+            }
+            s += '</table>';
+
+            var proteinCountMessage = '<center><p>The number proteins found in the database starting with "' + character + '" category = <b>' + rows.length + '</b></p></center>';
+
+            resultElement.innerHTML = hideButton + proteinCountMessage + s + hideButton;
+            resultElement.style.display = 'block';
+        }
+    };
+    xmlhttp.open('GET', query, true);
+    xmlhttp.setRequestHeader("Content-type", "text/json");
+    xmlhttp.send();
+}
