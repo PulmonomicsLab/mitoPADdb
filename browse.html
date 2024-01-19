@@ -30,8 +30,48 @@
         
         <div class = "section_middle">
 <!--             <div class="browse-heading">Browse page</div> -->
-            <div><p>The browse page allows users to access the data in three ways.</p></div>
-            <div class="browse-heading" id="sec-1">1. Browse by diseases</div>
+
+            <div><p>The browse page allows users to access the data in five ways.</p></div>
+
+            <div class="browse-heading" id="sec-1">1. Browse by gene name</div>
+            <div class="alphabet" onclick="getProteins('A', 'results4')">A</div>
+            <div class="alphabet" onclick="getProteins('B', 'results4')">B</div>
+            <div class="alphabet" onclick="getProteins('C', 'results4')">C</div>
+            <div class="alphabet" onclick="getProteins('D', 'results4')">D</div>
+            <div class="alphabet" onclick="getProteins('E', 'results4')">E</div>
+            <div class="alphabet" onclick="getProteins('F', 'results4')">F</div>
+            <div class="alphabet" onclick="getProteins('G', 'results4')">G</div>
+            <div class="alphabet" onclick="getProteins('H', 'results4')">H</div>
+            <div class="alphabet" onclick="getProteins('I', 'results4')">I</div>
+            <div class="alphabet" onclick="getProteins('J', 'results4')">J</div>
+            <div class="alphabet" onclick="getProteins('K', 'results4')">K</div>
+            <div class="alphabet" onclick="getProteins('L', 'results4')">L</div>
+            <div class="alphabet" onclick="getProteins('M', 'results4')">M</div>
+            <div class="alphabet" onclick="getProteins('N', 'results4')">N</div>
+            <div class="alphabet" onclick="getProteins('O', 'results4')">O</div>
+            <div class="alphabet" onclick="getProteins('P', 'results4')">P</div>
+            <div class="alphabet" onclick="getProteins('Q', 'results4')">Q</div>
+            <div class="alphabet" onclick="getProteins('R', 'results4')">R</div>
+            <div class="alphabet" onclick="getProteins('S', 'results4')">S</div>
+            <div class="alphabet" onclick="getProteins('T', 'results4')">T</div>
+            <div class="alphabet" onclick="getProteins('U', 'results4')">U</div>
+            <div class="alphabet" onclick="getProteins('V', 'results4')">V</div>
+            <div class="alphabet" onclick="getProteins('W', 'results4')">W</div>
+            <div class="alphabet" onclick="getProteins('X', 'results4')">X</div>
+            <div class="alphabet" onclick="getProteins('Y', 'results4')">Y</div>
+            <div class="alphabet" onclick="getProteins('Z', 'results4')">Z</div>
+            <div style="clear:both;"></div>
+            <div class="browse-result" id="results4"></div>
+            <br/>
+
+            <div class="browse-heading" id="sec-3">2. Browse pathways</div>
+            <div><p style="margin-left:25px;margin-right:25px;"></p></div>
+            <div class="disease_button"><a style="color:black; text-decoration:none;" href="pathway.php?key=KEGG">KEGG</a></div>
+            <div class="disease_button"><a style="color:black; text-decoration:none;" href="pathway.php?key=MC">MitoCarta 3.0</a></div>
+            <div style="clear:both;"></div>
+            <br/>
+
+            <div class="browse-heading" id="sec-1">3. Browse by diseases</div>
             <div><p style="margin-left:25px;margin-right:25px;">This option allows to access the disease information by selecting a specific disease category.</p></div>
             <div class="disease_button" onclick="getDiseases('Cardiovascular Diseases', 'results1')">Cardiovascular Diseases</div>
             <div class="disease_button" onclick="getDiseases('Congenital, Hereditary, and Neonatal Diseases and Abnormalities', 'results1')">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</div>
@@ -50,9 +90,9 @@
             <div class="disease_button" onclick="getDiseases('Others', 'results1')">Others</div>
             <div style="clear:both;"></div>
             <div class="browse-result" id="results1"></div>
-
             <br/>
-            <div class="browse-heading" id="sec-2">2. Browse by disease-wise expression</div>
+
+            <div class="browse-heading" id="sec-2">4. Browse by disease-wise expression</div>
             <div>
                 <p style="margin-left:25px;margin-right:25px;">
                     This option allows to compare the heatmaps of diseases associated 727 mitochondrial
@@ -77,9 +117,9 @@
             <div class="disease_button" onclick="getStudies('Urogenital Diseases', 'UD', 'results2')">Urogenital Diseases</div>
             <div style="clear:both;"></div>
             <div class="browse-result" id="results2"></div>
-
             <br/>
-            <div class="browse-heading" id="sec-3">3. Browse by disease-category pairwise expression</div>
+
+            <div class="browse-heading" id="sec-3">5. Browse by disease-category pairwise expression</div>
             <div><p style="margin-left:25px;margin-right:25px;">By this option, users can select two disease categories at a time for comparison of expression pattern of mitochondrial proteins/genes transcript.</p></div>
             <form method="get" action="expression_heatmap_pair.php" onsubmit="return check_disease_pair('dg1', 'dg2')">
                 <table border="0" class="browse-input">
@@ -128,38 +168,8 @@
                     </tr>
                 </table>
             </form>
-
             <br/>
-            <!--<div class="browse-heading" id="sec-1">4. Browse mitochondrial protein expression</div>
-            <div class="alphabet" onclick="getProteins('A', 'results4')">A</div>
-            <div class="alphabet" onclick="getProteins('B', 'results4')">B</div>
-            <div class="alphabet" onclick="getProteins('C', 'results4')">C</div>
-            <div class="alphabet" onclick="getProteins('D', 'results4')">D</div>
-            <div class="alphabet" onclick="getProteins('E', 'results4')">E</div>
-            <div class="alphabet" onclick="getProteins('F', 'results4')">F</div>
-            <div class="alphabet" onclick="getProteins('G', 'results4')">G</div>
-            <div class="alphabet" onclick="getProteins('H', 'results4')">H</div>
-            <div class="alphabet" onclick="getProteins('I', 'results4')">I</div>
-            <div class="alphabet" onclick="getProteins('J', 'results4')">J</div>
-            <div class="alphabet" onclick="getProteins('K', 'results4')">K</div>
-            <div class="alphabet" onclick="getProteins('L', 'results4')">L</div>
-            <div class="alphabet" onclick="getProteins('M', 'results4')">M</div>
-            <div class="alphabet" onclick="getProteins('N', 'results4')">N</div>
-            <div class="alphabet" onclick="getProteins('O', 'results4')">O</div>
-            <div class="alphabet" onclick="getProteins('P', 'results4')">P</div>
-            <div class="alphabet" onclick="getProteins('Q', 'results4')">Q</div>
-            <div class="alphabet" onclick="getProteins('R', 'results4')">R</div>
-            <div class="alphabet" onclick="getProteins('S', 'results4')">S</div>
-            <div class="alphabet" onclick="getProteins('T', 'results4')">T</div>
-            <div class="alphabet" onclick="getProteins('U', 'results4')">U</div>
-            <div class="alphabet" onclick="getProteins('V', 'results4')">V</div>
-            <div class="alphabet" onclick="getProteins('W', 'results4')">W</div>
-            <div class="alphabet" onclick="getProteins('X', 'results4')">X</div>
-            <div class="alphabet" onclick="getProteins('Y', 'results4')">Y</div>
-            <div class="alphabet" onclick="getProteins('Z', 'results4')">Z</div>
-            <div style="clear:both;"></div>
-            <div class="browse-result" id="results4"></div>
-            <br/>-->
+
         </div>
     </body>
 </html>
