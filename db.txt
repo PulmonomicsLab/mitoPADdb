@@ -64,6 +64,24 @@ GEOAccession varchar(20),
 primary key (StudyID, DiseaseCategory)
 );
 
+create table kegg_pathway(
+PathwayProteinInteractionID varchar(20),
+UniProtAccession varchar(20),
+Pathway varchar(1000),
+PathwayID varchar(20),
+AdjustedPvalue double,
+primary key (PathwayProteinInteractionID),
+constraint fk_uniprot_kegg_pathway foreign key (UniProtAccession) references protein(UniProtAccession)
+);
+
+create table mitocarta_pathway(
+PathwayProteinInteractionID varchar(20),
+UniProtAccession varchar(20),
+Pathway varchar(1000),
+primary key (PathwayProteinInteractionID),
+constraint fk_uniprot_mitocarta_pathway foreign key (UniProtAccession) references protein(UniProtAccession)
+);
+
 
 
 create database mpld;
@@ -82,3 +100,5 @@ load data local infile '/home/sudipto/data/projects/mpld/input/protein_disease_a
 load data local infile '/home/sudipto/data/projects/mpld/input/snp.csv' into table nucleotide_variation ignore 1 lines;
 load data local infile '/home/sudipto/data/projects/mpld/input/expression.csv' into table expression ignore 1 lines;
 load data local infile '/home/sudipto/data/projects/mpld/input/study_metadata.csv' into table study_metadata ignore 1 lines;
+load data local infile '/home/sudipto/data/projects/mpld/input/Pathway/KEGG.csv' into table kegg_pathway ignore 1 lines;
+load data local infile '/home/sudipto/data/projects/mpld/input/Pathway/MitoCarta.csv' into table mitocarta_pathway ignore 1 lines;
