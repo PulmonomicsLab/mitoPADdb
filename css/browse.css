@@ -26,9 +26,26 @@
     cursor: pointer;
     border-radius:5px;
 }
+a.browse_side_nav{
+    display : block;
+    padding : 10px 5px 10px 10px;
+    margin: 15px 0 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration : none;
+    color : white;
+    background-color: #19334d;
+    border: 2px solid black;
+    border-radius: 10px;
+/*     box-shadow: 0px 0px 10px grey; */
+}
+a.browse_side_nav:hover{
+    background-color:#8484e1;
+    color:black;
+}
 .browse-result{
-    width: 80%;
-    margin: 10px 10% 0 10%;
+    width: 90%;
+    margin: 10px 5% 0 5%;
     padding: 10px 0 10px 0;
     border: 2px dashed darkgreen;
     display: none;
@@ -38,8 +55,8 @@
 table.browse-result-summary{
     border-collapse : collapse;
     border : 2px white solid; /*#392d37*/
-    width : 90%;
-    margin: 0 5% 0 5%;
+    width : 96%;
+    margin: 0 2% 0 2%;
 }
 table.browse-result-summary tr:nth-child(odd){
 /*     background-color: #d2ccc6;  */
@@ -75,4 +92,10 @@ td.even{
     padding: 10px 0 10px 0;
     border : 2px #264d73 solid; /*#392d37*/
     background-color : #99ceff;
+}
+
+.sticky{
+/*     width: 100%; */
+    position: fixed;
+    top: 0;
 }

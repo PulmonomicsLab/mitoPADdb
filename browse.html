@@ -26,14 +26,38 @@
             </center>
         </div>
 
-        <!--<div class = "section_left"></div>-->
+        <div class = "section_left" id="section_left">
+            <div style="width:100%;"><a href="#sec-1" class="browse_side_nav">1. Browse by gene name</a></div>
+            <div style="width:100%;"><a href="#sec-2" class="browse_side_nav">2. Browse pathways</a></div>
+            <div style="width:100%;"><a href="#sec-3" class="browse_side_nav">3. Browse by diseases</a></div>
+            <div style="width:100%;"><a href="#sec-4" class="browse_side_nav">4. Browse by disease-wise expression</a></div>
+            <div style="width:100%;"><a href="#sec-5" class="browse_side_nav">5. Browse by disease-category pairwise expression</a></div>
+        </div>
+
+        <script>
+            window.onscroll = function() {makeSticky();};
+            var header = document.getElementById("section_left");
+            var sticky = header.offsetTop;
+            function makeSticky() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
         
-        <div class = "section_middle">
+        <div class = "section_middle" style="width:70%;">
 <!--             <div class="browse-heading">Browse page</div> -->
 
             <div><p>The browse page allows users to access the data in five ways.</p></div>
 
             <div class="browse-heading" id="sec-1">1. Browse by gene name</div>
+            <div>
+                <p style="margin-left:25px;margin-right:25px;">
+
+                </p>
+            </div>
             <div class="alphabet" onclick="getProteins('A', 'results4')">A</div>
             <div class="alphabet" onclick="getProteins('B', 'results4')">B</div>
             <div class="alphabet" onclick="getProteins('C', 'results4')">C</div>
@@ -64,15 +88,24 @@
             <div class="browse-result" id="results4"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-3">2. Browse pathways</div>
+            <div class="browse-heading" id="sec-2">2. Browse pathways</div>
+            <div>
+                <p style="margin-left:25px;margin-right:25px;">
+
+                </p>
+            </div>
             <div><p style="margin-left:25px;margin-right:25px;"></p></div>
             <div class="disease_button"><a style="color:black; text-decoration:none;" href="pathway.php?key=KEGG">KEGG</a></div>
             <div class="disease_button"><a style="color:black; text-decoration:none;" href="pathway.php?key=MC">MitoCarta 3.0</a></div>
             <div style="clear:both;"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-1">3. Browse by diseases</div>
-            <div><p style="margin-left:25px;margin-right:25px;">This option allows to access the disease information by selecting a specific disease category.</p></div>
+            <div class="browse-heading" id="sec-3">3. Browse by diseases</div>
+            <div>
+                <p style="margin-left:25px;margin-right:25px;">
+                    This option allows to access the disease information by selecting a specific disease category.
+                </p>
+            </div>
             <div class="disease_button" onclick="getDiseases('Cardiovascular Diseases', 'results1')">Cardiovascular Diseases</div>
             <div class="disease_button" onclick="getDiseases('Congenital, Hereditary, and Neonatal Diseases and Abnormalities', 'results1')">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</div>
             <div class="disease_button" onclick="getDiseases('Digestive System Diseases', 'results1')">Digestive System Diseases</div>
@@ -92,7 +125,7 @@
             <div class="browse-result" id="results1"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-2">4. Browse by disease-wise expression</div>
+            <div class="browse-heading" id="sec-4">4. Browse by disease-wise expression</div>
             <div>
                 <p style="margin-left:25px;margin-right:25px;">
                     This option allows to compare the heatmaps of diseases associated 727 mitochondrial
@@ -119,8 +152,13 @@
             <div class="browse-result" id="results2"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-3">5. Browse by disease-category pairwise expression</div>
-            <div><p style="margin-left:25px;margin-right:25px;">By this option, users can select two disease categories at a time for comparison of expression pattern of mitochondrial proteins/genes transcript.</p></div>
+            <div class="browse-heading" id="sec-5">5. Browse by disease-category pairwise expression</div>
+            <div>
+                <p style="margin-left:25px;margin-right:25px;">
+                    By this option, users can select two disease categories at a time for comparison of
+                    expression pattern of mitochondrial proteins/genes transcript.
+                </p>
+            </div>
             <form method="get" action="expression_heatmap_pair.php" onsubmit="return check_disease_pair('dg1', 'dg2')">
                 <table border="0" class="browse-input">
                     <tr>
