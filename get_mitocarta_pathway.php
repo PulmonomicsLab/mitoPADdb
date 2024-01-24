@@ -23,6 +23,7 @@
         $pathwayNodeMap[$pathwayRows[$i]["Pathway"]] = "pathway_node".strval($i);
         $pathway_node = new stdClass();
         $pathway_node->text = "Pathway - ".$pathwayRows[$i]["Pathway"];
+        $pathway_node->icon = "resource/icons/Pathway_Image_1.png";
 //         $pathway_node->id = "pathway_node_".strval($i);
 //         $pathway_node->parent = "#";
 //         $pathway_node->state = new stdClass();
@@ -41,6 +42,7 @@
         for ($j=0; $j<count($proteinRows); ++$j) {
             $protein_node = new stdClass();
             $protein_node->text = "Protein - ".$proteinRows[$j]["GeneName"]." (".$proteinRows[$j]["UniProtAccession"].")";
+            $protein_node->icon = "resource/icons/Mitochondria_Image_1.png";
 //             $protein_node->id = "protein_node_".strval($j)."_pathway_".strval($i);
 //             $protein_node->state = new stdClass();
 //             $protein_node->state->opened = false;
@@ -57,6 +59,7 @@
             for ($k=0; $k<count($diseaseRows); ++$k) {
                 $disease_node = new stdClass();
                 $disease_node->text = "Disease - ".$diseaseRows[$k]["DiseaseName"]." (".$diseaseRows[$k]["MADID"].")";
+                $disease_node->icon = "resource/icons/Disease_Image_1.png";
 //                 $disease_node->id = "disease_node_".strval($k)."_protein_".strval($j)."_pathway_".strval($i);
 //                 $disease_node->state = new stdClass();
 //                 $disease_node->state->opened = false;

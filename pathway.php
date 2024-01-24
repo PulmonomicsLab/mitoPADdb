@@ -32,6 +32,8 @@
         <style>
             .jstree-node {
                 padding-left: 100px;
+                padding-top: 2px;
+                padding-bottom: 2px;
 /*                 transition: all 0.3s ease; */
             }
             #j1_1 {
