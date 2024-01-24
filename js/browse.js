@@ -46,7 +46,7 @@ function getStudies(diseaseGroup, key, div_id) {
                 s += '<td>' + rows[i].Sample + '</td>';
                 s += '<td>' + rows[i].FoldChangeSubjects + '</td>';
                 s += '<td>' + rows[i].ConditionState + '</td>';
-                s += '<td>' + rows[i].GEOAccession + '</td>';
+                s += '<td><a class="link" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=' + rows[i].GEOAccession + '">' + rows[i].GEOAccession + '</td>';
                 s += '</tr>';
             }
             s += '</table>';
