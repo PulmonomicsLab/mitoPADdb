@@ -42,32 +42,34 @@
         <div class = "section_middle">
             <br/>
             <p class="intro" style="text-align:justify;">
-                The <b>mitoPADdb</b> is a manually curated database of mitochondrial proteins linked with
-                diseases. It contains the information on mutations and expressional variations of
-                mitochondrial proteins at transcript and protein levels. Here, mitochondrial proteins
-                associated diseases were broadly grouped into 14 categories. It allows users to access the
-                data using the search option with gene symbol or UniProt accession and also by browse options.
-                The search option provides the information about mutations, expressional variation (both
-                mRNA and protein level) with experimental samples and techniques, and associated diseases
-                with source identifier. The browse option allows users to access the data in three ways:
-                <i>1)</i> <a href="browse.html#sec-1">Browse by diseases</a>,
-                <i>2)</i> <a href="browse.html#sec-2">Browse by disease-wise expression</a>, and
-                <i>3)</i> <a href="browse.html#sec-3">Browse by disease-category pairwise expression</a>. It is a
-                comprehensive mitochondrial proteins database with reference to diseases.
+                The mitoPADdb is a manually curated database that provides comprehensive information on
+                813 mitochondrial protein-encoding (MPE) genes associated with 1793 disease terms. It
+                contains information on mutations and expressional variations of MPE genes at both the
+                mRNA and protein levels. The database classifies the diseases linked with mitochondrial
+                proteins into 14 broad categories. It allows users to access the data using (I) by search
+                option with <b>Gene symbol</b> or <b>UniProt accession</b> and (II) by browse options.
+                The search option provides information about 18356 mutations, 1286 expressional variations
+                (mRNA and protein levels) with experimental samples and techniques, and associated diseases
+                with source identifiers. The browse option allows users to access these data along with
+                disease-gene-pathway links and differential genes’ expression heatmap across 317 disease
+                studies, in five ways: <b>1) Gene symbol, 2) Pathway name, 3) Disease category name,
+                4) Disease category-wise MPE gene expression heatmap, and 5) Disease category-pairwise
+                comparison of MPE gene expression heatmap</b>.
             </p>
 <!--             <br/> -->
             
-            <center><br/><h3>Search MPLD</h3></center>
+            <center><br/><h3>Search MitoPADdb</h3></center>
             <form method="get" action="protein.php">
                 <!--<br/><center><button type="button" onclick="update_label()">Show Current Logical Query</button></center><br/>-->
                 <table class="form" id="form_input_table1" border="0" align="center">
-                    <tr><td colspan="2" style="text-align:left;">Search by protein</td></tr>
+                    <tr><td colspan="2" style="text-align:left;">Search by gene symbol or UniProt accession ID</td></tr>
                     <tr>
                         <td>
                             <font color = "red">*</font>
                             <select class="full" id="key1" name="keytype">
-                                <option value="ID" selected>UniProt ID</option>
-                                <option value="Name">Gene Name</option>
+                                <option value="Any" selected>Any (UniProt accession ID or Gene symbol)</option>
+                                <option value="ID">UniProt accession ID</option>
+                                <option value="Name">Gene symbol</option>
                             </select>
                         </td>
                         <td><input class="full" type="text" id="v1" name="key" placeholder="Enter search keyword" required /></td>
@@ -75,10 +77,10 @@
                 </table>
                 <div style="width:80%;margin:0 10% 0 10%;padding-left:1%;font-size:0.8em;">
                     <b>Example</b><br/>
-                    Gene names:
+                    Gene symbols:
                     <a href="#form_input_table1" onclick="pasteQuery('Name', 'FXN', 1)">FXN</a>, 
                     <a href="#form_input_table1" onclick="pasteQuery('Name', 'NDUFB11', 1)">NDUFB11</a>; 
-                    UniProt IDs:
+                    UniProt accession IDs:
                     <a href="#form_input_table1" onclick="pasteQuery('ID', 'P00846', 1)">P00846</a>,
                     <a href="#form_input_table1" onclick="pasteQuery('ID', 'P00395', 1)">P00395</a>
                 </div>

@@ -26,6 +26,13 @@
         }
         return $source.": ".implode("; ", $links)." ".$img_tag;
     }
+
+    function refValues($arr){
+        $refs = array();
+        for($i=0; $i<count($arr); ++$i)
+            $refs[$i] = &$arr[$i];
+        return $refs;
+    }
     
     $keytype = $_GET["keytype"];
     $key = $_GET["key"];
@@ -36,7 +43,23 @@
     $uniprot = "";
     if($keytype === 'ID') {
         $uniprot = $key;
-    } else {
+    } elseif($keytype === "Any"){
+        $query = "select UniProtAccession from protein where GeneName=? or UniProtAccession=?;";
+        $stmt = $conn->prepare($query);
+        $values = array($key, $key);
+        array_unshift($values, "ss");
+        call_user_func_array(
+            array($stmt, "bind_param"),
+            refValues($values)
+        );
+        $stmt->execute();
+//         $stmt->bind_param("s", $key);
+        $stmt->execute();
+        $rows = execute_and_fetch_assoc($stmt);
+        if(count($rows) > 0)
+            $uniprot = $rows[0]["UniProtAccession"];
+        $stmt->close();
+    }else {
         $query = "select UniProtAccession from protein where GeneName=?;";
         $stmt = $conn->prepare($query);
         $stmt->bind_param("s", $key);
@@ -245,6 +268,8 @@
                 if(count($proteinRows) < 1) {
                     if ($keytype === "ID")
                         echo "<center><p>Error !!! No protein exist in the database having UniProt accession ID: ".$uniprot.".</p></center>";
+                    elseif ($keytype === "Any")
+                        echo "<center><p>Error !!! No protein exist in the database having UniProt accession ID: ".$key." or Gene name: ".$key."</p></center>";
                     else
                         echo "<center><p>Error !!! No protein exist in the database having Gene name: ".$key.".</p></center>";
                 } else {
@@ -339,6 +364,8 @@
                         if(count($diseaseRows) < 1) {
                             if ($keytype === "ID")
                                 echo "<center><p>No disease associations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
+                            elseif ($keytype === "Any")
+                                echo "<center><p>No disease associations found in the database having UniProt accession ID: ".$key." or Gene name: ".$key."</p></center>";
                             else
                                 echo "<center><p>No disease associations found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
                         } else {
@@ -370,6 +397,8 @@
                         if(count($keggPathwayRows) + count($mcPathwayRows) < 1) {
                             if ($keytype === "ID")
                                 echo "<center><p>No pathway associations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
+                            elseif ($keytype === "Any")
+                                echo "<center><p>No pathway associations found in the database having UniProt accession ID: ".$key." or Gene name: ".$key."</p></center>";
                             else
                                 echo "<center><p>No pathway associations found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
                         } else {
@@ -416,6 +445,8 @@
                         if(count($snpRows) < 1) {
                             if ($keytype === "ID")
                                 echo "<center><p>No mutations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
+                            elseif ($keytype === "Any")
+                                echo "<center><p>No mutations found in the database having UniProt accession ID: ".$key." or Gene name: ".$key."</p></center>";
                             else
                                 echo "<center><p>No mutations found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
                         } else {
@@ -457,6 +488,8 @@
                         if(count($expRows) < 1) {
                             if ($keytype === "ID")
                                 echo "<center><p>No expression data found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
+                            elseif ($keytype === "Any")
+                                echo "<center><p>No expression data found in the database having UniProt accession ID: ".$key." or Gene name: ".$key."</p></center>";
                             else
                                 echo "<center><p>No expression data found in the database for Gene name: ".$key." (UniProt accession ID: ".$uniprot.") !!</p></center>";
                         } else {
