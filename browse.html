@@ -27,11 +27,11 @@
         </div>
 
         <div class = "section_left" id="section_left">
-            <div style="width:100%;"><a href="#sec-1" class="browse_side_nav">1. Browse by gene name</a></div>
-            <div style="width:100%;"><a href="#sec-2" class="browse_side_nav">2. Browse pathways</a></div>
-            <div style="width:100%;"><a href="#sec-3" class="browse_side_nav">3. Browse by diseases</a></div>
-            <div style="width:100%;"><a href="#sec-4" class="browse_side_nav">4. Browse by disease-wise expression</a></div>
-            <div style="width:100%;"><a href="#sec-5" class="browse_side_nav">5. Browse by disease-category pairwise expression</a></div>
+            <div style="width:100%;"><a href="#sec-1" class="browse_side_nav">1. Gene symbol</a></div>
+            <div style="width:100%;"><a href="#sec-2" class="browse_side_nav">2. Pathway name</a></div>
+            <div style="width:100%;"><a href="#sec-3" class="browse_side_nav">3. Disease category name</a></div>
+            <div style="width:100%;"><a href="#sec-4" class="browse_side_nav">4. Disease category-wise MPE gene expression heatmap</a></div>
+            <div style="width:100%;"><a href="#sec-5" class="browse_side_nav">5. Disease category pairwise comparison of MPE gene expression heatmap</a></div>
         </div>
 
         <script>
@@ -50,12 +50,22 @@
         <div class = "section_middle" style="width:70%;">
 <!--             <div class="browse-heading">Browse page</div> -->
 
-            <div><p>The browse page allows users to access the data in five ways.</p></div>
+            <div>
+                <p style="font-size:1.2em;"><b>The browse page allows users to access the data in five ways.</b></p>
+                <p>
+                    <b>N.B.</b>- Users should follow the instructions to browse the five different options
+                    either by selecting from the left panel or by scrolling up/down the page.
+                </p>
+            </div>
 
-            <div class="browse-heading" id="sec-1">1. Browse by gene name</div>
+            <div class="browse-heading" id="sec-1">1. Gene symbol</div>
             <div>
                 <p style="margin-left:25px;margin-right:25px;">
-
+                    In this option, users can get protein/gene information curated in this database. <b>First</b>,
+                    users need to select one alphabet (A-Z), and it will open a list of genes (with UniProt accession
+                    ID and Disease Associations), and  will show the number of genes found in the database starting
+                    with that alphabet at the top. Users can get the details of protein/gene information available in
+                    mitoPADdb by clicking the UniProt accession ID provided.
                 </p>
             </div>
             <div class="alphabet" onclick="getProteins('A', 'results4')">A</div>
@@ -88,10 +98,15 @@
             <div class="browse-result" id="results4"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-2">2. Browse pathways</div>
+            <div class="browse-heading" id="sec-2">2. Pathway name</div>
             <div>
                 <p style="margin-left:25px;margin-right:25px;">
-
+                    Here, users can explore connections among pathways, genes, and diseases from KEGG or
+                    MitoCarta 3.0. <b>First</b>, users need to select KEGG or MitoCarta 3.0, and it will
+                    provide a list of pathways included in that database. <b>Second</b>, users need to
+                    double-click on a pathway to get a list of genes associated with a pathway.
+                    <b>Further</b>, users need to double-click on a gene to get a list of diseases
+                    associated with that gene.
                 </p>
             </div>
             <div><p style="margin-left:25px;margin-right:25px;"></p></div>
@@ -100,10 +115,15 @@
             <div style="clear:both;"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-3">3. Browse by diseases</div>
+            <div class="browse-heading" id="sec-3">3. Disease category name</div>
             <div>
                 <p style="margin-left:25px;margin-right:25px;">
-                    This option allows to access the disease information by selecting a specific disease category.
+                    In this option, users can browse disease category information curated in mitoPADdb.
+                    <b>First,</b> users need to select a disease category from a list of 15 disease
+                    categories, It will show a list of disease terms like Disease ID and Disease name
+                    associated with the category along with the number of hits found in that disease
+                    category. <b>Further</b>, users can obtain the details of the disease compiled in
+                    the database by clicking on a Disease ID.
                 </p>
             </div>
             <div class="disease_button" onclick="getDiseases('Cardiovascular Diseases', 'results1')">Cardiovascular Diseases</div>
@@ -125,13 +145,23 @@
             <div class="browse-result" id="results1"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-4">4. Browse by disease-wise expression</div>
+            <div class="browse-heading" id="sec-4">4. Disease category-wise MPE gene expression heatmap</div>
             <div>
                 <p style="margin-left:25px;margin-right:25px;">
-                    This option allows to compare the heatmaps of diseases associated 727 mitochondrial
-                    proteins’ expression (transcriptomic level) pattern among different studies of a particular
-                    disease category by selecting the category followed by alphabet order of gene symbols for
-                    details.
+                    In this option, users can visualize the heatmap of differential transcript expression of
+                    mitochondrial protein-encoding (MPE) genes provided in a disease category and, can also
+                    obtain a list of all Gene Expression Omnibus (GEO) studies of that disease category.
+                    <b>First</b>, users need to select a disease category to obtain a table of attributes
+                    e.g., study IDs, Disease name, Sample, Log<sub>2</sub> Fold Change Subjects with sample
+                    size,  Condition/State, and GEO Accession. <b>To visualize the heatmap</b>, users need
+                    to click on the <i>&quot;Get expression heatmap&quot;</i> button available at the top
+                    and bottom of the table. In the heatmap, the X-axis and Y-axis represent expression studies
+                    and gene symbols respectively. <b>Further</b>, for visualization of the heatmap of selected
+                    genes starting with a particular alphabet, users need to select an alphabet (A-Z) from the
+                    list of buttons provided. In case, there is no genes available on the selected alphabet, a
+                    message will show that <i>&quot;No genes starting with alphabet&quot;</i>. Here, the
+                    Log<sub>2</sub> Fold Change values [diseased vs control] were used to draw the expression
+                    heatmap.
                 </p>
             </div>
             <div class="disease_button" onclick="getStudies('Cardiovascular Diseases', 'CD', 'results2')">Cardiovascular Diseases</div>
@@ -152,18 +182,26 @@
             <div class="browse-result" id="results2"></div>
             <br/>
 
-            <div class="browse-heading" id="sec-5">5. Browse by disease-category pairwise expression</div>
+            <div class="browse-heading" id="sec-5">5. Disease category pairwise comparison of MPE gene expression heatmap</div>
             <div>
                 <p style="margin-left:25px;margin-right:25px;">
-                    By this option, users can select two disease categories at a time for comparison of
-                    expression pattern of mitochondrial proteins/genes transcript.
+                    In this option, users can visualize the heatmap of differential transcript expression
+                    of all mitochondrial protein-encoding (MPE) genes (number of genes = 813) available in
+                    the database  across all GEO studies (number of studies = 317) by selecting two disease
+                    categories at a time. <b>First</b>, users need to select two different disease categories
+                    from the drop-down lists for Disease Category 1 and Disease Category 2. <b>Further</b>,
+                    users need to click on the <i>&quot;Get heatmap&quot;</i> button provided on the right.
+                    In the heatmap, the X-axis represents expression studies, and the Y-axis represents gene
+                    symbols, which is shown alphabet-wise. By default, the heatmap page will open for the
+                    genes starting with the alphabet &quot;A&quot;, users need to select other alphabets
+                    (A-Z) to obtain the heatmap of their choice of genes.
                 </p>
             </div>
             <form method="get" action="expression_heatmap_pair.php" onsubmit="return check_disease_pair('dg1', 'dg2')">
                 <table border="0" class="browse-input">
                     <tr>
-                        <th class="even" style="border:2px solid #264d73;">Disease 1</th>
-                        <td class="odd">
+                        <th class="even" style="border:2px solid #264d73; padding:5px;">Disease category 1</th>
+                        <td class="odd" style="padding:5px;">
                             <center><select name="dg1" id="dg1">
                                 <option value="CD">Cardiovascular Diseases</option>
                                 <option value="CHNDA">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</option>
@@ -181,8 +219,8 @@
                                 <option value="UD">Urogenital Diseases</option>
                             </select></center>
                         </td>
-                        <th class="even" style="border:2px solid #264d73;">Disease 2</th>
-                        <td class="odd">
+                        <th class="even" style="border:2px solid #264d73; padding:5px;">Disease category 2</th>
+                        <td class="odd" style="padding:5px;">
                             <center><select name="dg2" id="dg2">
                                 <option value="CD">Cardiovascular Diseases</option>
                                 <option value="CHNDA" selected="selected">Congenital, Hereditary, and Neonatal Diseases and Abnormalities</option>
@@ -200,7 +238,7 @@
                                 <option value="UD">Urogenital Diseases</option>
                             </select></center>
                         </td>
-                        <td class="even">
+                        <td class="even" style="padding:5px;">
                             <center><input type="submit" value="Get heatmap" /></center>
                         </td>
                     </tr>

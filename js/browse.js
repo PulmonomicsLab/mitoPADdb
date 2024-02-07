@@ -34,7 +34,7 @@ function getStudies(diseaseGroup, key, div_id) {
                                                                         '<th>Disease category</th>' +
                                                                         '<th>Disease name</th>' +
                                                                         '<th>Sample</th>' +
-                                                                        '<th>Log<sub>2</sub> Fold Change Subjects</th>' +
+                                                                        '<th>Log<sub>2</sub> Fold Change Subjects [Sample size]</th>' +
                                                                         '<th>Condition/State</th>' +
                                                                         '<th>GEO Accession</th>'
                     '</tr>';
