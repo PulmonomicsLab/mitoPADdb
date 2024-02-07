@@ -84,22 +84,40 @@
 //         }
 
 
-        $pathwayAttributes = array(
+        $keggPathwayAttributes = array(
             "PathwayProteinInteractionID" => "Pathway Protein Interaction ID",
             "UniProtAccession"=>"UniProt accession ID",
             "Pathway" => "Pathway",
             "PathwayID" => "Pathway ID",
             "AdjustedPvalue" => "Adjusted p-value",
         );
-        $pathwayQuery = "select ".implode(",", array_keys($pathwayAttributes))." from kegg_pathway where UniProtAccession=?;";
-    //     echo $pathwayQuery."<br/>";
-        $pathwayStmt = $conn->prepare($pathwayQuery);
-        $pathwayStmt->bind_param("s", $uniprot);
-        $pathwayStmt->execute();
-        $pathwayRows = execute_and_fetch_assoc($pathwayStmt);
-        $pathwayStmt->close();
-//         echo count($pathwayRows)."<br/>";
-//         foreach($pathwayRows as $row) {
+        $keggPathwayQuery = "select ".implode(",", array_keys($keggPathwayAttributes))." from kegg_pathway where UniProtAccession=?;";
+//         echo $keggPathwayQuery."<br/>";
+        $keggPathwayStmt = $conn->prepare($keggPathwayQuery);
+        $keggPathwayStmt->bind_param("s", $uniprot);
+        $keggPathwayStmt->execute();
+        $keggPathwayRows = execute_and_fetch_assoc($keggPathwayStmt);
+        $keggPathwayStmt->close();
+//         echo count($keggPathwayRows)."<br/>";
+//         foreach($keggPathwayRows as $row) {
+//             echo implode(",", array_keys($row))."<br/>";
+//             echo implode(",", $row)."<br/>";
+//         }
+
+        $mcPathwayAttributes = array(
+            "PathwayProteinInteractionID" => "Pathway Protein Interaction ID",
+            "UniProtAccession"=>"UniProt accession ID",
+            "Pathway" => "Pathway",
+        );
+        $mcPathwayQuery = "select ".implode(",", array_keys($mcPathwayAttributes))." from mitocarta_pathway where UniProtAccession=?;";
+//         echo mcPathwayQuery."<br/>";
+        $mcPathwayStmt = $conn->prepare($mcPathwayQuery);
+        $mcPathwayStmt->bind_param("s", $uniprot);
+        $mcPathwayStmt->execute();
+        $mcPathwayRows = execute_and_fetch_assoc($mcPathwayStmt);
+        $mcPathwayStmt->close();
+//         echo count($mcPathwayRows)."<br/>";
+//         foreach($mcPathwayRows as $row) {
 //             echo implode(",", array_keys($row))."<br/>";
 //             echo implode(",", $row)."<br/>";
 //         }
@@ -167,6 +185,38 @@
         <meta charset="UTF-8">
         <title>mitoPADdb - Mitochondrial Proteins Associated with Diseases database</title>
         <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
+        <script>
+            go_cc = null;
+            go_mf = null;
+            go_bp = null;
+            function truncate(type, container_id) {
+                if (type == 'cc')
+                    var whole_data = go_cc;
+                else if (type == 'mf')
+                    var whole_data = go_mf;
+                else if (type == 'bp')
+                    var whole_data = go_bp;
+                if (whole_data.length > 5) {
+                    var truncated_data = whole_data.slice(1, 6);
+                    truncated_data = truncated_data.join('; ') + '<a class="link" style="cursor:pointer;" onclick="expand(\'' + type + '\', \'' + container_id + '\')"> ... [More]</a>';
+                } else
+                    var truncated_data = whole_data.join('; ');
+                document.getElementById(container_id).innerHTML = truncated_data;
+            }
+            function expand(type, container_id) {
+                if (type == 'cc')
+                    var whole_data = go_cc;
+                else if (type == 'mf')
+                    var whole_data = go_mf;
+                else if (type == 'bp')
+                    var whole_data = go_bp;
+                if (whole_data.length > 5)
+                    whole_data = whole_data.join('; ') + '<a class="link" style="cursor:pointer;" onclick="truncate(\'' + type + '\', \'' + container_id + '\')"> [Less]</a>';
+                else
+                    whole_data = whole_data.join('; ');
+                document.getElementById(container_id).innerHTML = whole_data;
+            }
+        </script>
 <!--         <script type = "text/javascript" src = "js/advance_search_input.js"></script> -->
     </head>
     <body>
@@ -198,7 +248,17 @@
                     else
                         echo "<center><p>Error !!! No protein exist in the database having Gene name: ".$key.".</p></center>";
                 } else {
-                    echo "<center><h2>UniProt accession ID: ".$uniprot." <a target=\"_blank\" href=\"https://www.uniprot.org/uniprotkb/".$uniprot."\"><img src=\"resource/redirect-icon.png\" height=\"18px\" width=\"auto\" /></a></h2></center>";
+                    echo "<center><h2 id=\"sec-1\">UniProt accession ID: ".$uniprot." <a target=\"_blank\" href=\"https://www.uniprot.org/uniprotkb/".$uniprot."\"><img src=\"resource/redirect-icon.png\" height=\"18px\" width=\"auto\" /></a></h2></center>";
+                    echo
+                        "<p style=\"width:80%; margin:10px 10% 5px 10%;\">
+                            <b>Users can access the four different data for this gene/protein</b> either
+                            by selecting a name here-
+                            <a class=\"link\" href=\"#protein-disease-associations\">1. Protein-disease associations</a>,
+                            <a class=\"link\" href=\"#protein-pathway-associations\">2. Protein-pathway associations</a>,
+                            <a class=\"link\" href=\"#disease-associated-mutations\">3. Disease-associated mutations</a>,
+                            <a class=\"link\" href=\"#disease-associated-expression-variation\">4. Disease-associated expression variation</a>,
+                            or by scrolling up/down the page.
+                        </p>";
                     echo "<table class=\"details\" border=\"1\">";
 
 //                     echo "<tr><th>Attribute</th><th>Value</th></tr>";
@@ -220,11 +280,18 @@
                     echo implode("; ", $diseases);
                     echo "</td></tr>";
 
-                    echo "<tr><td style=\"width:25%\"><b>Pathways</b></td><td style=\"width:75%\">";
-                    $pathways = array();
-                    foreach($pathwayRows as $row)
-                        array_push($pathways, "<a class=\"link\" href=\"#".$row["PathwayProteinInteractionID"]."\">".$row["PathwayProteinInteractionID"]."</a>");
-                    echo implode("; ", $pathways);
+                    echo "<tr><td style=\"width:25%\"><b>KEGG pathways</b></td><td style=\"width:75%\">";
+                    $keggPathways = array();
+                    foreach($keggPathwayRows as $row)
+                        array_push($keggPathways, "<a class=\"link\" href=\"#".$row["PathwayID"]."\" title=\"".$row["Pathway"]."\">".$row["PathwayID"]."</a>");
+                    echo implode("; ", $keggPathways);
+                    echo "</td></tr>";
+
+                    echo "<tr><td style=\"width:25%\"><b>MitoCatra3.0 pathways</b></td><td style=\"width:75%\">";
+                    $mcPathways = array();
+                    foreach($mcPathwayRows as $row)
+                        array_push($mcPathways, "<a class=\"link\" href=\"#".$row["PathwayProteinInteractionID"]."\" title=\"".$row["Pathway"]."\">".$row["PathwayProteinInteractionID"]."</a>");
+                    echo implode("; ", $mcPathways);
                     echo "</td></tr>";
                     
                     echo "<tr><td style=\"width:25%\"><b>Mutations</b></td><td style=\"width:75%\">";
@@ -245,15 +312,29 @@
                     echo implode("; ", $expressions);
                     echo "</td></tr>";
                     
-                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Cellular Component</b></td><td style=\"width:75%\">".$proteinRows[0]["GOCC"]."</td>";
-                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Molecular Function</b></td><td style=\"width:75%\">".$proteinRows[0]["GOMF"]."</td>";
-                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Biological Process</b></td><td style=\"width:75%\">".$proteinRows[0]["GOBP"]."</td>";
+                    $cc_array = explode('; ', $proteinRows[0]["GOCC"]);
+                    $mf_array = explode('; ', $proteinRows[0]["GOMF"]);
+                    $bp_array = explode('; ', $proteinRows[0]["GOBP"]);
+                    array_walk($cc_array, function(&$x) {$x = "'$x'";});
+                    array_walk($mf_array, function(&$x) {$x = "'$x'";});
+                    array_walk($bp_array, function(&$x) {$x = "'$x'";});
+                    echo "<script>go_cc = [".implode(',', $cc_array)."]</script>";
+                    echo "<script>go_mf = [".implode(',', $mf_array)."]</script>";
+                    echo "<script>go_bp = [".implode(',', $bp_array)."]</script>";
+                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Cellular Component</b></td><td id=\"cc_container\" style=\"width:75%\">".$proteinRows[0]["GOCC"]."</td>";
+                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Molecular Function</b></td><td id=\"mf_container\" style=\"width:75%\">".$proteinRows[0]["GOMF"]."</td>";
+                    echo "<tr><td style=\"width:25%\"><b>Gene Ontology Biological Process</b></td><td id=\"bp_container\" style=\"width:75%\">".$proteinRows[0]["GOBP"]."</td>";
                     
                     echo "</table>";
             ?>
             
+                    <script>
+                        truncate('cc', 'cc_container');
+                        truncate('mf', 'mf_container');
+                        truncate('bp', 'bp_container');
+                    </script>
                     <br/>
-                    <center><h3>Protein-disease associations</h3></center>
+                    <center><h3 id="protein-disease-associations">Protein-disease associations</h3></center>
             <?php
                         if(count($diseaseRows) < 1) {
                             if ($keytype === "ID")
@@ -284,9 +365,9 @@
             ?>
 
                     <br/>
-                    <center><h3>Protein-pathway associations</h3></center>
+                    <center><h3 id="protein-pathway-associations">Protein-pathway associations</h3></center>
             <?php
-                        if(count($pathwayRows) < 1) {
+                        if(count($keggPathwayRows) + count($mcPathwayRows) < 1) {
                             if ($keytype === "ID")
                                 echo "<center><p>No pathway associations found in the database for UniProt accession ID: ".$uniprot." !!</p></center>";
                             else
@@ -295,18 +376,31 @@
             ?>
                             <div style="overflow:auto;">
                                 <table class="summary">
-                                    <tr><?php foreach($pathwayAttributes as $attr) echo "<th>".$attr."</th>"; ?></tr>
+                                    <tr>
+                                        <th>Pathway type</th>
             <?php
-                                        foreach($pathwayRows as $row) {
-                                            echo "<tr>";
-                                            foreach(array_keys($pathwayAttributes) as $attr) {
-                                                if ($attr === "PathwayProteinInteractionID")
-                                                    echo "<td id=\"".$row[$attr]."\">".$row[$attr]."</td>";
-                                                elseif ($attr === "PathwayID")
-                                                    echo "<td><a class=\"link\" href=\"https://www.kegg.jp/entry/".$row[$attr]."\">".$row[$attr]."</a></td>";
+                                        foreach($keggPathwayAttributes as $attr) echo "<th>".$attr."</th>";
+            ?>
+                                    </tr>
+            <?php
+                                        foreach($keggPathwayRows as $row) {
+                                            echo "<tr><td>KEGG</td>";
+                                            foreach(array_keys($keggPathwayAttributes) as $attr) {
+                                                if ($attr === "PathwayID")
+                                                    echo "<td><a class=\"link\" id=\"".$row[$attr]."\" href=\"https://www.kegg.jp/entry/".$row[$attr]."\">".$row[$attr]." <img src=\"resource/redirect-icon.png\" height=\"12px\" width=\"auto\" /></a></td>";
                                                 else
                                                     echo "<td>".$row[$attr]."</td>";
                                             }
+                                            echo "</tr>";
+                                        }
+                                        foreach($mcPathwayRows as $row) {
+                                            echo "<tr>";
+                                            echo "<td>MitoCarta3.0</td>";
+                                            echo "<td id=\"".$row["PathwayProteinInteractionID"]."\">".$row["PathwayProteinInteractionID"]."</td>";
+                                            echo "<td>".$row["UniProtAccession"]."</td>";
+                                            echo "<td>".$row["Pathway"]."</td>";
+                                            echo "<td></td>";
+                                            echo "<td></td>";
                                             echo "</tr>";
                                         }
             ?>
@@ -317,7 +411,7 @@
             ?>
                     
                     <br/>
-                    <center><h3>Disease associated mutations</h3></center>
+                    <center><h3 id="disease-associated-mutations">Disease-associated mutations</h3></center>
             <?php
                         if(count($snpRows) < 1) {
                             if ($keytype === "ID")
@@ -358,7 +452,7 @@
             ?>
                     
                     <br/>
-                    <center><h3>Expression</h3></center>
+                    <center><h3 id="disease-associated-expression-variation">Disease-associated expression variation</h3></center>
             <?php
                         if(count($expRows) < 1) {
                             if ($keytype === "ID")
