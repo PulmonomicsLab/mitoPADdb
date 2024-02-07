@@ -153,6 +153,15 @@
                     echo "<center><p>Error !!! Disease ID: ".$key." does not exist in the database.</p></center>";
                 else {
                     echo "<center><h2>Disease ID: ".$key."</h2></center>";
+                    echo
+                        "<p style=\"width:80%; margin:10px 10% 5px 10%;\">
+                            <b>Users can access the three different data for this disease</b> either by
+                            selecting the name here,
+                            <a class=\"link\" href=\"#disease-protein-associations\">1. Disease-protein associations</a>,
+                            <a class=\"link\" href=\"#disease-associated-mutations\">2. Disease-associated mutations</a>,
+                            <a class=\"link\" href=\"#disease-associated-expression-variation\">3. Disease-associated expression variation</a>,
+                            or by scrolling up/down the page.
+                        </p>";
                     echo "<table class=\"details\" border=\"1\">";
 //                     echo "<tr><th>Attribute</th><th>Value</th></tr>";
                     
@@ -195,7 +204,7 @@
             ?>
             
             <br/>
-            <center><h3>Protein-disease associations</h3></center>
+            <center><h3 id="disease-protein-associations">Disease-protein associations</h3></center>
             <?php
                 if(count($proteinRows) < 1)
                     echo "<center><p>No protein associations found in the database for Disease ID: ".$key." !!</p></center>";
@@ -223,7 +232,7 @@
             ?>
             
             <br/>
-            <center><h3>Disease associated mutations</h3></center>
+            <center><h3 id="disease-associated-mutations">Disease-associated mutations</h3></center>
             <?php
                 if(count($snpRows) < 1)
                     echo "<center><p>No nucleotide mutations found in the database for Disease ID: ".$key." !!</p></center>";
@@ -257,7 +266,7 @@
             ?>
             
              <br/>
-            <center><h3>Expression</h3></center>
+            <center><h3 id="disease-associated-expression-variation">Disease-associated expression variation</h3></center>
             <?php
                 if(count($expRows) < 1)
                     echo "<center><p>No expression data found in the database for Disease ID: ".$key." !!</p></center>";
