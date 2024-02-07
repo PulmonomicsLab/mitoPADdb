@@ -62,12 +62,27 @@
 
         <!--<div class = "section_left"></div>-->
 
-        <div class = "section_middle">
-            <div id="pathway_tree_div"></div>
-<!--             <div id="foo"></div> -->
-        </div>
-        <script>
-            getPathwayData(<?php echo "'".$_GET["key"]."'" ?>, 'pathway_tree_div');
-        </script>
+        <?php
+            if ($_GET["key"] === "KEGG" || $_GET["key"] === "MC") {
+        ?>
+                <div class = "section_middle">
+                    <p>
+                        <b>N.B.-</b>
+                        <b>First</b>, users need to double-click on a pathway to get a list
+                        of genes associated with a pathway. <b>Further</b>, users need to
+                        double-click on a  gene to get a list of diseases associated with
+                        that gene.
+                    </p>
+                    <div id="pathway_tree_div"></div>
+<!--                     <div id="foo"></div> -->
+                </div>
+                <script>
+                    getPathwayData(<?php echo "'".$_GET["key"]."'" ?>, 'pathway_tree_div');
+                </script>
+        <?php
+            } else {
+                echo "<div class = \"section_middle\"><p>Invalid pathway type selected !! Cannot display pathways.</p></div>";
+            }
+        ?>
     </body>
 </html>

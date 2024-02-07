@@ -13,7 +13,7 @@
     $pathwayNodeMap = array();
     $pathwayTree = new stdClass();
     $rootObject = new stdClass();
-    $rootObject->text = "All Pathways";
+    $rootObject->text = "KEGG Pathways";
     $rootObject->children = array();
     $rootObject->state = new stdClass();
     $rootObject->state->opened = true;
@@ -41,7 +41,7 @@
 //         echo count($proteinRows);
         for ($j=0; $j<count($proteinRows); ++$j) {
             $protein_node = new stdClass();
-            $protein_node->text = "Protein - ".$proteinRows[$j]["GeneName"]." (".$proteinRows[$j]["UniProtAccession"].")";
+            $protein_node->text = "Gene - ".$proteinRows[$j]["GeneName"]." (".$proteinRows[$j]["UniProtAccession"].")";
             $protein_node->icon = "resource/icons/Mitochondria_Image_1.png";
 //             $protein_node->id = "protein_node_".strval($j)."_pathway_".strval($i);
 //             $protein_node->state = new stdClass();
