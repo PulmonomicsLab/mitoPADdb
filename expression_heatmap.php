@@ -54,7 +54,18 @@
 
         <div class = "section_middle">
             <center><p id="display_text"></p></center>
-            <div id="download_div" style="width:100%; text-align:center; margin-bottom:20px;"></div>
+            <div style="width:100%;">
+                <p>
+                    In the heatmap, the X-axis and Y-axis represent expression studies and gene symbols
+                    respectively. To visualize the heatmap of selected genes starting with a particular
+                    alphabet, users need to select an alphabet (A-Z) provided below. In case, there are
+                    no genes available for the selected alphabet, a message will show that <i>&quot;No
+                    genes starting with alphabet&quot;</i>. Here, the Log<sub>2</sub> Fold Change values
+                    [diseased vs control] were used to plot the expression heatmap.
+                </p>
+            </div>
+<!--             <div id="download_div" style="width:100%; text-align:center; margin-bottom:20px;"></div> -->
+
             <div style="width:100%;" id="plot_container_1"></div>
             <br/>
 
@@ -69,7 +80,7 @@
                     xmlhttp.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
                             document.getElementById('display_text').innerHTML = '<h3>' + display + '</h3>';
-                            document.getElementById('download_div').innerHTML = '<a href="' + file + '"><button type="button" style="margin:2px;">Download data</button></a>';
+//                             document.getElementById('download_div').innerHTML = '<a href="' + file + '"><button type="button" style="margin:2px;">Download data</button></a>';
                             data = plotHeatmap('plot_container_1', this.responseText);
                         }
                     };

@@ -61,6 +61,14 @@
 
         <div class = "section_middle">
             <center><p id="display_text"></p></center>
+            <div style="width:100%;">
+                <p>
+                    In the heatmap, the X-axis represents expression studies, and the Y-axis represents
+                    gene symbols, which is shown alphabet-wise. By default, the heatmap shows the genes
+                    starting with the alphabet &quot;A&quot;, users need to select other alphabets (A-Z)
+                    to obtain the heatmap of their choice of genes.
+                </p>
+            </div>
 
             <div class="alphabet" onclick="getHeatmapData('A', 'plot_container_1', dg1, dg2)">A</div>
             <div class="alphabet" onclick="getHeatmapData('B', 'plot_container_1', dg1, dg2)">B</div>
