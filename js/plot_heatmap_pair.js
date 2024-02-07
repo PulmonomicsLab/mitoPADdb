@@ -84,7 +84,7 @@ function makePlot(div_id, heatmapData, height) {
             tickwidth: 2,
             tickfont: {size: 10},
             title : {
-                text : "Gene Name",
+                text : "Gene Symbol",
                 font: {size: 22}
             }
         }
