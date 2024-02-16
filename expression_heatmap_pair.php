@@ -100,7 +100,13 @@
 
             <br/>
             <div style="width:100%;" id="plot_container_1"></div>
-            <br/>
+
+            <br/><hr/>
+            <p style="font-size:0.9em;text-align:center;">
+                &#169; 2024 Bose Institute. All rights reserved. For queries, please contact Dr. Sudipto Saha
+                (<a class="link" href="mailto:ssaha4@jcbose.ac.in">ssaha4@jcbose.ac.in</a>,
+                <a class="link" href="mailto:ssaha4@gmail.com">ssaha4@gmail.com</a>).
+            </p>
         </div>
 
         <script>

@@ -120,6 +120,13 @@
             <div class="alphabet" onclick="plotAlphabetHeatmap('Z', 'plot_container_2', data)">Z</div>
             <div style="clear:both;"></div>
             <div style="width:100%;" id="plot_container_2"></div>
+
+            <br/><hr/>
+            <p style="font-size:0.9em;text-align:center;">
+                &#169; 2024 Bose Institute. All rights reserved. For queries, please contact Dr. Sudipto Saha
+                (<a class="link" href="mailto:ssaha4@jcbose.ac.in">ssaha4@jcbose.ac.in</a>,
+                <a class="link" href="mailto:ssaha4@gmail.com">ssaha4@gmail.com</a>).
+            </p>
         </div>
     </body>
 </html>

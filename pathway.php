@@ -75,6 +75,12 @@
                     </p>
                     <div id="pathway_tree_div"></div>
 <!--                     <div id="foo"></div> -->
+                    <br/><hr/>
+                    <p style="font-size:0.9em;text-align:center;">
+                        &#169; 2024 Bose Institute. All rights reserved. For queries, please contact Dr. Sudipto Saha
+                        (<a class="link" href="mailto:ssaha4@jcbose.ac.in">ssaha4@jcbose.ac.in</a>,
+                        <a class="link" href="mailto:ssaha4@gmail.com">ssaha4@gmail.com</a>).
+                    </p>
                 </div>
                 <script>
                     getPathwayData(<?php echo "'".$_GET["key"]."'" ?>, 'pathway_tree_div');
