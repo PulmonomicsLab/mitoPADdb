@@ -69,6 +69,7 @@
                     to obtain the heatmap of their choice of genes.
                 </p>
             </div>
+            <div id="download_div" style="width:100%; text-align:center; margin-bottom:10px;"></div>
 
             <div class="alphabet" onclick="getHeatmapData('A', 'plot_container_1', dg1, dg2)">A</div>
             <div class="alphabet" onclick="getHeatmapData('B', 'plot_container_1', dg1, dg2)">B</div>
@@ -111,7 +112,11 @@
 
         <script>
             function getHeatmapData(alphabet, div_id, d1, d2) {
+                var prefix = 'input/PairwiseExpressionHeatmap/';
                 document.getElementById('display_text').innerHTML = '<h3>' + f_name1 + ' (' + dg1 + ') - ' + f_name2 + ' (' + dg2 + ') | Alphabet: ' + alphabet + '</h3>';
+                document.getElementById('download_div').innerHTML =
+                    '<a href="' + prefix + d1 + '.csv' + '"><button type="button" style="margin:2px;">Download Result (' + d1 + ')</button></a>' +
+                    '<a href="' + prefix + d2 + '.csv' + '"><button type="button" style="margin:2px;">Download Result (' + d2 + ')</button></a>';
                 var data1 = null;
                 var data2 = null;
                 var dgs = [d1, d2];
@@ -120,7 +125,6 @@
                     if(index > 2)
                         plotHeatmap(div_id, alphabet, data1, data2, dg1, dg2, '', '');
 
-                    var prefix = 'input/PairwiseExpressionHeatmap/';
                     var file = prefix + dgs[index - 1] + '.csv';
                     xmlhttp.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
