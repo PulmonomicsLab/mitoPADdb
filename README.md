@@ -1,7 +1,7 @@
 # mitoPADdb
 A database of Mitochondrial Proteins Associated with Diseases
 
-The mitoPADdb is a manually curated database that provides comprehensive information on *813 mitochondrial 
+The mitoPADdb is a manually curated database that provides comprehensive information on *810 mitochondrial 
 protein-encoding (MPE) genes* associated with *1793 disease terms*. It contains information on mutations 
 and expressional variations of MPE genes at both the mRNA and protein levels. The database classifies the 
 diseases linked with mitochondrial proteins into *14 broad categories*.
@@ -16,7 +16,7 @@ understanding the data and usage of mitoPADdb. It allows users to access the dat
 1. **Search option**: The search option allows the users top search the database with Gene symbol, UniProt
    accession, or both.
 
-   The search option provides information about *18356 mutations*, *1286 expressional variations* (mRNA
+   The search option provides information about *18356 mutations*, *1284 expressional variations* (mRNA
    and protein levels) with experimental samples and techniques, and associated diseases with source
    identifiers.
 
