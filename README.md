@@ -8,7 +8,7 @@ diseases linked with mitochondrial proteins into *14 broad categories*.
 
 **Cite as:**
 
->Das, J., Bhattacharjee, S., & Saha, S. (2022). mitoPADdb: A database of mitochondrial proteins associated
+>Das, J., Bhattacharjee, S., & Saha, S. (2024). mitoPADdb: A database of mitochondrial proteins associated
 with diseases *Mitochondrion*, 78, 101927.<br/>
 [https://doi.org/10.1016/j.mito.2024.101927](https://doi.org/10.1016/j.mito.2024.101927).
 
