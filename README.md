@@ -6,6 +6,12 @@ protein-encoding (MPE) genes* associated with *1793 disease terms*. It contains 
 and expressional variations of MPE genes at both the mRNA and protein levels. The database classifies the 
 diseases linked with mitochondrial proteins into *14 broad categories*.
 
+**Cite as:**
+
+>Das, J., Bhattacharjee, S., & Saha, S. (2022). mitoPADdb: A database of mitochondrial proteins associated
+with diseases *Mitochondrion*, 78, 101927.<br/>
+[https://doi.org/10.1016/j.mito.2024.101927](https://doi.org/10.1016/j.mito.2024.101927).
+
 ## About mitoPADdb
 mitoPADdb is available at: [http://bicresources.jcbose.ac.in/ssaha4/mitopaddb](http://bicresources.jcbose.ac.in/ssaha4/mitopaddb).
 
