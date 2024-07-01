@@ -1,0 +1,811 @@
+Gene symbol,UniProt Accession,Mitochondrial protein annotation type,UniProtKB/Swiss-Prot Annotation,GO_CC Annotation,GO_BP Annotation,PubMed,MitoCarta3.0 Annotation
+AARS2,Q5JTZ9,Localized,https://www.uniprot.org/uniprotkb/Q5JTZ9/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+AASS,Q9UDR5,Localized,https://www.uniprot.org/uniprotkb/Q9UDR5/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ABAT,P80404,Localized,https://www.uniprot.org/uniprotkb/P80404/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ABCB10,Q9NRK6,Localized,https://www.uniprot.org/uniprotkb/Q9NRK6/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+ABCB6,Q9NP58,Localized,https://www.uniprot.org/uniprotkb/Q9NP58/entry#subcellular_location ,mitochondrial envelope [GO:0005740]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+ABCB7,O75027,Localized,https://www.uniprot.org/uniprotkb/O75027/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+ABCD1,P33897,Localized,https://www.uniprot.org/uniprotkb/P33897/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,Yes
+ABCD3,P28288,Localized,,mitochondrion [GO:0005739],,,Yes
+ABCG1,P45844,Localized,,mitochondrion [GO:0005739],,,No
+ABL1,P00519,Localized,https://www.uniprot.org/uniprotkb/P00519/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+ACAA2,P42765,Localized,https://www.uniprot.org/uniprotkb/P42765/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ACAD8,Q9UKU7,Localized,https://www.uniprot.org/uniprotkb/Q9UKU7/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+ACAD9,Q9H845,Localized,https://www.uniprot.org/uniprotkb/Q9H845/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+ACADM,P11310,Localized,https://www.uniprot.org/uniprotkb/P11310/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+ACADS,P16219,Localized,https://www.uniprot.org/uniprotkb/P16219/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ACADSB,P45954,Localized,https://www.uniprot.org/uniprotkb/P45954/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ACADVL,P49748,Localized,https://www.uniprot.org/uniprotkb/P49748/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+ACAT1,P24752,Localized,https://www.uniprot.org/uniprotkb/P24752/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ACO1,P21399,Localized,,mitochondrion [GO:0005739],,,No
+ACO2,Q99798,Localized,https://www.uniprot.org/uniprotkb/Q99798/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ACP6,Q9NPH0,Localized,https://www.uniprot.org/uniprotkb/Q9NPH0/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ACSF3,Q4G176,Localized,https://www.uniprot.org/uniprotkb/Q4G176/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ACSL1,P33121,Localized,https://www.uniprot.org/uniprotkb/P33121/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+ACSL3,O95573,Localized,https://www.uniprot.org/uniprotkb/O95573/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+ACSL4,O60488,Localized,https://www.uniprot.org/uniprotkb/O60488/entry#subcellular_location ,mitochondria-associated endoplasmic reticulum membrane [GO:0044233]; mitochondrial outer membrane [GO:0005741],,,No
+ACSS1,Q9NUB1,Localized,https://www.uniprot.org/uniprotkb/Q9NUB1/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ADCY10,Q96PN6,Localized,https://www.uniprot.org/uniprotkb/Q96PN6/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+ADPRS,Q9NX46,Localized,https://www.uniprot.org/uniprotkb/Q9NX46/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+AFG2A,Q8NB90,Localized,https://www.uniprot.org/uniprotkb/Q8NB90/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+AFG3L2,Q9Y4W6,Localized,https://www.uniprot.org/uniprotkb/Q9Y4W6/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+AGK,Q53H12,Localized,https://www.uniprot.org/uniprotkb/Q53H12/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739]; TIM22 mitochondrial import inner membrane insertion complex [GO:0042721],,,Yes
+AGPAT4,Q9NRZ5,Localized,,mitochondrial outer membrane [GO:0005741],,,Yes
+AGTPBP1,Q9UPW5,Localized,https://www.uniprot.org/uniprotkb/Q9UPW5/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+AGXT,P21549,Localized,,,,,Yes
+AIFM1,O95831,Localized,https://www.uniprot.org/uniprotkb/O95831/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+AIFM2,Q9BRQ8,Localized,https://www.uniprot.org/uniprotkb/Q9BRQ8/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+AK2,P54819,Localized,https://www.uniprot.org/uniprotkb/P54819/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739]; sperm mitochondrial sheath [GO:0097226],,,Yes
+AK3,Q9UIJ7,Localized,https://www.uniprot.org/uniprotkb/Q9UIJ7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+AK4,P27144,Localized,https://www.uniprot.org/uniprotkb/P27144/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+AKAP1,Q92667,Localized,https://www.uniprot.org/uniprotkb/Q92667/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+ALAS2,P22557,Localized,https://www.uniprot.org/uniprotkb/P22557/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ALDH18A1,P54886,Localized,https://www.uniprot.org/uniprotkb/P54886/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+ALDH1L2,Q3SY69,Localized,https://www.uniprot.org/uniprotkb/Q3SY69/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ALDH3A2,P51648,Localized,,,,,Yes
+ALDH4A1,P30038,Localized,https://www.uniprot.org/uniprotkb/P30038/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ALDH5A1,P51649,Localized,https://www.uniprot.org/uniprotkb/P51649/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ALDH6A1,Q02252,Localized,https://www.uniprot.org/uniprotkb/Q02252/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ALDH7A1,P49419,Localized,https://www.uniprot.org/uniprotkb/P49419/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ALPL,P05186,Localized,https://www.uniprot.org/uniprotkb/P05186/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial membrane [GO:0031966],,,No
+ALS2,Q96Q42,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/16670179/,No
+AMACR,Q9UHK6,Localized,https://www.uniprot.org/uniprotkb/Q9UHK6/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+AMBP,P02760,Localized,https://www.uniprot.org/uniprotkb/P02760/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,No
+AMT,P48728,Localized,https://www.uniprot.org/uniprotkb/P48728/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ANK2,Q01484,Localized,https://www.uniprot.org/uniprotkb/Q01484/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+APOO,Q9BUR5,Localized,https://www.uniprot.org/uniprotkb/Q9BUR5/entry#subcellular_location ,MICOS complex [GO:0061617]; mitochondrial crista junction [GO:0044284]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739]; SAM complex [GO:0001401],,,Yes
+ARHGAP11B,Q3KRB8,Localized,https://www.uniprot.org/uniprotkb/Q3KRB8/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,No
+ARL2,P36404,Localized,https://www.uniprot.org/uniprotkb/P36404/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ARL2BP,Q9Y2Y0,Localized,https://www.uniprot.org/uniprotkb/Q9Y2Y0/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759],,,No
+ARMS2,P0C7Q2,Localized,,mitochondrion [GO:0005739],,,No
+ATAD1,Q8NBU5,Localized,https://www.uniprot.org/uniprotkb/Q8NBU5/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,Yes
+ATAD3A,Q9NVI7,Localized,https://www.uniprot.org/uniprotkb/Q9NVI7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+ATCAY,Q86WG3,Localized,https://www.uniprot.org/uniprotkb/Q86WG3/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,No
+ATG13,O75143,Localized,,mitochondrion [GO:0005739],,,No
+ATG4D,Q86TL0,Localized,https://www.uniprot.org/uniprotkb/Q86TL0/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+ATG7,O95352,Associated/ancillary,Required for mitophagy which contributes to regulate mitochondrial quantity and quality by eliminating the mitochondria to a basal level to fulfill cellular energy requirements and preventing excess ROS production. (https://www.uniprot.org/uniprotkb/O95352/entry),,,,No
+ATP5F1A,P25705,Localized,https://www.uniprot.org/uniprotkb/P25705/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase, catalytic core [GO:0005754]; mitochondrion [GO:0005739]; proton-transporting ATP synthase complex [GO:0045259]; proton-transporting ATP synthase complex, catalytic core F(1) [GO:0045261]",,,Yes
+ATP5F1B,P06576,Localized,https://www.uniprot.org/uniprotkb/P06576/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrial nucleoid [GO:0042645]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase, catalytic core [GO:0005754]; mitochondrion [GO:0005739]; proton-transporting ATP synthase complex [GO:0045259]; proton-transporting ATP synthase complex, catalytic core F(1) [GO:0045261]",,,Yes
+ATP5F1C,P36542,Localized,https://www.uniprot.org/uniprotkb/P36542/entry#subcellular_location ,"membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, catalytic sector F(1) [GO:0000275]; mitochondrion [GO:0005739]",,,Yes
+ATP5F1D,P30049,Localized,https://www.uniprot.org/uniprotkb/P30049/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, catalytic sector F(1) [GO:0000275]; mitochondrion [GO:0005739]",,,Yes
+ATP5F1E,P56381,Localized,https://www.uniprot.org/uniprotkb/P56381/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, catalytic sector F(1) [GO:0000275]",,,Yes
+ATP5MC1,P05496,Localized,https://www.uniprot.org/uniprotkb/P05496/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]; mitochondrion [GO:0005739]",,,Yes
+ATP5MC2,Q06055,Localized,https://www.uniprot.org/uniprotkb/Q06055/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial outer membrane [GO:0005741]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]",,,Yes
+ATP5MC3,P48201,Localized,https://www.uniprot.org/uniprotkb/P48201/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial outer membrane [GO:0005741]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]",,,Yes
+ATP5ME,P56385,Localized,https://www.uniprot.org/uniprotkb/P56385/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]; mitochondrion [GO:0005739]",,,Yes
+ATP5MF,P56134,Localized,https://www.uniprot.org/uniprotkb/P56134/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrion [GO:0005739]; nuclear membrane [GO:0031965]; proton-transporting ATP synthase complex, coupling factor F(o) [GO:0045263]",,,Yes
+ATP5MG,O75964,Localized,https://www.uniprot.org/uniprotkb/O75964/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]; mitochondrion [GO:0005739]",,,Yes
+ATP5PB,P24539,Localized,https://www.uniprot.org/uniprotkb/P24539/entry#subcellular_location ,"membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]; mitochondrion [GO:0005739]; nucleus [GO:0005634]",,,Yes
+ATP5PD,O75947,Localized,https://www.uniprot.org/uniprotkb/O75947/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase, stator stalk [GO:0000274]; mitochondrion [GO:0005739]",,,Yes
+ATP5PF,P18859,Localized,https://www.uniprot.org/uniprotkb/P18859/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]; mitochondrion [GO:0005739]",,,Yes
+ATP5PO,P48047,Localized,https://www.uniprot.org/uniprotkb/P48047/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase, stator stalk [GO:0000274]; mitochondrion [GO:0005739]",,,Yes
+ATP7B,P35670,Localized,https://www.uniprot.org/uniprotkb/P35670/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+ATPAF2,Q8N5M1,Localized,https://www.uniprot.org/uniprotkb/Q8N5M1/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+AUH,Q13825,Localized,https://www.uniprot.org/uniprotkb/Q13825/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+BAG3,O95817,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/27381181/,No
+BAX,Q07812,Localized,https://www.uniprot.org/uniprotkb/Q07812/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrial permeability transition pore complex [GO:0005757]; mitochondrion [GO:0005739]; nuclear envelope [GO:0005635],,,Yes
+BCAT2,O15382,Localized,https://www.uniprot.org/uniprotkb/O15382/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+BCKDHA,P12694,Localized,https://www.uniprot.org/uniprotkb/P12694/entry#subcellular_location ,mitochondrial alpha-ketoglutarate dehydrogenase complex [GO:0005947]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+BCKDHB,P21953,Localized,https://www.uniprot.org/uniprotkb/P21953/entry#subcellular_location ,mitochondrial alpha-ketoglutarate dehydrogenase complex [GO:0005947]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+BCKDK,O14874,Localized,https://www.uniprot.org/uniprotkb/O14874/entry#subcellular_location ,mitochondrial alpha-ketoglutarate dehydrogenase complex [GO:0005947]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+BCL2,P10415,Localized,https://www.uniprot.org/uniprotkb/P10415/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+BCL2L11,O43521,Localized,https://www.uniprot.org/uniprotkb/O43521/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+BCS1L,Q9Y276,Localized,https://www.uniprot.org/uniprotkb/Q9Y276/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrion [GO:0005739],,,Yes
+BDH1,Q02338,Localized,https://www.uniprot.org/uniprotkb/Q02338/entry#subcellular_location ,matrix side of mitochondrial inner membrane [GO:0099617]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+BID,P55957,Localized,https://www.uniprot.org/uniprotkb/P55957/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+BNIP3,Q12983,Localized,https://www.uniprot.org/uniprotkb/Q12983/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+BOLA3,Q53S33,Localized,https://www.uniprot.org/uniprotkb/Q53S33/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+BRAF,P15056,Localized,,mitochondrion [GO:0005739],,,No
+BRAT1,Q6PJG6,Localized,Plays a role in regulating mitochondrial function and cell proliferation (https://www.uniprot.org/uniprotkb/Q6PJG6/entry),,mitochondrion localization [GO:0051646],,No
+BTD,P43251,Localized,,mitochondrial matrix [GO:0005759],,,No
+C19orf12,Q9NSK7,Localized,https://www.uniprot.org/uniprotkb/Q9NSK7/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,No
+C1QBP,Q07021,Localized,https://www.uniprot.org/uniprotkb/Q07021/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+C2orf69,Q8N8R5,Localized,https://www.uniprot.org/uniprotkb/Q8N8R5/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739]; respirasome [GO:0070469],,,Yes
+CA5A,P35218,Localized,https://www.uniprot.org/uniprotkb/P35218/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+CARS2,Q9HA77,Localized,https://www.uniprot.org/uniprotkb/Q9HA77/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+CASP8,Q14790,Localized,,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+CASP8AP2,Q9UKL3,Localized,https://www.uniprot.org/uniprotkb/Q9UKL3/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+CASP9,P55211,Localized,,mitochondrion [GO:0005739],,,Yes
+CASQ1,P31415,Localized,https://www.uniprot.org/uniprotkb/P31415/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+CAT,P04040,Localized,,mitochondrion [GO:0005739],,,Yes
+CAVIN1,Q6NZI2,Localized,https://www.uniprot.org/uniprotkb/Q6NZI2/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+CCDC51,Q96ER9,Localized,https://www.uniprot.org/uniprotkb/Q96ER9/entry#subcellular_location ,mitochondrial ATP-gated potassium channel complex [GO:0062157]; mitochondrial inner membrane [GO:0005743],,,Yes
+CDK1,P06493,Localized,https://www.uniprot.org/uniprotkb/P06493/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+CDKN2A,Q8N726,Localized,https://www.uniprot.org/uniprotkb/Q8N726/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+CHCHD10,Q8WYQ3,Localized,https://www.uniprot.org/uniprotkb/Q8WYQ3/entry#subcellular_location ,MICOS complex [GO:0061617]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+CHCHD2,Q9Y6H1,Localized,https://www.uniprot.org/uniprotkb/Q9Y6H1/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+CHCHD3,Q9NX63,Localized,https://www.uniprot.org/uniprotkb/Q9NX63/entry#subcellular_location ,MIB complex [GO:0140275]; MICOS complex [GO:0061617]; mitochondrial crista junction [GO:0044284]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739]; SAM complex ,,,Yes
+CHCHD4,Q8N4Q1,Localized,https://www.uniprot.org/uniprotkb/Q8N4Q1/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+CHDH,Q8NE62,Localized,https://www.uniprot.org/uniprotkb/Q8NE62/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+CISD1,Q9NZ45,Localized,https://www.uniprot.org/uniprotkb/Q9NZ45/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+CISD2,Q8N5K1,Localized,https://www.uniprot.org/uniprotkb/Q8N5K1/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+CKB,P12277,Localized,https://www.uniprot.org/uniprotkb/P12277/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+CKMT2,P17540,Localized,https://www.uniprot.org/uniprotkb/P17540/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+CLIC4,Q9Y696,Localized,https://www.uniprot.org/uniprotkb/Q9Y696/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+CLN8,Q9UBY8,Localized,,mitochondrion [GO:0005739],,,No
+CLPB,Q9H078,Localized,https://www.uniprot.org/uniprotkb/Q9H078/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+CLPP,Q16740,Localized,https://www.uniprot.org/uniprotkb/Q16740/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+CLPX,O76031,Localized,https://www.uniprot.org/uniprotkb/O76031/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+COA3,Q9Y2R0,Localized,https://www.uniprot.org/uniprotkb/Q9Y2R0/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+COA4,Q9NYJ1,Localized,https://www.uniprot.org/uniprotkb/Q9NYJ1/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+COA5,Q86WW8,Localized,,mitochondrion [GO:0005739],,,Yes
+COA6,Q5JTJ3,Localized,https://www.uniprot.org/uniprotkb/Q5JTJ3/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739]; respiratory chain complex IV [GO:0045277],,,Yes
+COA7,Q96BR5,Localized,https://www.uniprot.org/uniprotkb/Q96BR5/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+COA8,Q96IL0,Localized,https://www.uniprot.org/uniprotkb/Q96IL0/entry#subcellular_location ,matrix side of mitochondrial inner membrane [GO:0099617]; mitochondrion [GO:0005739],,,Yes
+COASY,Q13057,Localized,https://www.uniprot.org/uniprotkb/Q13057/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial outer membrane [GO:0005741],,,Yes
+COL6A2,P12110,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/16823967/,No
+COMT,P21964,Localized,,,,,Yes
+COQ2,Q96H96,Localized,https://www.uniprot.org/uniprotkb/Q96H96/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+COQ4,Q9Y3A0,Localized,https://www.uniprot.org/uniprotkb/Q9Y3A0/entry#subcellular_location ,extrinsic component of mitochondrial inner membrane [GO:0031314]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+COQ5,Q5HYK3,Localized,https://www.uniprot.org/uniprotkb/Q5HYK3/entry#subcellular_location ,extrinsic component of mitochondrial inner membrane [GO:0031314]; mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759],,,Yes
+COQ6,Q9Y2Z9,Localized,https://www.uniprot.org/uniprotkb/Q9Y2Z9/entry#subcellular_location ,extrinsic component of mitochondrial inner membrane [GO:0031314]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+COQ7,Q99807,Localized,https://www.uniprot.org/uniprotkb/Q99807/entry#subcellular_location ,extrinsic component of mitochondrial inner membrane [GO:0031314]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+COQ8A,Q8NI60,Localized,https://www.uniprot.org/uniprotkb/Q8NI60/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+COQ8B,Q96D53,Localized,https://www.uniprot.org/uniprotkb/Q96D53/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+COQ9,O75208,Localized,https://www.uniprot.org/uniprotkb/O75208/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+COX10,Q12887,Localized,https://www.uniprot.org/uniprotkb/Q12887/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+COX14,Q96I36,Localized,https://www.uniprot.org/uniprotkb/Q96I36/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+COX15,Q7KZN9,Localized,https://www.uniprot.org/uniprotkb/Q7KZN9/entry#subcellular_location ,cytochrome complex [GO:0070069]; mitochondrial inner membrane [GO:0005743]; mitochondrial respirasome [GO:0005746]; mitochondrion [GO:0005739],,,Yes
+COX16,Q9P0S2,Localized,https://www.uniprot.org/uniprotkb/Q9P0S2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+COX17,Q14061,Localized,https://www.uniprot.org/uniprotkb/Q14061/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758],,,Yes
+COX20,Q5RI15,Localized,https://www.uniprot.org/uniprotkb/Q5RI15/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+COX4I1,P13073,Localized,https://www.uniprot.org/uniprotkb/P13073/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+COX4I2,Q96KJ9,Localized,https://www.uniprot.org/uniprotkb/Q96KJ9/entry#subcellular_location ,mitochondrial respiratory chain complex IV [GO:0005751],,,Yes
+COX5A,P20674,Localized,https://www.uniprot.org/uniprotkb/P20674/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751],,,Yes
+COX5B,P10606,Localized,https://www.uniprot.org/uniprotkb/P10606/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+COX6A1,P12074,Localized,https://www.uniprot.org/uniprotkb/P12074/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+COX6A2,Q02221,Localized,https://www.uniprot.org/uniprotkb/Q02221/entry#subcellular_location ,mitochondrial respiratory chain complex IV [GO:0005751],,,Yes
+COX6B1,P14854,Localized,https://www.uniprot.org/uniprotkb/P14854/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739]; respiratory chain complex IV [GO:0045277],,,Yes
+COX6B2,Q6YFQ2,Localized,https://www.uniprot.org/uniprotkb/Q6YFQ2/entry#subcellular_location ,mitochondrial crista [GO:0030061]; mitochondrion [GO:0005739]; respiratory chain complex IV [GO:0045277],,,Yes
+COX7A1,P24310,Localized,https://www.uniprot.org/uniprotkb/P24310/entry#subcellular_location ,mitochondrial respirasome [GO:0005746]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+COX7A2,P14406,Localized,https://www.uniprot.org/uniprotkb/P14406/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial respirasome [GO:0005746]; mitochondrial respiratory chain complex IV [GO:0005751],,,Yes
+COX7A2L,O14548,Localized,https://www.uniprot.org/uniprotkb/O14548/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respirasome [GO:0005746]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+COX7B,P24311,Localized,https://www.uniprot.org/uniprotkb/P24311/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739]; respiratory chain complex IV [GO:0045277],,,Yes
+COX7C,P15954,Localized,https://www.uniprot.org/uniprotkb/P15954/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+COX8A,P10176,Localized,https://www.uniprot.org/uniprotkb/P10176/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739]; respiratory chain complex IV [GO:0045277],,,Yes
+COX8C,Q7Z4L0,Localized,https://www.uniprot.org/uniprotkb/Q7Z4L0/entry#subcellular_location ,mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739]; respiratory chain complex IV [GO:0045277],,,Yes
+CPOX,P36551,Localized,https://www.uniprot.org/uniprotkb/P36551/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+CPS1,P31327,Localized,https://www.uniprot.org/uniprotkb/P31327/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645],,,Yes
+CPT1A,P50416,Localized,https://www.uniprot.org/uniprotkb/P50416/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+CPT1C,Q8TCG5,Localized,,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+CPT2,P23786,Localized,https://www.uniprot.org/uniprotkb/P23786/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+CRABP2,P29373,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/16823967/,No
+CRAT,P43155,Localized,https://www.uniprot.org/uniprotkb/P43155/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+CS,O75390,Localized,https://www.uniprot.org/uniprotkb/O75390/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+CYB5R3,P00387,Localized,https://www.uniprot.org/uniprotkb/P00387/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+CYC1,P08574,Localized,https://www.uniprot.org/uniprotkb/P08574/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrion [GO:0005739],,,Yes
+CYCS,P99999,Localized,https://www.uniprot.org/uniprotkb/P99999/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+CYP11A1,P05108,Localized,https://www.uniprot.org/uniprotkb/P05108/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+CYP11B1,P15538,Localized,https://www.uniprot.org/uniprotkb/P15538/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+CYP11B2,P19099,Localized,https://www.uniprot.org/uniprotkb/P19099/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+CYP1B1,Q16678,Localized,https://www.uniprot.org/uniprotkb/Q16678/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+CYP24A1,Q07973,Localized,https://www.uniprot.org/uniprotkb/Q07973/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+CYP27A1,Q02318,Localized,https://www.uniprot.org/uniprotkb/Q02318/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+CYP27B1,O15528,Localized,https://www.uniprot.org/uniprotkb/O15528/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+CYP2U1,Q7Z449,Localized,https://www.uniprot.org/uniprotkb/Q7Z449/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,No
+D2HGDH,Q8N465,Localized,https://www.uniprot.org/uniprotkb/Q8N465/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+DARS2,Q6PI48,Localized,https://www.uniprot.org/uniprotkb/Q6PI48/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+DBT,P11182,Localized,https://www.uniprot.org/uniprotkb/P11182/entry#subcellular_location ,mitochondrial alpha-ketoglutarate dehydrogenase complex [GO:0005947]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+DDHD1,Q8NEL9,Associated/ancillary,Regulates mitochondrial morphology (https://www.uniprot.org/uniprotkb/Q8NEL9/entry),,positive regulation of mitochondrial fission [GO:0090141],,No
+DDX1,Q92499,Localized,https://www.uniprot.org/uniprotkb/Q92499/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+DECR1,Q16698,Localized,https://www.uniprot.org/uniprotkb/Q16698/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+DEGS1,O15121,Localized,https://www.uniprot.org/uniprotkb/O15121/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,No
+DGUOK,Q16854,Localized,https://www.uniprot.org/uniprotkb/Q16854/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+DHFR,P00374,Localized,https://www.uniprot.org/uniprotkb/P00374/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+DHODH,Q02127,Localized,https://www.uniprot.org/uniprotkb/Q02127/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+DHTKD1,Q96HY7,Localized,https://www.uniprot.org/uniprotkb/Q96HY7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+DHX30,Q7L2E3,Localized,https://www.uniprot.org/uniprotkb/Q7L2E3/entry#subcellular_location ,mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+DIABLO,Q9NR28,Localized,https://www.uniprot.org/uniprotkb/Q9NR28/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+DISC1,Q9NRI5,Localized,https://www.uniprot.org/uniprotkb/Q9NRI5/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+DLAT,P10515,Localized,https://www.uniprot.org/uniprotkb/P10515/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739]; pyruvate dehydrogenase complex [GO:0045254],,,Yes
+DLD,P09622,Localized,https://www.uniprot.org/uniprotkb/P09622/entry#subcellular_location ,mitochondrial alpha-ketoglutarate dehydrogenase complex [GO:0005947]; mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739],,,Yes
+DLST,P36957,Localized,https://www.uniprot.org/uniprotkb/P36957/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+DMPK,Q09013,Localized,https://www.uniprot.org/uniprotkb/Q09013/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,Yes
+DNA2,P51530,Localized,https://www.uniprot.org/uniprotkb/P51530/entry#subcellular_location ,mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+DNAJA3,Q96EY1,Localized,https://www.uniprot.org/uniprotkb/Q96EY1/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+DNAJC19,Q96DA6,Localized,https://www.uniprot.org/uniprotkb/Q96DA6/entry#subcellular_location ,"inner mitochondrial membrane protein complex [GO:0098800]; matrix side of mitochondrial inner membrane [GO:0099617]; membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739]; PAM complex, Tim23 associated import motor [GO:0001405]; protein-containing complex [GO:0032991]; TIM23 mitochondrial import inner membrane translocase complex [GO:0005744]",,,Yes
+DNAJC30,Q96LL9,Localized,https://www.uniprot.org/uniprotkb/Q96LL9/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+DNM1L,O00429,Localized,https://www.uniprot.org/uniprotkb/O00429/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+DTYMK,P23919,Localized,,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+DUT,P33316,Localized,https://www.uniprot.org/uniprotkb/P33316/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+DYNLL1,P63167,Localized,https://www.uniprot.org/uniprotkb/P63167/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+EARS2,Q5JPH6,Localized,https://www.uniprot.org/uniprotkb/Q5JPH6/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ECH1,Q13011,Localized,https://www.uniprot.org/uniprotkb/Q13011/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+ECHS1,P30084,Localized,https://www.uniprot.org/uniprotkb/P30084/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ECI1,P42126,Localized,https://www.uniprot.org/uniprotkb/P42126/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ECI2,O75521,Localized,https://www.uniprot.org/uniprotkb/O75521/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+EHHADH,Q08426,Localized,,,,,Yes
+ELAC2,Q9BQ52,Localized,https://www.uniprot.org/uniprotkb/Q9BQ52/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+ELK1,P19419,Localized,,mitochondrial membrane [GO:0031966],,,No
+ERAL1,O75616,Localized,https://www.uniprot.org/uniprotkb/O75616/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ERBB4,Q15303,Localized,https://www.uniprot.org/uniprotkb/Q15303/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+ERCC6L2,Q5T890,Localized,https://www.uniprot.org/uniprotkb/Q5T890/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+ESRRA,P11474,Associated/ancillary,Transcriptional activation of mitochondrial biogenesis (Reactome) (https://www.uniprot.org/uniprotkb/P11474/entry),,,https://pubmed.ncbi.nlm.nih.gov/25575635/,No
+ETFA,P13804,Localized,https://www.uniprot.org/uniprotkb/P13804/entry#subcellular_location ,electron transfer flavoprotein complex [GO:0045251]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ETFB,P38117,Localized,https://www.uniprot.org/uniprotkb/P38117/entry#subcellular_location ,electron transfer flavoprotein complex [GO:0045251]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ETFDH,Q16134,Localized,https://www.uniprot.org/uniprotkb/Q16134/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966],,,Yes
+ETHE1,O95571,Localized,https://www.uniprot.org/uniprotkb/O95571/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FARS2,O95363,Localized,https://www.uniprot.org/uniprotkb/O95363/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FASTKD1,Q53R41,Localized,https://www.uniprot.org/uniprotkb/Q53R41/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FASTKD2,Q9NYY8,Localized,https://www.uniprot.org/uniprotkb/Q9NYY8/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+FBXL4,Q9UKA2,Localized,https://www.uniprot.org/uniprotkb/Q9UKA2/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758],,,Yes
+FBXO7,Q9Y3I1,Localized,https://www.uniprot.org/uniprotkb/Q9Y3I1/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+FDPS,P14324,Localized,,,,,Yes
+FDX1,P10109,Localized,https://www.uniprot.org/uniprotkb/P10109/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FDXR,P22570,Localized,https://www.uniprot.org/uniprotkb/P22570/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FECH,P22830,Localized,https://www.uniprot.org/uniprotkb/P22830/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FEZ1,Q99689,Associated/ancillary,May participate in the transport of mitochondria and other cargos along microtubules (https://www.uniprot.org/uniprotkb/Q99689/entry),,establishment of mitochondrion localization [GO:0051654]; mitochondrion morphogenesis [GO:0070584]; positive regulation of anterograde axonal transport of mitochondrion [GO:0061881],,No
+FH,P07954,Localized,https://www.uniprot.org/uniprotkb/P07954/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FIS1,Q9Y3D6,Localized,https://www.uniprot.org/uniprotkb/Q9Y3D6/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+FKBP10,Q96AY3,Localized,,mitochondrial intermembrane space [GO:0005758],,,Yes
+FLAD1,Q8NFF5,Localized,https://www.uniprot.org/uniprotkb/Q8NFF5/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+FLVCR1,Q9Y5Y0,Localized,https://www.uniprot.org/uniprotkb/Q9Y5Y0/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,No
+FOXRED1,Q96CU9,Localized,https://www.uniprot.org/uniprotkb/Q96CU9/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+FPGS,Q05932,Localized,https://www.uniprot.org/uniprotkb/Q05932/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FTH1,P02794,Localized,,,,,Yes
+FTMT,Q8N4E7,Localized,https://www.uniprot.org/uniprotkb/Q8N4E7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+FXN,Q16595,Localized,https://www.uniprot.org/uniprotkb/Q16595/entry#subcellular_location ,mitochondrial iron-sulfur cluster assembly complex [GO:0099128]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GABARAPL1,Q9H0R8,Associated/ancillary,Involved in formation of autophagosomal vacuoles (https://www.uniprot.org/uniprotkb/Q9H0R8/entry),,autophagosome assembly [GO:0000045]; autophagy of mitochondrion [GO:0000422],https://pubmed.ncbi.nlm.nih.gov/24879149/,No
+GADD45GIP1,Q8TAE8,Localized,https://www.uniprot.org/uniprotkb/Q8TAE8/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GARS1,P41250,Localized,https://www.uniprot.org/uniprotkb/P41250/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GATB,O75879,Localized,https://www.uniprot.org/uniprotkb/O75879/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+GATC,O43716,Localized,https://www.uniprot.org/uniprotkb/O43716/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+GATD3B,A0A0B4J2D5,Localized,https://www.uniprot.org/uniprotkb/A0A0B4J2D5/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+GATM,P50440,Localized,https://www.uniprot.org/uniprotkb/P50440/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+GCDH,Q92947,Localized,https://www.uniprot.org/uniprotkb/Q92947/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GCK,P35557,Localized,https://www.uniprot.org/uniprotkb/P35557/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+GCSH,P23434,Localized,https://www.uniprot.org/uniprotkb/P23434/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GDAP1,Q8TB36,Localized,https://www.uniprot.org/uniprotkb/Q8TB36/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+GFER,P55789,Localized,https://www.uniprot.org/uniprotkb/P55789/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+GFM1,Q96RP9,Localized,https://www.uniprot.org/uniprotkb/Q96RP9/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GFM2,Q969S9,Localized,https://www.uniprot.org/uniprotkb/Q969S9/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+GK,P32189,Localized,https://www.uniprot.org/uniprotkb/P32189/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+GLDC,P23378,Localized,https://www.uniprot.org/uniprotkb/P23378/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GLRX5,Q86SX6,Localized,https://www.uniprot.org/uniprotkb/Q86SX6/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GLS,O94925,Localized,https://www.uniprot.org/uniprotkb/O94925/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GLUD1,P00367,Localized,https://www.uniprot.org/uniprotkb/P00367/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GLUL,P15104,Localized,https://www.uniprot.org/uniprotkb/P15104/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+GLYAT,Q6IB77,Localized,https://www.uniprot.org/uniprotkb/Q6IB77/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GLYCTK,Q8IVS8,Localized,https://www.uniprot.org/uniprotkb/Q8IVS8/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+GPAM,Q9HCL2,Localized,https://www.uniprot.org/uniprotkb/Q9HCL2/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741],,,Yes
+GPD2,P43304,Localized,https://www.uniprot.org/uniprotkb/P43304/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+GPT2,Q8TD30,Localized,,mitochondrial matrix [GO:0005759],,,Yes
+GPX1,P07203,Localized,https://www.uniprot.org/uniprotkb/P07203/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GPX4,P36969,Localized,https://www.uniprot.org/uniprotkb/P36969/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+GRHPR,Q9UBQ7,Localized,,,,,Yes
+GSR,P00390,Localized,https://www.uniprot.org/uniprotkb/P00390/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GSS,P48637,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/29329987/,No
+GSTM1,P09488,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/29329987/,No
+GSTP1,P09211,Localized,https://www.uniprot.org/uniprotkb/P09211/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+GSTZ1,O43708,Localized,,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+GTPBP10,A4D1E9,Localized,,mitochondrion [GO:0005739],,,Yes
+GTPBP3,Q969Y2,Localized,https://www.uniprot.org/uniprotkb/Q969Y2/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+GUF1,Q8N442,Localized,https://www.uniprot.org/uniprotkb/Q8N442/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HADH,Q16836,Localized,https://www.uniprot.org/uniprotkb/Q16836/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HADHA,P40939,Localized,https://www.uniprot.org/uniprotkb/P40939/entry#subcellular_location ,mitochondrial fatty acid beta-oxidation multienzyme complex [GO:0016507]; mitochondrial inner membrane [GO:0005743]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+HADHB,P55084,Localized,https://www.uniprot.org/uniprotkb/P55084/entry#subcellular_location ,mitochondrial envelope [GO:0005740]; mitochondrial fatty acid beta-oxidation multienzyme complex [GO:0016507]; mitochondrial inner membrane [GO:0005743]; mitochondrial nucleoid [GO:0042645]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+HAGH,Q16775,Localized,https://www.uniprot.org/uniprotkb/Q16775/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HARS2,P49590,Localized,https://www.uniprot.org/uniprotkb/P49590/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HAX1,O00165,Localized,https://www.uniprot.org/uniprotkb/O00165/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+HCCS,P53701,Localized,https://www.uniprot.org/uniprotkb/P53701/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+HIBADH,P31937,Localized,https://www.uniprot.org/uniprotkb/P31937/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HIBCH,Q6NVY1,Localized,https://www.uniprot.org/uniprotkb/Q6NVY1/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HIGD1A,Q9Y241,Localized,https://www.uniprot.org/uniprotkb/Q9Y241/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+HINT1,P49773,Localized,,,,,Yes
+HINT2,Q9BX68,Localized,https://www.uniprot.org/uniprotkb/Q9BX68/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+HIP1R,O75146,Localized,,mitochondrion [GO:0005739],,,No
+HK1,P19367,Localized,https://www.uniprot.org/uniprotkb/P19367/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+HK2,P52789,Localized,https://www.uniprot.org/uniprotkb/P52789/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+HKDC1,Q2TB90,Localized,https://www.uniprot.org/uniprotkb/Q2TB90/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,No
+HLCS,P50747,Localized,https://www.uniprot.org/uniprotkb/P50747/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+HMGCL,P35914,Localized,https://www.uniprot.org/uniprotkb/P35914/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HMGCS2,P54868,Localized,https://www.uniprot.org/uniprotkb/P54868/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HMGN5,P82970,Localized,,mitochondrion [GO:0005739],,,No
+HOGA1,Q86XE5,Localized,https://www.uniprot.org/uniprotkb/Q86XE5/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HOOK2,Q96ED9,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/27092778/,No
+HPDL,Q96IR7,Localized,https://www.uniprot.org/uniprotkb/Q96IR7/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+HSCB,Q8IWL3,Localized,https://www.uniprot.org/uniprotkb/Q8IWL3/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+HSD17B10,Q99714,Localized,https://www.uniprot.org/uniprotkb/Q99714/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrial ribonuclease P complex [GO:0030678]; mitochondrion [GO:0005739],,,Yes
+HSD17B4,P51659,Localized,,,,,Yes
+HSD3B2,P26439,Localized,https://www.uniprot.org/uniprotkb/P26439/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial membrane [GO:0031966],,,No
+HSP90AA1,P07900,Localized,https://www.uniprot.org/uniprotkb/P07900/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+HSPA9,P38646,Localized,https://www.uniprot.org/uniprotkb/P38646/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739]; SAM complex [GO:0001401]; TIM23 mitochondrial import inner membrane translocase complex [GO:0005744],,,Yes
+HSPD1,P10809,Localized,https://www.uniprot.org/uniprotkb/P10809/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HSPE1,P61604,Localized,https://www.uniprot.org/uniprotkb/P61604/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+HTRA2,O43464,Localized,https://www.uniprot.org/uniprotkb/O43464/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+HUWE1,Q7Z6Z7,Localized,https://www.uniprot.org/uniprotkb/Q7Z6Z7/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+IARS2,Q9NSE4,Localized,https://www.uniprot.org/uniprotkb/Q9NSE4/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+IBA57,Q5T440,Localized,https://www.uniprot.org/uniprotkb/Q5T440/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+IDH2,P48735,Localized,https://www.uniprot.org/uniprotkb/P48735/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+IDH3A,P50213,Localized,https://www.uniprot.org/uniprotkb/P50213/entry#subcellular_location ,mitochondrial isocitrate dehydrogenase complex (NAD+) [GO:0005962]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+IDH3B,O43837,Localized,https://www.uniprot.org/uniprotkb/O43837/entry#subcellular_location ,mitochondrial isocitrate dehydrogenase complex (NAD+) [GO:0005962]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+IFIH1,Q9BYX4,Localized,https://www.uniprot.org/uniprotkb/Q9BYX4/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+IMMP1L,Q96LU5,Localized,https://www.uniprot.org/uniprotkb/Q96LU5/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial inner membrane peptidase complex [GO:0042720]; mitochondrion [GO:0005739],,,Yes
+IMMP2L,Q96T52,Localized,https://www.uniprot.org/uniprotkb/Q96T52/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial inner membrane peptidase complex [GO:0042720],,,Yes
+IMMT,Q16891,Localized,https://www.uniprot.org/uniprotkb/Q16891/entry#subcellular_location ,membrane [GO:0016020]; MIB complex [GO:0140275]; MICOS complex [GO:0061617]; mitochondrial crista junction [GO:0044284]; mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739]; SAM complex [GO:0001401],,,Yes
+IREB2,P48200,Localized,,mitochondrion [GO:0005739],,,No
+ISCA1,Q9BUE6,Localized,https://www.uniprot.org/uniprotkb/Q9BUE6/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ISCA2,Q86U28,Localized,https://www.uniprot.org/uniprotkb/Q86U28/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ISCU,Q9H1K1,Localized,https://www.uniprot.org/uniprotkb/Q9H1K1/entry#subcellular_location ,mitochondrial iron-sulfur cluster assembly complex [GO:0099128]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+IVD,P26440,Localized,https://www.uniprot.org/uniprotkb/P26440/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+KANK2,Q63ZY3,Localized,https://www.uniprot.org/uniprotkb/Q63ZY3/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+KARS1,Q15046,Localized,https://www.uniprot.org/uniprotkb/Q15046/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+KHDC3L,Q587J8,Localized,https://www.uniprot.org/uniprotkb/Q587J8/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+KIF1B,O60333,Localized,https://www.uniprot.org/uniprotkb/O60333/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+L2HGDH,Q9H9P8,Localized,https://www.uniprot.org/uniprotkb/Q9H9P8/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+LARS2,Q15031,Localized,https://www.uniprot.org/uniprotkb/Q15031/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+LDHA,P00338,Localized,,mitochondrion [GO:0005739],,,No
+LDHB,P07195,Localized,https://www.uniprot.org/uniprotkb/P07195/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+LDHD,Q86WU2,Localized,https://www.uniprot.org/uniprotkb/Q86WU2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+LETM1,O95202,Localized,https://www.uniprot.org/uniprotkb/O95202/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+LIAS,O43766,Localized,https://www.uniprot.org/uniprotkb/O43766/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+LIG3,P49916,Localized,https://www.uniprot.org/uniprotkb/P49916/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+LIPT1,Q9Y234,Localized,https://www.uniprot.org/uniprotkb/Q9Y234/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+LIPT2,A6NK58,Localized,https://www.uniprot.org/uniprotkb/A6NK58/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+LONP1,P36776,Localized,https://www.uniprot.org/uniprotkb/P36776/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+LRPPRC,P42704,Localized,https://www.uniprot.org/uniprotkb/P42704/entry#subcellular_location ,mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+LRRK2,Q5S007,Localized,https://www.uniprot.org/uniprotkb/Q5S007/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+LYRM4,Q9HD34,Localized,https://www.uniprot.org/uniprotkb/Q9HD34/entry#subcellular_location ,mitochondrial iron-sulfur cluster assembly complex [GO:0099128]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+LYRM7,Q5U5X0,Localized,https://www.uniprot.org/uniprotkb/Q5U5X0/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966],,,Yes
+MAOA,P21397,Localized,https://www.uniprot.org/uniprotkb/P21397/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MAOB,P27338,Localized,https://www.uniprot.org/uniprotkb/P27338/entry#subcellular_location ,mitochondrial envelope [GO:0005740]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MAP2K1,Q02750,Localized,,mitochondrion [GO:0005739],,,No
+MAPT,P10636,Localized,,mitochondrion [GO:0005739],,,No
+MARS2,Q96GW9,Localized,https://www.uniprot.org/uniprotkb/Q96GW9/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+MAVS,Q7Z434,Localized,https://www.uniprot.org/uniprotkb/Q7Z434/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MBTPS1,Q14703,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/35362222/,No
+MCAT,Q8IVS2,Localized,https://www.uniprot.org/uniprotkb/Q8IVS2/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MCCC1,Q96RQ3,Localized,https://www.uniprot.org/uniprotkb/Q96RQ3/entry#subcellular_location ,"3-methylcrotonyl-CoA carboxylase complex, mitochondrial [GO:0002169]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739]",,,Yes
+MCCC2,Q9HCC0,Localized,https://www.uniprot.org/uniprotkb/Q9HCC0/entry#subcellular_location ,"3-methylcrotonyl-CoA carboxylase complex, mitochondrial [GO:0002169]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739]",,,Yes
+MCEE,Q96PE7,Localized,https://www.uniprot.org/uniprotkb/Q96PE7/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+MDH2,P40926,Localized,https://www.uniprot.org/uniprotkb/P40926/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+ME2,P23368,Localized,https://www.uniprot.org/uniprotkb/P23368/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MECR,Q9BV79,Localized,https://www.uniprot.org/uniprotkb/Q9BV79/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+METTL5,Q9NRN9,Localized,,,,,Yes
+MFF,Q9GZY8,Localized,https://www.uniprot.org/uniprotkb/Q9GZY8/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MFN1,Q8IWA4,Localized,https://www.uniprot.org/uniprotkb/Q8IWA4/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739]; outer mitochondrial membrane protein complex [GO:0098799],,,Yes
+MFN2,O95140,Localized,https://www.uniprot.org/uniprotkb/O95140/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MGME1,Q9BQP7,Localized,https://www.uniprot.org/uniprotkb/Q9BQP7/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MGST1,P10620,Localized,https://www.uniprot.org/uniprotkb/P10620/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MICOS13,Q5XKP0,Localized,https://www.uniprot.org/uniprotkb/Q5XKP0/entry#subcellular_location ,MIB complex [GO:0140275]; MICOS complex [GO:0061617]; mitochondrial crista junction [GO:0044284]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739]; nucleoplasm [GO:0005654]; SAM complex [GO:0001401],,,Yes
+MICU1,Q9BPX6,Localized,https://www.uniprot.org/uniprotkb/Q9BPX6/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+MICU2,Q8IYU8,Localized,https://www.uniprot.org/uniprotkb/Q8IYU8/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+MIEF1,Q9NQG6,Localized,https://www.uniprot.org/uniprotkb/Q9NQG6/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MIEF2,Q96C03,Localized,https://www.uniprot.org/uniprotkb/Q96C03/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MIPEP,Q99797,Localized,https://www.uniprot.org/uniprotkb/Q99797/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MLKL,Q8NB16,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/27092778/,No
+MLYCD,O95822,Localized,https://www.uniprot.org/uniprotkb/O95822/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MMAA,Q8IVH4,Localized,https://www.uniprot.org/uniprotkb/Q8IVH4/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MMAB,Q96EY8,Localized,https://www.uniprot.org/uniprotkb/Q96EY8/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+MMADHC,Q9H3L0,Localized,https://www.uniprot.org/uniprotkb/Q9H3L0/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MMP2,P08253,Localized,https://www.uniprot.org/uniprotkb/P08253/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+MMUT,P22033,Localized,https://www.uniprot.org/uniprotkb/P22033/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MOCS1,Q9NZB8,Localized,,,,,Yes
+MPC1,Q9Y5U8,Localized,https://www.uniprot.org/uniprotkb/Q9Y5U8/entry#subcellular_location ,inner mitochondrial membrane protein complex [GO:0098800]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+MPV17,P39210,Localized,https://www.uniprot.org/uniprotkb/P39210/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+MRM2,Q9UI43,Localized,https://www.uniprot.org/uniprotkb/Q9UI43/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MRPL11,Q9Y3B7,Localized,https://www.uniprot.org/uniprotkb/Q9Y3B7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial ribosome [GO:0005761]; mitochondrion [GO:0005739],,,Yes
+MRPL12,P52815,Localized,https://www.uniprot.org/uniprotkb/P52815/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MRPL13,Q9BYD1,Localized,https://www.uniprot.org/uniprotkb/Q9BYD1/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial ribosome [GO:0005761]; mitochondrion [GO:0005739],,,Yes
+MRPL15,Q9P015,Localized,https://www.uniprot.org/uniprotkb/Q9P015/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL24,Q96A35,Localized,https://www.uniprot.org/uniprotkb/Q96A35/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL27,Q9P0M9,Localized,https://www.uniprot.org/uniprotkb/Q9P0M9/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL3,P09001,Localized,https://www.uniprot.org/uniprotkb/P09001/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL34,Q9BQ48,Localized,https://www.uniprot.org/uniprotkb/Q9BQ48/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial ribosome [GO:0005761]; mitochondrion [GO:0005739],,,Yes
+MRPL37,Q9BZE1,Localized,https://www.uniprot.org/uniprotkb/Q9BZE1/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial ribosome [GO:0005761]; mitochondrion [GO:0005739],,,Yes
+MRPL4,Q9BYD3,Localized,https://www.uniprot.org/uniprotkb/Q9BYD3/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL44,Q9H9J2,Localized,https://www.uniprot.org/uniprotkb/Q9H9J2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL45,Q9BRJ2,Localized,https://www.uniprot.org/uniprotkb/Q9BRJ2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,No
+MRPL46,Q9H2W6,Localized,https://www.uniprot.org/uniprotkb/Q9H2W6/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL48,Q96GC5,Localized,https://www.uniprot.org/uniprotkb/Q96GC5/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial ribosome [GO:0005761]; mitochondrion [GO:0005739],,,Yes
+MRPL49,Q13405,Localized,https://www.uniprot.org/uniprotkb/Q13405/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial ribosome [GO:0005761]; mitochondrion [GO:0005739],,,Yes
+MRPL50,Q8N5N7,Localized,https://www.uniprot.org/uniprotkb/Q8N5N7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPL55,Q7Z7F7,Localized,https://www.uniprot.org/uniprotkb/Q7Z7F7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPS14,O60783,Localized,https://www.uniprot.org/uniprotkb/O60783/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial ribosome [GO:0005761]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS16,Q9Y3D3,Localized,https://www.uniprot.org/uniprotkb/Q9Y3D3/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS17,Q9Y2R5,Localized,https://www.uniprot.org/uniprotkb/Q9Y2R5/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763],,,Yes
+MRPS18B,Q9Y676,Localized,https://www.uniprot.org/uniprotkb/Q9Y676/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS2,Q9Y399,Localized,https://www.uniprot.org/uniprotkb/Q9Y399/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS22,P82650,Localized,https://www.uniprot.org/uniprotkb/P82650/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial ribosome [GO:0005761]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS23,Q9Y3D9,Localized,https://www.uniprot.org/uniprotkb/Q9Y3D9/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS25,P82663,Localized,https://www.uniprot.org/uniprotkb/P82663/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS28,Q9Y2Q9,Localized,https://www.uniprot.org/uniprotkb/Q9Y2Q9/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS30,Q9NP92,Localized,https://www.uniprot.org/uniprotkb/Q9NP92/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial large ribosomal subunit [GO:0005762]; mitochondrion [GO:0005739],,,Yes
+MRPS31,Q92665,Localized,https://www.uniprot.org/uniprotkb/Q92665/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS34,P82930,Localized,https://www.uniprot.org/uniprotkb/P82930/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS35,P82673,Localized,https://www.uniprot.org/uniprotkb/P82673/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763],,,Yes
+MRPS5,P82675,Localized,https://www.uniprot.org/uniprotkb/P82675/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+MRPS7,Q9Y2R9,Localized,https://www.uniprot.org/uniprotkb/Q9Y2R9/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763],,,Yes
+MSRB3,Q8IXL7,Localized,https://www.uniprot.org/uniprotkb/Q8IXL7/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MSTO1,Q9BUK6,Localized,https://www.uniprot.org/uniprotkb/Q9BUK6/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+MT-ATP6,P00846,Localized,https://www.uniprot.org/uniprotkb/P00846/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; proton-transporting ATP synthase complex, coupling factor F(o) [GO:0045263]",,,Yes
+MT-ATP8,P03928,Localized,https://www.uniprot.org/uniprotkb/P03928/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial proton-transporting ATP synthase complex [GO:0005753]; mitochondrial proton-transporting ATP synthase complex, coupling factor F(o) [GO:0000276]",,,Yes
+MT-CO1,P00395,Localized,https://www.uniprot.org/uniprotkb/P00395/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrial respiratory chain complex IV [GO:0005751]; respiratory chain complex IV [GO:0045277],,,Yes
+MT-CO2,P00403,Localized,https://www.uniprot.org/uniprotkb/P00403/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739]; respiratory chain complex IV [GO:0045277],,,Yes
+MT-CO3,P00414,Localized,https://www.uniprot.org/uniprotkb/P00414/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex IV [GO:0005751]; respiratory chain complex IV [GO:0045277],,,Yes
+MT-CYB,P00156,Localized,https://www.uniprot.org/uniprotkb/P00156/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrion [GO:0005739],,,Yes
+MTFMT,Q96DP5,Localized,https://www.uniprot.org/uniprotkb/Q96DP5/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MTHFD2,P13995,Localized,https://www.uniprot.org/uniprotkb/P13995/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MTHFS,P49914,Localized,,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MTIF2,P46199,Localized,https://www.uniprot.org/uniprotkb/P46199/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MTIF3,Q9H2K0,Localized,https://www.uniprot.org/uniprotkb/Q9H2K0/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MT-ND1,P03886,Localized,https://www.uniprot.org/uniprotkb/P03886/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+MT-ND2,P03891,Localized,https://www.uniprot.org/uniprotkb/P03891/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+MT-ND3,P03897,Localized,https://www.uniprot.org/uniprotkb/P03897/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+MT-ND4,P03905,Localized,https://www.uniprot.org/uniprotkb/P03905/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+MT-ND4L,P03901,Localized,https://www.uniprot.org/uniprotkb/P03901/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+MT-ND5,P03915,Localized,https://www.uniprot.org/uniprotkb/P03915/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+MT-ND6,P03923,Localized,https://www.uniprot.org/uniprotkb/P03923/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+MTO1,Q9Y2Z2,Localized,https://www.uniprot.org/uniprotkb/Q9Y2Z2/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MTOR,P42345,Localized,https://www.uniprot.org/uniprotkb/P42345/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+MTPAP,Q9NVV4,Localized,https://www.uniprot.org/uniprotkb/Q9NVV4/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MTRF1L,Q9UGC7,Localized,https://www.uniprot.org/uniprotkb/Q9UGC7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+MTRFR,Q9H3J6,Localized,https://www.uniprot.org/uniprotkb/Q9H3J6/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MT-RNR1,A0A0C5B5G6,Localized,https://www.uniprot.org/uniprotkb/A0A0C5B5G6/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+MTX1,Q13505,Localized,https://www.uniprot.org/uniprotkb/Q13505/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; SAM complex [GO:0001401],,,Yes
+MTX2,O75431,Localized,https://www.uniprot.org/uniprotkb/O75431/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739]; SAM complex [GO:0001401],,,Yes
+MUTYH,Q9UIF7,Localized,https://www.uniprot.org/uniprotkb/Q9UIF7/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+MVP,Q14764,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/25215595/,No
+MYBPC3,Q14896,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/15936968/,No
+MYCBP,Q99417,Localized,https://www.uniprot.org/uniprotkb/Q99417/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+MYH9,P35579,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/25215595/,No
+MYO19,Q96H55,Localized,https://www.uniprot.org/uniprotkb/Q96H55/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+MYOC,Q99972,Localized,https://www.uniprot.org/uniprotkb/Q99972/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial outer membrane [GO:0005741],,,No
+NADK2,Q4G0N4,Localized,https://www.uniprot.org/uniprotkb/Q4G0N4/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+NAGS,Q8N159,Localized,https://www.uniprot.org/uniprotkb/Q8N159/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+NARS2,Q96I59,Localized,https://www.uniprot.org/uniprotkb/Q96I59/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+NAT8L,Q8N9F0,Localized,https://www.uniprot.org/uniprotkb/Q8N9F0/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+NAXD,Q8IW45,Localized,https://www.uniprot.org/uniprotkb/Q8IW45/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+NAXE,Q8NCW5,Localized,https://www.uniprot.org/uniprotkb/Q8NCW5/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+NDUFA1,O15239,Localized,https://www.uniprot.org/uniprotkb/O15239/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFA10,O95299,Localized,https://www.uniprot.org/uniprotkb/O95299/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFA11,Q86Y39,Localized,https://www.uniprot.org/uniprotkb/Q86Y39/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFA12,Q9UI09,Localized,https://www.uniprot.org/uniprotkb/Q9UI09/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFA13,Q9P0J0,Localized,https://www.uniprot.org/uniprotkb/Q9P0J0/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respirasome [GO:0005746]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFA2,O43678,Localized,https://www.uniprot.org/uniprotkb/O43678/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFA3,O95167,Localized,https://www.uniprot.org/uniprotkb/O95167/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFA4,O00483,Localized,https://www.uniprot.org/uniprotkb/O00483/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+NDUFA5,Q16718,Localized,https://www.uniprot.org/uniprotkb/Q16718/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFA6,P56556,Localized,https://www.uniprot.org/uniprotkb/P56556/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFA7,O95182,Localized,https://www.uniprot.org/uniprotkb/O95182/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrial ribosome [GO:0005761]; mitochondrion [GO:0005739],,,Yes
+NDUFA8,P51970,Localized,https://www.uniprot.org/uniprotkb/P51970/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFA9,Q16795,Localized,https://www.uniprot.org/uniprotkb/Q16795/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFAB1,O14561,Localized,https://www.uniprot.org/uniprotkb/O14561/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFAF1,Q9Y375,Localized,https://www.uniprot.org/uniprotkb/Q9Y375/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFAF2,Q8N183,Localized,https://www.uniprot.org/uniprotkb/Q8N183/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+NDUFAF3,Q9BU61,Localized,https://www.uniprot.org/uniprotkb/Q9BU61/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+NDUFAF4,Q9P032,Localized,https://www.uniprot.org/uniprotkb/Q9P032/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+NDUFAF5,Q5TEU4,Localized,https://www.uniprot.org/uniprotkb/Q5TEU4/entry#subcellular_location ,matrix side of mitochondrial inner membrane [GO:0099617]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+NDUFAF6,Q330K2,Localized,https://www.uniprot.org/uniprotkb/Q330K2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+NDUFAF8,A1L188,Localized,https://www.uniprot.org/uniprotkb/A1L188/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+NDUFB1,O75438,Localized,https://www.uniprot.org/uniprotkb/O75438/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFB10,O96000,Localized,https://www.uniprot.org/uniprotkb/O96000/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFB11,Q9NX14,Localized,https://www.uniprot.org/uniprotkb/Q9NX14/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFB2,O95178,Localized,https://www.uniprot.org/uniprotkb/O95178/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFB3,O43676,Localized,https://www.uniprot.org/uniprotkb/O43676/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFB4,O95168,Localized,https://www.uniprot.org/uniprotkb/O95168/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFB5,O43674,Localized,https://www.uniprot.org/uniprotkb/O43674/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFB6,O95139,Localized,https://www.uniprot.org/uniprotkb/O95139/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFB7,P17568,Localized,https://www.uniprot.org/uniprotkb/P17568/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFB8,O95169,Localized,https://www.uniprot.org/uniprotkb/O95169/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFB9,Q9Y6M9,Localized,https://www.uniprot.org/uniprotkb/Q9Y6M9/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFC1,O43677,Localized,https://www.uniprot.org/uniprotkb/O43677/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFC2,O95298,Localized,https://www.uniprot.org/uniprotkb/O95298/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFS1,P28331,Localized,https://www.uniprot.org/uniprotkb/P28331/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFS2,O75306,Localized,https://www.uniprot.org/uniprotkb/O75306/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFS3,O75489,Localized,https://www.uniprot.org/uniprotkb/O75489/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFS4,O43181,Localized,https://www.uniprot.org/uniprotkb/O43181/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFS5,O43920,Localized,https://www.uniprot.org/uniprotkb/O43920/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFS6,O75380,Localized,https://www.uniprot.org/uniprotkb/O75380/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFS7,O75251,Localized,https://www.uniprot.org/uniprotkb/O75251/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial respiratory chain complex I [GO:0005747],,,Yes
+NDUFS8,O00217,Localized,https://www.uniprot.org/uniprotkb/O00217/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFV1,P49821,Localized,https://www.uniprot.org/uniprotkb/P49821/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFV2,P19404,Localized,https://www.uniprot.org/uniprotkb/P19404/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NDUFV3,P56181,Localized,https://www.uniprot.org/uniprotkb/P56181/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex I [GO:0005747]; mitochondrion [GO:0005739],,,Yes
+NEFL,P07196,Associated/ancillary,,,axonal transport of mitochondrion [GO:0019896],,No
+NFE2L2,Q16236,Associated/ancillary,"Interacts with MOTS-c, a peptide produced by the mitochondrially encoded 12S rRNA MT-RNR1 (https://www.uniprot.org/uniprotkb/Q16236/entry)",,,,No
+NFS1,Q9Y697,Localized,https://www.uniprot.org/uniprotkb/Q9Y697/entry#subcellular_location ,mitochondrial iron-sulfur cluster assembly complex [GO:0099128]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+NFU1,Q9UMS0,Localized,https://www.uniprot.org/uniprotkb/Q9UMS0/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+NIPSNAP2,O75323,Localized,https://www.uniprot.org/uniprotkb/O75323/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+NLN,Q9BYT8,Localized,https://www.uniprot.org/uniprotkb/Q9BYT8/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758],,,Yes
+NLRP3,Q96P20,Localized,https://www.uniprot.org/uniprotkb/Q96P20/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+NME4,O00746,Localized,https://www.uniprot.org/uniprotkb/O00746/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+NNT,Q13423,Localized,https://www.uniprot.org/uniprotkb/Q13423/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrial respirasome [GO:0005746]; mitochondrion [GO:0005739],,,Yes
+NOD2,Q9HC29,Localized,https://www.uniprot.org/uniprotkb/Q9HC29/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+NOL3,O60936,Localized,https://www.uniprot.org/uniprotkb/O60936/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+NOX4,Q9NPH5,Localized,,mitochondrion [GO:0005739]; NADPH oxidase complex [GO:0043020],,,No
+NR3C1,P04150,Localized,https://www.uniprot.org/uniprotkb/P04150/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,No
+NRF1,Q16656,Associated/ancillary,"Implicated in the control of nuclear genes required for respiration, heme biosynthesis, and mitochondrial DNA transcription and replication. (https://www.uniprot.org/uniprotkb/Q16656/entry) ",,,,No
+NSUN2,Q08J23,Localized,https://www.uniprot.org/uniprotkb/Q08J23/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+NSUN3,Q9H649,Localized,https://www.uniprot.org/uniprotkb/Q9H649/entry#subcellular_location ,mitochondrial large ribosomal subunit [GO:0005762]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+NTHL1,P78549,Localized,https://www.uniprot.org/uniprotkb/P78549/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+NUBPL,Q8TB37,Localized,https://www.uniprot.org/uniprotkb/Q8TB37/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+NUDT2,P50583,Localized,,mitochondrial matrix [GO:0005759],,,Yes
+NUDT8,Q8WV74,Localized,https://www.uniprot.org/uniprotkb/Q8WV74/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+OAS1,P00973,Localized,https://www.uniprot.org/uniprotkb/P00973/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+OAT,P04181,Localized,https://www.uniprot.org/uniprotkb/P04181/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+OCIAD2,Q56VL3,Localized,,,,,Yes
+OGA,O60502,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/16823967/,No
+OGDH,Q02218,Localized,https://www.uniprot.org/uniprotkb/Q02218/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+OGDHL,Q9ULD0,Localized,https://www.uniprot.org/uniprotkb/Q9ULD0/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739]; oxoglutarate dehydrogenase complex [GO:0045252],,,Yes
+OGG1,O15527,Localized,https://www.uniprot.org/uniprotkb/O15527/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+OGT,O15294,Localized,https://www.uniprot.org/uniprotkb/O15294/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,No
+OMA1,Q96E52,Localized,https://www.uniprot.org/uniprotkb/Q96E52/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966],,,Yes
+OPA1,O60313,Localized,https://www.uniprot.org/uniprotkb/O60313/entry#subcellular_location ,mitochondrial crista [GO:0030061]; mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+OPA3,Q9H6K4,Localized,https://www.uniprot.org/uniprotkb/Q9H6K4/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+OTC,P00480,Localized,https://www.uniprot.org/uniprotkb/P00480/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+OXA1L,Q15070,Localized,https://www.uniprot.org/uniprotkb/Q15070/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+OXCT1,P55809,Localized,https://www.uniprot.org/uniprotkb/P55809/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+OXNAD1,Q96HP4,Localized,,,,,Yes
+OXR1,Q8N573,Localized,https://www.uniprot.org/uniprotkb/Q8N573/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+OXSM,Q9NWU1,Localized,https://www.uniprot.org/uniprotkb/Q9NWU1/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+PACS2,Q86VP3,Localized,https://www.uniprot.org/uniprotkb/Q86VP3/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+PAICS,P22234,Localized,,,,,Yes
+PAM16,Q9Y3D7,Localized,https://www.uniprot.org/uniprotkb/Q9Y3D7/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; PAM complex, Tim23 associated import motor [GO:0001405]; protein-containing complex [GO:0032991]; TIM23 mitochondrial import inner membrane translocase complex [GO:0005744]",,,Yes
+PANK2,Q9BZ23,Localized,https://www.uniprot.org/uniprotkb/Q9BZ23/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+PARK7,Q99497,Localized,https://www.uniprot.org/uniprotkb/Q99497/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PARS2,Q7L3T8,Localized,https://www.uniprot.org/uniprotkb/Q7L3T8/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PC,P11498,Localized,https://www.uniprot.org/uniprotkb/P11498/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PCCA,P05165,Localized,https://www.uniprot.org/uniprotkb/P05165/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PCCB,P05166,Localized,https://www.uniprot.org/uniprotkb/P05166/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PCK2,Q16822,Localized,https://www.uniprot.org/uniprotkb/Q16822/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PDE2A,O00408,Localized,https://www.uniprot.org/uniprotkb/O00408/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial outer membrane [GO:0005741],,,Yes
+PDF,Q9HBH1,Localized,https://www.uniprot.org/uniprotkb/Q9HBH1/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+PDHA1,P08559,Localized,https://www.uniprot.org/uniprotkb/P08559/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739]; pyruvate dehydrogenase complex [GO:0045254],,,Yes
+PDHA2,P29803,Localized,https://www.uniprot.org/uniprotkb/P29803/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739],,,Yes
+PDHB,P11177,Localized,https://www.uniprot.org/uniprotkb/P11177/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739],,,Yes
+PDHX,O00330,Localized,https://www.uniprot.org/uniprotkb/O00330/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739]; pyruvate dehydrogenase complex [GO:0045254],,,Yes
+PDK1,Q15118,Localized,https://www.uniprot.org/uniprotkb/Q15118/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739],,,Yes
+PDK2,Q15119,Localized,https://www.uniprot.org/uniprotkb/Q15119/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial pyruvate dehydrogenase complex [GO:0005967]; mitochondrion [GO:0005739],,,Yes
+PDK3,Q15120,Localized,https://www.uniprot.org/uniprotkb/Q15120/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PDP1,Q9P0J1,Localized,https://www.uniprot.org/uniprotkb/Q9P0J1/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739]; pyruvate dehydrogenase (lipoamide) phosphatase complex [GO:0045253],,,Yes
+PDSS1,Q5T2R2,Localized,https://www.uniprot.org/uniprotkb/Q5T2R2/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+PDSS2,Q86YH6,Localized,https://www.uniprot.org/uniprotkb/Q86YH6/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+PET100,P0DJ07,Localized,https://www.uniprot.org/uniprotkb/P0DJ07/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+PET117,Q6UWS5,Localized,https://www.uniprot.org/uniprotkb/Q6UWS5/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+PEX11B,O96011,Localized,,mitochondrion [GO:0005739],,,Yes
+PGRMC1,O00264,Localized,https://www.uniprot.org/uniprotkb/O00264/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+PHB1,P35232,Localized,https://www.uniprot.org/uniprotkb/P35232/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial prohibitin complex [GO:0035632]; mitochondrion [GO:0005739],,,Yes
+PHB2,Q99623,Localized,https://www.uniprot.org/uniprotkb/Q99623/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial outer membrane [GO:0005741]; mitochondrial prohibitin complex [GO:0035632]; mitochondrion [GO:0005739],,,Yes
+PHYH,O14832,Localized,,,,,Yes
+PHYKPL,Q8IUZ5,Localized,https://www.uniprot.org/uniprotkb/Q8IUZ5/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,No
+PICK1,Q9NRD5,Localized,,,,,Yes
+PINK1,Q9BXM7,Localized,https://www.uniprot.org/uniprotkb/Q9BXM7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+PISD,Q9UG56,Localized,https://www.uniprot.org/uniprotkb/Q9UG56/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+PITRM1,Q5JRX3,Localized,https://www.uniprot.org/uniprotkb/Q5JRX3/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PLA2G2A,P14555,Localized,https://www.uniprot.org/uniprotkb/P14555/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+PLA2G4B,P0C869,Localized,https://www.uniprot.org/uniprotkb/P0C869/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,No
+PLA2G4C,Q9UP65,Localized,https://www.uniprot.org/uniprotkb/Q9UP65/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,No
+PLA2G6,O60733,Localized,https://www.uniprot.org/uniprotkb/O60733/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+PLEC,Q15149,Localized,,mitochondrial outer membrane [GO:0005741],,,No
+PLIN5,Q00G26,Localized,https://www.uniprot.org/uniprotkb/Q00G26/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+PLN,P26678,Localized,https://www.uniprot.org/uniprotkb/P26678/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,No
+PLPBP,O94903,Localized,,,,,Yes
+PMPCA,Q10713,Localized,https://www.uniprot.org/uniprotkb/Q10713/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial processing peptidase complex [GO:0017087]; mitochondrion [GO:0005739],,,Yes
+PMPCB,O75439,Localized,https://www.uniprot.org/uniprotkb/O75439/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial processing peptidase complex [GO:0017087]; mitochondrion [GO:0005739],,,Yes
+PNKD,Q8N490,Localized,https://www.uniprot.org/uniprotkb/Q8N490/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+PNPLA4,P41247,Localized,https://www.uniprot.org/uniprotkb/P41247/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+PNPLA8,Q9NP80,Localized,https://www.uniprot.org/uniprotkb/Q9NP80/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+PNPO,Q9NVS9,Localized,,,,,Yes
+PNPT1,Q8TCS8,Localized,https://www.uniprot.org/uniprotkb/Q8TCS8/entry#subcellular_location ,mitochondrial degradosome [GO:0045025]; mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+POC1B,Q8TC44,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/27092778/,No
+POLG,P54098,Localized,https://www.uniprot.org/uniprotkb/P54098/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+POLG2,Q9UHN1,Localized,https://www.uniprot.org/uniprotkb/Q9UHN1/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+POLRMT,O00411,Localized,https://www.uniprot.org/uniprotkb/O00411/entry#subcellular_location ,mitochondrial DNA-directed RNA polymerase complex [GO:0034245]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+POP1,Q99575,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/21455487/,No
+PPA2,Q9H2U2,Localized,https://www.uniprot.org/uniprotkb/Q9H2U2/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PPARA,Q07869,Associated/ancillary,Transcriptional activation of mitochondrial biogenesis (Reactome) (https://www.uniprot.org/uniprotkb/Q07869/entry),,,,No
+PPARGC1A,Q9UBK2,Associated/ancillary,Can regulate key mitochondrial genes that contribute to the program of adaptive thermogenesis; transcriptional activation of mitochondrial biogenesis (https://www.uniprot.org/uniprotkb/Q9UBK2/entry),,mitochondrion organization [GO:0007005]; positive regulation of ATP biosynthetic process [GO:2001171]; positive regulation of mitochondrial DNA metabolic process [GO:1901860]; positive regulation of mitochondrion organization [GO:0010822],,No
+PPARGC1B,Q86YN6,Localized,,mitochondrion [GO:0005739],,,No
+PPIF,P30405,Localized,https://www.uniprot.org/uniprotkb/P30405/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial permeability transition pore complex [GO:0005757]; mitochondrion [GO:0005739],,,Yes
+PPM1K,Q8N3J5,Localized,https://www.uniprot.org/uniprotkb/Q8N3J5/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PPOX,P50336,Localized,https://www.uniprot.org/uniprotkb/P50336/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial membrane [GO:0031966],,,Yes
+PRDX2,P32119,Localized,,,,,Yes
+PRDX3,P30048,Localized,https://www.uniprot.org/uniprotkb/P30048/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PRDX5,P30044,Localized,https://www.uniprot.org/uniprotkb/P30044/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PRDX6,P30041,Localized,,mitochondrion [GO:0005739],,,Yes
+PREPL,Q4J6C6,Localized,,,,,Yes
+PRICKLE3,O43900,Localized,https://www.uniprot.org/uniprotkb/O43900/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+PRIMPOL,Q96LW4,Localized,https://www.uniprot.org/uniprotkb/Q96LW4/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+PRKAA1,Q13131,Associated/ancillary,"In response to nutrient limitation, phosphorylates transcription factor FOXO3 promoting FOXO3 mitochondrial import (https://www.uniprot.org/uniprotkb/Q13131/entry)",,positive regulation of mitochondrial transcription [GO:1903109]; positive regulation of protein targeting to mitochondrion [GO:1903955],,No
+PRKACA,P17612,Localized,https://www.uniprot.org/uniprotkb/P17612/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+PRKCD,Q05655,Localized,https://www.uniprot.org/uniprotkb/Q05655/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+PRKN,O60260,Localized,https://www.uniprot.org/uniprotkb/O60260/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+PRNP,F7VJQ1,Localized,https://www.uniprot.org/uniprotkb/F7VJQ1/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+PRODH,O43272,Localized,https://www.uniprot.org/uniprotkb/O43272/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PRORP,O15091,Localized,https://www.uniprot.org/uniprotkb/O15091/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrial ribonuclease P complex [GO:0030678]; mitochondrion [GO:0005739],,,Yes
+PRPF6,O94906,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/27092778/,No
+PSEN1,P49768,Localized,,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,No
+PTCD3,Q96EY7,Localized,https://www.uniprot.org/uniprotkb/Q96EY7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial small ribosomal subunit [GO:0005763]; mitochondrion [GO:0005739],,,Yes
+PTRH2,Q9Y3E5,Localized,https://www.uniprot.org/uniprotkb/Q9Y3E5/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+PUS1,Q9Y606,Localized,https://www.uniprot.org/uniprotkb/Q9Y606/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PYCR1,P32322,Localized,https://www.uniprot.org/uniprotkb/P32322/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PYCR2,Q96C36,Localized,https://www.uniprot.org/uniprotkb/Q96C36/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+PYROXD2,Q8N2H3,Localized,https://www.uniprot.org/uniprotkb/Q8N2H3/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,No
+QDPR,P09417,Localized,,,,,Yes
+QRSL1,Q9H0R6,Localized,https://www.uniprot.org/uniprotkb/Q9H0R6/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+QTRT1,Q9BXR0,Localized,https://www.uniprot.org/uniprotkb/Q9BXR0/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,Yes
+RAB5IF,Q9BUV8,Localized,https://www.uniprot.org/uniprotkb/Q9BUV8/entry#subcellular_location ,mitochondrial respirasome [GO:0005746],,,Yes
+RAD51,Q06609,Localized,https://www.uniprot.org/uniprotkb/Q06609/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+RAD51C,O43502,Localized,https://www.uniprot.org/uniprotkb/O43502/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+RAF1,P04049,Localized,https://www.uniprot.org/uniprotkb/P04049/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+RALA,P11233,Localized,https://www.uniprot.org/uniprotkb/P11233/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+RARS2,Q5T160,Localized,https://www.uniprot.org/uniprotkb/Q5T160/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+RECQL4,O94761,Localized,,,,,Yes
+REEP1,Q9H902,Localized,https://www.uniprot.org/uniprotkb/Q9H902/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,No
+REXO2,Q9Y3B8,Localized,https://www.uniprot.org/uniprotkb/Q9Y3B8/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+RHOT2,Q8IXI1,Localized,https://www.uniprot.org/uniprotkb/Q8IXI1/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+RMND1,Q9NWS8,Localized,https://www.uniprot.org/uniprotkb/Q9NWS8/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+RNASEH1,O60930,Localized,,,,,Yes
+RNASEL,Q05823,Localized,https://www.uniprot.org/uniprotkb/Q05823/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,No
+RNASET2,O00584,Localized,https://www.uniprot.org/uniprotkb/O00584/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758],,,No
+RNF185,Q96GF1,Localized,https://www.uniprot.org/uniprotkb/Q96GF1/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+RPIA,P49247,Localized,,,,,Yes
+RRM2B,Q7LG56,Localized,,mitochondrion [GO:0005739],,,No
+RTN4IP1,Q8WWV3,Localized,https://www.uniprot.org/uniprotkb/Q8WWV3/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+S100A1,P23297,Localized,https://www.uniprot.org/uniprotkb/P23297/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+SACS,Q9NZJ4,Localized,https://www.uniprot.org/uniprotkb/Q9NZJ4/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+SAMM50,Q9Y512,Localized,https://www.uniprot.org/uniprotkb/Q9Y512/entry#subcellular_location ,MIB complex [GO:0140275]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739]; SAM complex [GO:0001401],,,Yes
+SARS2,Q9NP81,Localized,https://www.uniprot.org/uniprotkb/Q9NP81/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SCN1A,P35498,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/21906962/,No
+SCO1,O75880,Localized,https://www.uniprot.org/uniprotkb/O75880/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SCO2,O43819,Localized,https://www.uniprot.org/uniprotkb/O43819/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SCP2,P22307,Localized,https://www.uniprot.org/uniprotkb/P22307/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+SDHA,P31040,Localized,https://www.uniprot.org/uniprotkb/P31040/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) [GO:0005749]; mitochondrion [GO:0005739]",,,Yes
+SDHAF1,A6NFY7,Localized,https://www.uniprot.org/uniprotkb/A6NFY7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SDHAF2,Q9NX18,Localized,https://www.uniprot.org/uniprotkb/Q9NX18/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SDHB,P21912,Localized,https://www.uniprot.org/uniprotkb/P21912/entry#subcellular_location ,"mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) [GO:0005749]; mitochondrion [GO:0005739]",,,Yes
+SDHC,Q99643,Localized,https://www.uniprot.org/uniprotkb/Q99643/entry#subcellular_location ,"membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) [GO:0005749]; mitochondrion [GO:0005739]",,,Yes
+SDHD,O14521,Localized,https://www.uniprot.org/uniprotkb/O14521/entry#subcellular_location ,"mitochondrial envelope [GO:0005740]; mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex II, succinate dehydrogenase complex (ubiquinone) [GO:0005749]; mitochondrion [GO:0005739]",,,Yes
+SECISBP2,Q96T21,Localized,https://www.uniprot.org/uniprotkb/Q96T21/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+SEPTIN11,Q9NVA2,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/16823967/,No
+SEPTIN2,Q15019,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/16823967/,No
+SERAC1,Q96JX3,Localized,https://www.uniprot.org/uniprotkb/Q96JX3/entry#subcellular_location ,mitochondria-associated endoplasmic reticulum membrane [GO:0044233]; mitochondrion [GO:0005739],,,Yes
+SFXN1,Q9H9B4,Localized,https://www.uniprot.org/uniprotkb/Q9H9B4/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SFXN4,Q6P4A7,Localized,https://www.uniprot.org/uniprotkb/Q6P4A7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SH3GLB1,Q9Y371,Localized,https://www.uniprot.org/uniprotkb/Q9Y371/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+SHC1,P29353,Localized,https://www.uniprot.org/uniprotkb/P29353/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,No
+SHMT2,P34897,Localized,https://www.uniprot.org/uniprotkb/P34897/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+SIAH3,Q8IW03,Localized,https://www.uniprot.org/uniprotkb/Q8IW03/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+SIRT1,Q96EB6,Localized,https://www.uniprot.org/uniprotkb/Q96EB6/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+SIRT3,Q9NTG7,Localized,https://www.uniprot.org/uniprotkb/Q9NTG7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SIRT5,Q9NXA8,Localized,https://www.uniprot.org/uniprotkb/Q9NXA8/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SLC11A2,P49281,Localized,https://www.uniprot.org/uniprotkb/P49281/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+SLC25A1,P53007,Localized,https://www.uniprot.org/uniprotkb/P53007/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A10,Q9UBX3,Localized,https://www.uniprot.org/uniprotkb/Q9UBX3/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A11,Q02978,Localized,https://www.uniprot.org/uniprotkb/Q02978/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A12,O75746,Localized,https://www.uniprot.org/uniprotkb/O75746/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A13,Q9UJS0,Localized,https://www.uniprot.org/uniprotkb/Q9UJS0/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A15,Q9Y619,Localized,https://www.uniprot.org/uniprotkb/Q9Y619/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A18,Q9H1K4,Localized,https://www.uniprot.org/uniprotkb/Q9H1K4/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+SLC25A19,Q9HC21,Localized,https://www.uniprot.org/uniprotkb/Q9HC21/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A20,O43772,Localized,https://www.uniprot.org/uniprotkb/O43772/entry#subcellular_location ,mitochondrial envelope [GO:0005740]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A21,Q9BQT8,Localized,https://www.uniprot.org/uniprotkb/Q9BQT8/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+SLC25A22,Q9H936,Localized,https://www.uniprot.org/uniprotkb/Q9H936/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743],,,Yes
+SLC25A24,Q6NUK1,Localized,https://www.uniprot.org/uniprotkb/Q6NUK1/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A25,Q6KCM7,Localized,https://www.uniprot.org/uniprotkb/Q6KCM7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A26,Q70HW3,Localized,https://www.uniprot.org/uniprotkb/Q70HW3/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A29,Q8N8R3,Localized,https://www.uniprot.org/uniprotkb/Q8N8R3/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A3,Q00325,Localized,https://www.uniprot.org/uniprotkb/Q00325/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A32,Q9H2D1,Localized,https://www.uniprot.org/uniprotkb/Q9H2D1/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A38,Q96DW6,Localized,https://www.uniprot.org/uniprotkb/Q96DW6/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A4,P12235,Localized,https://www.uniprot.org/uniprotkb/P12235/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial permeability transition pore complex [GO:0005757]; mitochondrion [GO:0005739],,,Yes
+SLC25A42,Q86VD7,Localized,https://www.uniprot.org/uniprotkb/Q86VD7/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SLC25A44,Q96H78,Localized,https://www.uniprot.org/uniprotkb/Q96H78/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+SLC25A46,Q96AG3,Localized,https://www.uniprot.org/uniprotkb/Q96AG3/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+SLC25A5,P05141,Localized,https://www.uniprot.org/uniprotkb/P05141/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial nucleoid [GO:0042645]; mitochondrial permeability transition pore complex [GO:0005757]; mitochondrion [GO:0005739],,,Yes
+SLC29A3,Q9BZD2,Localized,https://www.uniprot.org/uniprotkb/Q9BZD2/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+SLC30A9,Q6PML9,Localized,https://www.uniprot.org/uniprotkb/Q6PML9/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,Yes
+SLC39A8,Q9C0K1,Associated/ancillary,With manganese cellular uptake also participates in mitochondrial proper function (https://www.uniprot.org/uniprotkb/Q9C0K1/entry),,mitochondrial manganese ion transmembrane transport [GO:1990540],,No
+SLC44A1,Q8WWI5,Localized,https://www.uniprot.org/uniprotkb/Q8WWI5/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+SLIRP,Q9GZT3,Localized,https://www.uniprot.org/uniprotkb/Q9GZT3/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+SNAP29,O95721,Localized,,,,,Yes
+SNCA,P37840,Localized,,mitochondrion [GO:0005739],,,No
+SOD1,P00441,Localized,https://www.uniprot.org/uniprotkb/P00441/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SOD2,P04179,Localized,https://www.uniprot.org/uniprotkb/P04179/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+SORD,Q00796,Localized,https://www.uniprot.org/uniprotkb/Q00796/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,No
+SOX10,P56693,Localized,https://www.uniprot.org/uniprotkb/P56693/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+SPG7,Q9UQ90,Localized,https://www.uniprot.org/uniprotkb/Q9UQ90/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial permeability transition pore complex [GO:0005757]; mitochondrion [GO:0005739],,,Yes
+SPR,P35270,Localized,,,,,Yes
+SPTLC2,O15270,Localized,,,,,Yes
+SQOR,Q9Y6N5,Localized,https://www.uniprot.org/uniprotkb/Q9Y6N5/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+SQSTM1,Q13501,Localized,,mitochondrion [GO:0005739],,,No
+SRC,P12931,Localized,https://www.uniprot.org/uniprotkb/P12931/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,No
+SSBP1,Q04837,Localized,https://www.uniprot.org/uniprotkb/Q04837/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+STAR,P49675,Localized,https://www.uniprot.org/uniprotkb/P49675/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758],,,Yes
+STARD3,Q14849,Localized,,mitochondrion [GO:0005739],,,No
+STARD7,Q9NQZ5,Localized,https://www.uniprot.org/uniprotkb/Q9NQZ5/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,Yes
+STK11,Q15831,Localized,https://www.uniprot.org/uniprotkb/Q15831/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+STOML2,Q9UJZ1,Localized,https://www.uniprot.org/uniprotkb/Q9UJZ1/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739],,,Yes
+STXBP1,P61764,Localized,,mitochondrion [GO:0005739],,,No
+SUCLA2,Q9P2R7,Localized,https://www.uniprot.org/uniprotkb/Q9P2R7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SUCLG1,P53597,Localized,https://www.uniprot.org/uniprotkb/P53597/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SUCLG2,Q96I99,Localized,https://www.uniprot.org/uniprotkb/Q96I99/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SUGCT,Q9HAC7,Localized,https://www.uniprot.org/uniprotkb/Q9HAC7/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+SUOX,P51687,Localized,https://www.uniprot.org/uniprotkb/P51687/entry#subcellular_location ,mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+SUPV3L1,Q8IYB8,Localized,https://www.uniprot.org/uniprotkb/Q8IYB8/entry#subcellular_location ,mitochondrial degradosome [GO:0045025]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+SURF1,Q15526,Localized,https://www.uniprot.org/uniprotkb/Q15526/entry#subcellular_location ,mitochondrial respirasome [GO:0005746]; mitochondrion [GO:0005739],,,Yes
+SYBU,Q9NX95,Associated/ancillary,,,axonal transport of mitochondrion [GO:0019896],,No
+SYNE2,Q8WXH0,Localized,https://www.uniprot.org/uniprotkb/Q8WXH0/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+TACO1,Q9BSH4,Localized,https://www.uniprot.org/uniprotkb/Q9BSH4/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+TAFAZZIN,Q16635,Localized,https://www.uniprot.org/uniprotkb/Q16635/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+TAMM41,Q96BW9,Localized,https://www.uniprot.org/uniprotkb/Q96BW9/entry#subcellular_location ,extrinsic component of mitochondrial inner membrane [GO:0031314]; mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+TARDBP,Q13148,Localized,https://www.uniprot.org/uniprotkb/Q13148/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+TARS2,Q9BW92,Localized,https://www.uniprot.org/uniprotkb/Q9BW92/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+TDRKH,Q9Y2W6,Localized,https://www.uniprot.org/uniprotkb/Q9Y2W6/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+TFAM,Q00059,Localized,https://www.uniprot.org/uniprotkb/Q00059/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+TFB1M,Q8WVM0,Localized,https://www.uniprot.org/uniprotkb/Q8WVM0/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645],,,Yes
+TFRC,P02786,Associated/ancillary,Acts as a lipid sensor that regulates mitochondrial fusion by regulating activation of the JNK pathway (https://www.uniprot.org/uniprotkb/P02786/entry),,negative regulation of mitochondrial fusion [GO:0010637],,No
+TGM2,P21980,Localized,https://www.uniprot.org/uniprotkb/P21980/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+THG1L,Q9NWX6,Localized,https://www.uniprot.org/uniprotkb/Q9NWX6/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+TIMM17A,Q99595,Localized,https://www.uniprot.org/uniprotkb/Q99595/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739]; TIM23 mitochondrial import inner membrane translocase complex [GO:0005744],,,Yes
+TIMM22,Q9Y584,Localized,https://www.uniprot.org/uniprotkb/Q9Y584/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; TIM22 mitochondrial import inner membrane insertion complex [GO:0042721],,,Yes
+TIMM23,O14925,Localized,https://www.uniprot.org/uniprotkb/O14925/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrion [GO:0005739]; TIM23 mitochondrial import inner membrane translocase complex [GO:0005744],,,Yes
+TIMM44,O43615,Localized,https://www.uniprot.org/uniprotkb/O43615/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739]; TIM23 mitochondrial import inner membrane translocase complex [GO:0005744],,,Yes
+TIMM50,Q3ZCQ8,Localized,https://www.uniprot.org/uniprotkb/Q3ZCQ8/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739]; TIM23 mitochondrial import inner membrane translocase complex [GO:0005744],,,Yes
+TIMM8A,O60220,Localized,https://www.uniprot.org/uniprotkb/O60220/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial intermembrane space protein transporter complex [GO:0042719]; mitochondrion [GO:0005739],,,Yes
+TIMMDC1,Q9NPL8,Localized,https://www.uniprot.org/uniprotkb/Q9NPL8/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+TK2,O00142,Localized,https://www.uniprot.org/uniprotkb/O00142/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TMEM126A,Q9H061,Localized,https://www.uniprot.org/uniprotkb/Q9H061/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+TMEM126B,Q8IUX1,Localized,https://www.uniprot.org/uniprotkb/Q8IUX1/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+TMEM70,Q9BUB7,Localized,https://www.uniprot.org/uniprotkb/Q9BUB7/entry#subcellular_location ,mitochondrial crista [GO:0030061]; mitochondrial inner membrane [GO:0005743]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,Yes
+TMLHE,Q9NVH6,Localized,https://www.uniprot.org/uniprotkb/Q9NVH6/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TMX2,Q9Y320,Localized,https://www.uniprot.org/uniprotkb/Q9Y320/entry#subcellular_location ,mitochondria-associated endoplasmic reticulum membrane [GO:0044233]; mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,No
+TNF,P01375,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/20807714/,No
+TNFRSF1A,P19438,Associated/ancillary,,,,https://pubmed.ncbi.nlm.nih.gov/31429073/,No
+TOMM20,Q15388,Localized,https://www.uniprot.org/uniprotkb/Q15388/entry#subcellular_location ,mitochondria-associated endoplasmic reticulum membrane [GO:0044233]; mitochondrial outer membrane [GO:0005741]; mitochondrial outer membrane translocase complex [GO:0005742]; mitochondrion [GO:0005739],,,Yes
+TOMM22,Q9NS69,Localized,https://www.uniprot.org/uniprotkb/Q9NS69/entry#subcellular_location ,membrane [GO:0016020]; mitochondrial outer membrane [GO:0005741]; mitochondrial outer membrane translocase complex [GO:0005742]; mitochondrion [GO:0005739],,,Yes
+TOMM40,O96008,Localized,https://www.uniprot.org/uniprotkb/O96008/entry#subcellular_location ,mitochondria-associated endoplasmic reticulum membrane [GO:0044233]; mitochondrial inner membrane [GO:0005743]; mitochondrial outer membrane [GO:0005741]; mitochondrial outer membrane translocase complex [GO:0005742]; mitochondrion [GO:0005739]; pore complex [GO:0046930],,,Yes
+TOMM70,O94826,Localized,https://www.uniprot.org/uniprotkb/O94826/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741]; mitochondrial outer membrane translocase complex [GO:0005742]; mitochondrion [GO:0005739],,,Yes
+TOP3A,Q13472,Localized,https://www.uniprot.org/uniprotkb/Q13472/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+TP53,P04637,Localized,https://www.uniprot.org/uniprotkb/P04637/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+TRAK1,Q9UPV9,Localized,https://www.uniprot.org/uniprotkb/Q9UPV9/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrion [GO:0005739],,,No
+TRAP1,Q12931,Localized,https://www.uniprot.org/uniprotkb/Q12931/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TRIT1,Q9H3H1,Localized,https://www.uniprot.org/uniprotkb/Q9H3H1/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TRMT1,Q9NXH9,Localized,,,,,Yes
+TRMT10C,Q7L0Y3,Localized,https://www.uniprot.org/uniprotkb/Q7L0Y3/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrial ribonuclease P complex [GO:0030678]; mitochondrion [GO:0005739],,,Yes
+TRMT5,Q32P41,Localized,https://www.uniprot.org/uniprotkb/Q32P41/entry#subcellular_location ,mitochondrial matrix [GO:0005759],,,Yes
+TRMU,O75648,Localized,https://www.uniprot.org/uniprotkb/O75648/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+TRNT1,Q96Q11,Localized,https://www.uniprot.org/uniprotkb/Q96Q11/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TSFM,P43897,Localized,https://www.uniprot.org/uniprotkb/P43897/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TSPO,P30536,Localized,https://www.uniprot.org/uniprotkb/P30536/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+TSPOAP1,O95153,Localized,https://www.uniprot.org/uniprotkb/O95153/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+TST,Q16762,Localized,https://www.uniprot.org/uniprotkb/Q16762/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TTC19,Q6DKK2,Localized,https://www.uniprot.org/uniprotkb/Q6DKK2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+TUFM,P49411,Localized,https://www.uniprot.org/uniprotkb/P49411/entry#subcellular_location ,mitochondrial nucleoid [GO:0042645]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+TWNK,Q96RR1,Localized,https://www.uniprot.org/uniprotkb/Q96RR1/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+TXN2,Q99757,Localized,https://www.uniprot.org/uniprotkb/Q99757/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TXNRD2,Q9NNW7,Localized,https://www.uniprot.org/uniprotkb/Q9NNW7/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+TYMP,P19971,Associated/ancillary,,,mitochondrial genome maintenance [GO:0000002],,No
+TYMS,P04818,Localized,https://www.uniprot.org/uniprotkb/P04818/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,No
+UBA1,P22314,Localized,https://www.uniprot.org/uniprotkb/P22314/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+UBB,P0CG47,Localized,https://www.uniprot.org/uniprotkb/P0CG47/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,No
+UBIAD1,Q9Y5Z9,Localized,https://www.uniprot.org/uniprotkb/Q9Y5Z9/entry#subcellular_location ,mitochondrial membrane [GO:0031966],,,No
+UCP2,P55851,Localized,https://www.uniprot.org/uniprotkb/P55851/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+UCP3,P55916,Localized,https://www.uniprot.org/uniprotkb/P55916/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+UNG,P13051,Localized,https://www.uniprot.org/uniprotkb/P13051/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+UQCC2,Q9BRT2,Localized,https://www.uniprot.org/uniprotkb/Q9BRT2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial intermembrane space [GO:0005758]; mitochondrial matrix [GO:0005759]; mitochondrial nucleoid [GO:0042645]; mitochondrion [GO:0005739],,,Yes
+UQCC3,Q6UW78,Localized,https://www.uniprot.org/uniprotkb/Q6UW78/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+UQCR11,O14957,Localized,https://www.uniprot.org/uniprotkb/O14957/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex III [GO:0005750],,,Yes
+UQCRB,P14927,Localized,https://www.uniprot.org/uniprotkb/P14927/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respirasome [GO:0005746]; mitochondrial respiratory chain complex III [GO:0005750],,,Yes
+UQCRC1,P31930,Localized,https://www.uniprot.org/uniprotkb/P31930/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respirasome [GO:0005746]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrion [GO:0005739],,,Yes
+UQCRC2,P22695,Localized,https://www.uniprot.org/uniprotkb/P22695/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+UQCRFS1,P47985,Localized,https://www.uniprot.org/uniprotkb/P47985/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrial respiratory chain complex IV [GO:0005751]; mitochondrion [GO:0005739],,,Yes
+UQCRH,P07919,Localized,https://www.uniprot.org/uniprotkb/P07919/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respirasome [GO:0005746]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrion [GO:0005739],,,Yes
+UQCRQ,O14949,Localized,https://www.uniprot.org/uniprotkb/O14949/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrial respiratory chain complex III [GO:0005750]; mitochondrion [GO:0005739],,,Yes
+VAMP1,P23763,Localized,https://www.uniprot.org/uniprotkb/P23763/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+VARS2,Q5ST30,Localized,https://www.uniprot.org/uniprotkb/Q5ST30/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+VCL,P18206,Localized,,,,https://pubmed.ncbi.nlm.nih.gov/25215595/,No
+VDAC1,P21796,Localized,https://www.uniprot.org/uniprotkb/P21796/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial nucleoid [GO:0042645]; mitochondrial outer membrane [GO:0005741]; mitochondrial permeability transition pore complex [GO:0005757]; mitochondrion [GO:0005739],,,Yes
+VDAC2,P45880,Localized,https://www.uniprot.org/uniprotkb/P45880/entry#subcellular_location ,mitochondrial membrane [GO:0031966]; mitochondrial nucleoid [GO:0042645]; mitochondrial outer membrane [GO:0005741]; mitochondrion [GO:0005739],,,Yes
+VPS13A,Q96RL7,Localized,https://www.uniprot.org/uniprotkb/Q96RL7/entry#subcellular_location ,mitochondria-associated endoplasmic reticulum membrane [GO:0044233]; mitochondrial membrane [GO:0031966]; mitochondrial outer membrane [GO:0005741],,,No
+VPS13C,Q709C8,Localized,https://www.uniprot.org/uniprotkb/Q709C8/entry#subcellular_location ,mitochondrial outer membrane [GO:0005741],,,No
+VPS13D,Q5THJ4,Localized,,,,,Yes
+WARS2,Q9UGM6,Localized,https://www.uniprot.org/uniprotkb/Q9UGM6/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+WDR26,Q9H7D7,Localized,https://www.uniprot.org/uniprotkb/Q9H7D7/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+WDR81,Q562E7,Localized,https://www.uniprot.org/uniprotkb/Q562E7/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+WWOX,Q9NZC7,Localized,https://www.uniprot.org/uniprotkb/Q9NZC7/entry#subcellular_location ,mitochondrion [GO:0005739],,,No
+XPNPEP3,Q9NQH7,Localized,https://www.uniprot.org/uniprotkb/Q9NQH7/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes
+YARS2,Q9Y2Z4,Localized,https://www.uniprot.org/uniprotkb/Q9Y2Z4/entry#subcellular_location ,mitochondrial matrix [GO:0005759]; mitochondrion [GO:0005739],,,Yes
+YME1L1,Q96TA2,Localized,https://www.uniprot.org/uniprotkb/Q96TA2/entry#subcellular_location ,mitochondrial inner membrane [GO:0005743]; mitochondrion [GO:0005739],,,Yes
+YRDC,Q86U90,Localized,https://www.uniprot.org/uniprotkb/Q86U90/entry#subcellular_location ,mitochondrion [GO:0005739],,,Yes

@@ -4,6 +4,47 @@
         <meta charset="UTF-8">
         <title>mitoPADdb - Mitochondrial Proteins Associated with Diseases database</title>
         <link rel = "stylesheet" type = "text/css" href = "css/main.css" />
+        <link rel = "stylesheet" type = "text/css" href = "css/browse.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.8/jquery.csv.min.js"></script>
+        <script>
+            function hideDiv(divId){
+                document.getElementById(divId).style.display = 'none';
+            }
+
+            function createDownloadLink() {
+                var httpReq = new XMLHttpRequest();
+                httpReq.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        var csv = $.csv.toArrays(this.responseText);
+                        var hideButton = '<center><button type="button" class="round" style="margin-right:10px;" onclick="hideDiv(\'view_result\')">&#10005;</button></center>';
+                        var s = '<table class="browse-result-summary" border="1">' +
+                                    '<tr>' +
+                                        '<th>' + csv[0][0] + '</th>' +
+                                        '<th>' + csv[0][1] + '</th>' +
+                                        '<th>' + csv[0][2] + '</th>' +
+                                        '<th>' + csv[0][4] + '</th>' +
+                                        '<th>' + csv[0][7] + '</th>' +
+                                    '</tr>';
+                        for(var i=1; i<csv.length; ++i) {
+                            s += '<tr>';
+                            s += '<td>' + csv[i][0] + '</td>';
+                            s += '<td>' + csv[i][1] + '</td>';
+                            s += '<td>' + csv[i][2] + '</td>';
+                            s += '<td>' + csv[i][4] + '</td>';
+                            s += '<td>' + csv[i][7] + '</td>';
+                            s += '</tr>';
+                        }
+                        s += '</table>';
+                        document.getElementById('view_result').innerHTML = hideButton + '<br/>' + s + '<br/>' + hideButton;
+                        document.getElementById('view_result').style.display = 'block';
+                    }
+                };
+                httpReq.open('GET', 'resource/mpe_localization.csv', true);
+                httpReq.setRequestHeader("Content-type", "text/csv");
+                httpReq.send();
+            }
+        </script>
     </head>
     <body>
         <div class = "section_header">
@@ -32,7 +73,23 @@
                 </center>
             </p>
             <p>
-                2. <b>Statistics bar-diagrams of diseases associated MPE genes data of mitoPADdb.</b>
+                2. <b>Localization of diseases associated MPE genes in mitoPADdb.</b>
+            </p>
+            <p>
+                The localization of the 810 MPE genes to mitochondria or mitochondria-associated function
+                alongwith the mitochondrial protein annotation type is available in the following buttons.
+                The whole localization data additionally contains the evidence from the UniProtKB/Swiss-Prot
+                annotation, GO BP annotation, and PubMed. <br/>
+
+                <center>
+                    <button onclick="createDownloadLink()">View localization data at a glance</button>
+                    <a class="link" href="resource/mpe_localization.xlsx"><button>Download whole localization data (XLSX, 64.7 KB)</button></a>
+                </center>
+                <br/>
+            </p>
+            <div class="browse-result" style="width:100%; margin-left:0; margin-right:0;" id="view_result" style="display:none;"></div>
+            <p>
+                3. <b>Statistics bar-diagrams of diseases associated MPE genes data of mitoPADdb.</b>
             </p>
             <p>
                 &nbsp;&nbsp;&nbsp;&nbsp;A.
@@ -84,6 +141,7 @@
                 <a class="link" href="mailto:ssaha4@gmail.com">ssaha4@gmail.com</a>).
             </p>
         </div>
+        <!--<script>createDownloadLink();</script>-->
     </body>
 </html>
 
